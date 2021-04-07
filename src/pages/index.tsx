@@ -56,7 +56,7 @@ export default function Home() {
                   <a href="#pricing" className="scroll"></a>
                 </li>
                 <li>
-                  <a href="#">Sign in</a>
+                  <a href="#">Iniciar Sesion</a>
                 </li>
               </ul>
             </div>
@@ -71,7 +71,7 @@ export default function Home() {
                   <img src="img/logo.svg" alt="Logo" />
                 </a>
               </div>
-              <div className="col-xs-6 signin text-right navbar-nav">
+              <div className="col-xs-6 text-right navbar-nav">
                 <a href="http://localhost:3001/#/login" target="_blank">
                   Iniciar sesión
                 </a>
@@ -96,17 +96,17 @@ export default function Home() {
                   <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                     <div className="row">
                       <div
-                        className="col-xs-6 text-right wow fadeInUp"
+                        className="text-center wow fadeInUp"
                         data-wow-delay="1s"
                       >
                         <a
                           href="#be-the-first"
-                          className="btn btn-secondary btn-lg scroll"
+                          className="btn btn-secondary btn-lg"
                         >
-                          Learn More
+                          Simulador
                         </a>
                       </div>
-                      <div
+                      {/* <div
                         className="col-xs-6 text-left wow fadeInUp"
                         data-wow-delay="1.4s"
                       >
@@ -114,9 +114,9 @@ export default function Home() {
                           href="#invite"
                           className="btn btn-primary btn-lg scroll"
                         >
-                          Request Invite
+                          Empezar Proceso
                         </a>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
