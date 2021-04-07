@@ -53,9 +53,7 @@ export default function Home() {
             <div className="navbar-collapse collapse">
               <ul className="nav navbar-nav navbar-right">
                 <li>
-                  <a href="#pricing" className="scroll">
-                    Pricing
-                  </a>
+                  <a href="#pricing" className="scroll"></a>
                 </li>
                 <li>
                   <a href="#">Sign in</a>
@@ -74,10 +72,13 @@ export default function Home() {
                 </a>
               </div>
               <div className="col-xs-6 signin text-right navbar-nav">
-                <a href="#pricing" className="scroll">
-                  Pricing
+                <a href="http://localhost:3001/#/login" target="_blank">
+                  Iniciar sesión
                 </a>
-                &nbsp; &nbsp;<a href="#">Sign in</a>
+                &nbsp; &nbsp;
+                <a href="http://localhost:3001/#/register" target="_blank">
+                  Registrarse
+                </a>
               </div>
             </div>
             <div className="row header-info">
