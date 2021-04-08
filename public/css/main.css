@@ -62,7 +62,7 @@ p {
 
 /*------------------Utilities---------------------*/
 a {
-  color: inherit;
+  color: #000000 !important;
   font-weight: inherit;
   font-size: inherit;
   text-decoration: none;
@@ -72,7 +72,7 @@ a:hover,
 a:focus {
   outline: none;
   text-decoration: none;
-  color: #231f20;
+  color: #000000f1 !important;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
@@ -107,7 +107,7 @@ a:focus {
 }
 
 .btn-lg {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.33;
   padding: 22px 30px;
   font-weight: 400;
@@ -208,6 +208,10 @@ a:focus {
   color: #231f20;
 }
 
+._pink-thc {
+  color: #d43f68;
+}
+
 .blue {
   color: #70cbce;
 }
@@ -278,7 +282,12 @@ a:focus {
   border-color: transparent;
 }
 
-.logo img {
+.logo-main img {
+  max-width: 140px;
+  max-height: 60px;
+}
+
+.logo-popup img {
   margin-top: 6px;
   max-width: 140px;
   max-height: 40px;
@@ -301,7 +310,7 @@ header {
 
 .header-info {
   position: absolute;
-  bottom: 0;
+  bottom: 80px;
   width: 100%;
   left: 0;
   right: 0;

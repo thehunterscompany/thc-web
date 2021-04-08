@@ -46,7 +46,7 @@ export default function Home() {
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
               </button>
-              <a className="logo">
+              <a className="logo-popup">
                 <img src="img/FFF_thc03rgb.png" alt="Logo" />
               </a>
             </div>
@@ -69,27 +69,36 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="col-xs-6">
-                <a className="logo">
-                  <img src="img/FFF_thc03rgb.png" alt="Logo" />
+                <a className="logo-main">
+                  <img src="img/FFF_thc02.png" alt="Logo" />
                 </a>
               </div>
               <div className="col-xs-6 text-right navbar-nav">
-                <a href="http://localhost:3001/#/login" target="_blank">
+                <a
+                  href="http://localhost:3001/#/login"
+                  className="btn btn-secondary"
+                  target="_blank"
+                >
                   Iniciar sesión
                 </a>
                 &nbsp; &nbsp;
-                <a href="http://localhost:3001/#/register" target="_blank">
+                <a
+                  href="http://localhost:3001/#/register"
+                  className="btn btn-secondary"
+                  target="_blank"
+                >
                   Registrarse
                 </a>
               </div>
             </div>
             <div className="row header-info">
               <div className="col-sm-10 col-sm-offset-1 text-center">
-                <h1 className="wow fadeIn">
-                  Encuentra la mejor financión de tu vivienda
+                <h1 className="wow fadeIn _pink-thc">
+                  Encuentra la mejor financión
                 </h1>
+                <h1 className="wow fadeIn _pink-thc">de tu vivienda</h1>
                 <br />
-                <p className="lead wow fadeIn" data-wow-delay="0.5s">
+                <p className="lead wow fadeIn black" data-wow-delay="0.5s">
                   Somos la solución profesional, sencilla, rápida y sin costo.
                   <br />
                   Hacemos realidad tu sueño de tener casa propia
