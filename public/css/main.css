@@ -70,6 +70,7 @@ a {
 
 a:hover,
 a:focus {
+  outline: none;
   text-decoration: none;
   color: #231f20;
   -webkit-transition: all 0.35s ease-in-out;
@@ -279,6 +280,8 @@ a:focus {
 
 .logo img {
   margin-top: 6px;
+  max-width: 140px;
+  max-height: 40px;
 }
 
 /* ==========================================================================
