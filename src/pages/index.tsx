@@ -46,8 +46,8 @@ export default function Home() {
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
               </button>
-              <a className="logo" href="index.html">
-                <img src="img/logo.svg" alt="Logo" />
+              <a className="logo">
+                <img src="img/FFF_thc03rgb.png" alt="Logo" />
               </a>
             </div>
             <div className="navbar-collapse collapse">
@@ -56,7 +56,9 @@ export default function Home() {
                   <a href="#pricing" className="scroll"></a>
                 </li>
                 <li>
-                  <a href="#">Iniciar Sesion</a>
+                  <a href="http://localhost:3001/#/login" target="_blank">
+                    Iniciar Sesion
+                  </a>
                 </li>
               </ul>
             </div>
@@ -67,8 +69,8 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="col-xs-6">
-                <a href="index.html">
-                  <img src="img/logo.svg" alt="Logo" />
+                <a className="logo">
+                  <img src="img/FFF_thc03rgb.png" alt="Logo" />
                 </a>
               </div>
               <div className="col-xs-6 text-right navbar-nav">
@@ -83,13 +85,14 @@ export default function Home() {
             </div>
             <div className="row header-info">
               <div className="col-sm-10 col-sm-offset-1 text-center">
-                <h1 className="wow fadeIn">A free landing page theme</h1>
+                <h1 className="wow fadeIn">
+                  Encuentra la mejor financión de tu vivienda
+                </h1>
                 <br />
                 <p className="lead wow fadeIn" data-wow-delay="0.5s">
-                  Lorem ipsum dolor sit amet, consectetur adipis.
+                  Somos la solución profesional, sencilla, rápida y sin costo.
                   <br />
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit sit
-                  dol mi arlna.
+                  Hacemos realidad tu sueño de tener casa propia
                 </p>
                 <br />
                 <div className="row">
