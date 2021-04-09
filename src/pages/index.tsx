@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <html>
       <Head>
-        <title>Snow Landing Page Theme </title>
+        <title>THC | Te conseguimos la mejor financión para tu vivienda</title>
         <meta name="keywords" content="" />
         <meta name="description" content="" />
         <meta
@@ -20,12 +20,6 @@ export default function Home() {
 
         <link rel="stylesheet" href="css/font-awesome.min.css" />
         <link rel="stylesheet" href="css/animate.css" />
-        <link
-          href="http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Montserrat:400,700"
-          rel="stylesheet"
-          type="text/css"
-        />
-
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/main.css" />
 
@@ -81,14 +75,14 @@ export default function Home() {
                 >
                   Iniciar sesión
                 </a>
-                &nbsp; &nbsp;
+                {/* &nbsp; &nbsp;
                 <a
                   href="http://localhost:3001/#/register"
                   className="btn btn-secondary"
                   target="_blank"
                 >
                   Registrarse
-                </a>
+                </a> */}
               </div>
             </div>
             <div className="row header-info">
@@ -96,12 +90,12 @@ export default function Home() {
                 <h1 className="wow fadeIn _pink-thc">
                   Encuentra la mejor financión
                 </h1>
-                <h1 className="wow fadeIn _pink-thc">de tu vivienda</h1>
+                <h1 className="wow fadeIn _pink-thc">para tu vivienda</h1>
                 <br />
                 <p className="lead wow fadeIn black" data-wow-delay="0.5s">
                   Somos la solución profesional, sencilla, rápida y sin costo.
                   <br />
-                  Hacemos realidad tu sueño de tener casa propia
+                  Hacemos realidad tu sueño de tener casa propia.
                 </p>
                 <br />
                 <div className="row">
@@ -113,7 +107,7 @@ export default function Home() {
                       >
                         <a
                           href="#be-the-first"
-                          className="btn btn-secondary btn-lg"
+                          className="btn btn-thc-secondary btn-lg"
                         >
                           Simulador
                         </a>
