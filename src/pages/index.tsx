@@ -28,7 +28,7 @@ export default function Home() {
 
       <body>
         <div className="navbar navbar-inverse navbar-fixed-top">
-          <div className="container">
+          <div className="container-fluid">
             <div className="navbar-header">
               <button
                 type="button"
@@ -60,14 +60,14 @@ export default function Home() {
         </div>
 
         <header>
-          <div className="container">
-            <div className="row">
-              <div className="col-xs-6">
-                <a className="logo-main">
+          <div className="container-fluid">
+            <div className="row _header-margin ">
+              <div className="col-xs-6 navbar-nav">
+                <div className="logo-main">
                   <img src="img/FFF_thc02.png" alt="Logo" />
-                </a>
+                </div>
               </div>
-              <div className="col-xs-6 text-right navbar-nav">
+              <div className="col-xs-6 text-right navbar-nav _no-side-margin">
                 <a
                   href="http://localhost:3001/#/login"
                   className="btn btn-secondary"
@@ -93,7 +93,7 @@ export default function Home() {
                 <h1 className="wow fadeIn _pink-thc">para tu vivienda</h1>
                 <br />
                 <p className="lead wow fadeIn black" data-wow-delay="0.5s">
-                  Somos la solución profesional, sencilla, rápida y sin costo.
+                  Rápidoo, sencillo, sin costo.
                   <br />
                   Hacemos realidad tu sueño de tener casa propia.
                 </p>

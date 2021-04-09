@@ -229,6 +229,15 @@ a:focus {
   margin-bottom: 100px !important;
 }
 
+._no-side-margin {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+._header-margin {
+  margin: 0 41px;
+}
+
 /*-----------------Colors------------------*/
 
 .black {
@@ -659,6 +668,10 @@ footer {
   #be-the-first {
     background-attachment: scroll;
   }
+
+  ._header-margin {
+    margin: 0px;
+  }
 }
 
 /* Landscape phone to portrait tablet */
@@ -666,12 +679,20 @@ footer {
   #be-the-first {
     background-attachment: scroll;
   }
+
+  ._header-margin {
+    margin: 0px;
+  }
 }
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 991px) {
   #be-the-first {
     background-attachment: scroll;
+  }
+
+  ._header-margin {
+    margin: 0px;
   }
 }
 
