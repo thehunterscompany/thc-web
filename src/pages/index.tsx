@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <html>
       <Head>
-        <title>THC | Te conseguimos la mejor financión para tu vivienda</title>
+        <title>Te conseguimos la mejor financión para tu vivienda</title>
         <meta name="keywords" content="" />
         <meta name="description" content="" />
         <meta
