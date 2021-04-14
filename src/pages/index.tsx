@@ -114,7 +114,7 @@ export default function Home() {
                 <h1 className="wow fadeIn _pink-thc">para tu vivienda</h1>
                 <br />
                 <p className="lead wow fadeIn black" data-wow-delay="0.5s">
-                  Rápidoo, sencillo, sin costo.
+                  Rápido, sencillo, sin costo.
                   <br />
                   Hacemos realidad tu sueño de tener casa propia.
                 </p>
