@@ -319,8 +319,8 @@ a:focus {
 }
 
 .logo-main img {
-  max-width: 140px;
-  max-height: 60px;
+  max-width: 17rem;
+  max-height: 17rem;
 }
 
 .logo-popup img {
@@ -333,7 +333,7 @@ a:focus {
    Main styles
    ========================================================================== */
 header {
-  background: url(../img/shutterstock_1163352928.jpg) no-repeat center center;
+  background: url(../img/shutterstock_1751229722.jpg) no-repeat center center;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;
@@ -352,7 +352,7 @@ header {
   right: 0;
   /* margin-top: 10%; */
   margin-left: 0px;
-  margin-bottom: 12%;
+  margin-bottom: 18%;
 }
 
 .signin {

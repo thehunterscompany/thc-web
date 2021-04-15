@@ -91,7 +91,7 @@ export default function Home() {
               <div className="col-xs-6 text-right navbar-nav _no-side-margin">
                 <a
                   href="http://localhost:3001/#/login"
-                  className="btn btn-secondary"
+                  className="btn btn-thc-secondary"
                   target="_blank"
                 >
                   Iniciar sesión
