@@ -58,18 +58,7 @@ export default function Home() {
                   <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                     <div className="row">
                       <div
-                        className="col-xs-6 text-right wow fadeInUp"
-                        data-wow-delay="1s"
-                      >
-                        <a
-                          href="#be-the-first"
-                          className="btn btn-secondary btn-lg scroll"
-                        >
-                          Learn More
-                        </a>
-                      </div>
-                      <div
-                        className="col-xs-6 text-left wow fadeInUp"
+                        className="text-center wow fadeInUp"
                         data-wow-delay="1.4s"
                       >
                         <a
