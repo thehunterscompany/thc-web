@@ -37,9 +37,7 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="col-xs-6">
-                <a href="index.html">
-                  <img src="img/FFF_thc03rgb.png" alt="Logo" />
-                </a>
+                <img className="logo" src="img/FFF_thc03rgb.png" alt="Logo" />
               </div>
               <div className="col-xs-6 signin text-right navbar-nav">
                 <a href="#pricing" className="scroll">
