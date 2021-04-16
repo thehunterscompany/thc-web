@@ -1,6 +1,16 @@
 /* ==========================================================================
    Global styles
    ========================================================================== */
+
+@font-face {
+  font-family: "Abadi";
+  src: local("Abadi"), url(../fonts/AbadiMTStd.otf) format("opentype");
+}
+
+* {
+  font-family: "Abadi";
+}
+
 h1,
 h2,
 h3,
@@ -14,12 +24,12 @@ p,
 .list-inline,
 small,
 #pricing {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Abadi";
 }
 
 p,
 .lead {
-  font-family: "Raleway", sans-serif;
+  font-family: "Abadi";
 }
 
 h1 {

@@ -70,7 +70,7 @@ export default function Home() {
             <div className="row">
               <div className="col-xs-6">
                 <a href="index.html">
-                  <img src="img/logo.svg" alt="Logo" />
+                  <img src="img/FFF_thc03rgb.png" alt="Logo" />
                 </a>
               </div>
               <div className="col-xs-6 signin text-right navbar-nav">
