@@ -109,9 +109,8 @@ export default function Home() {
             <div className="row header-info">
               <div className="col-sm-10 col-sm-offset-1 text-center">
                 <h1 className="wow fadeIn _pink-thc">
-                  Encuentra la mejor financión
+                  Encuentra la mejor financión para tu vivienda
                 </h1>
-                <h1 className="wow fadeIn _pink-thc">para tu vivienda</h1>
                 <br />
                 <p className="lead wow fadeIn black" data-wow-delay="0.5s">
                   Rápido, sencillo, sin costo.
