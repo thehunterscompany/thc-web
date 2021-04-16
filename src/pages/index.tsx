@@ -33,38 +33,6 @@ export default function Home() {
       </Head>
 
       <body>
-        <div className="navbar navbar-inverse navbar-fixed-top">
-          <div className="container">
-            <div className="navbar-header">
-              <button
-                type="button"
-                className="navbar-toggle"
-                data-toggle="collapse"
-                data-target=".navbar-collapse"
-              >
-                <span className="icon-bar"></span>
-                <span className="icon-bar"></span>
-                <span className="icon-bar"></span>
-              </button>
-              <a className="logo" href="index.html">
-                <img src="img/logo.svg" alt="Logo" />
-              </a>
-            </div>
-            <div className="navbar-collapse collapse">
-              <ul className="nav navbar-nav navbar-right">
-                <li>
-                  <a href="#pricing" className="scroll">
-                    Pricing
-                  </a>
-                </li>
-                <li>
-                  <a href="#">Sign in</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
         <header>
           <div className="container">
             <div className="row">
