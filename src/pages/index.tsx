@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <html>
       <Head>
-        <title>Te conseguimos la mejor financión para tu vivienda</title>
+        <title>Snow Landing Page Theme </title>
         <meta name="keywords" content="" />
         <meta name="description" content="" />
         <meta
@@ -20,36 +20,21 @@ export default function Home() {
 
         <link rel="stylesheet" href="css/font-awesome.min.css" />
         <link rel="stylesheet" href="css/animate.css" />
+        <link
+          href="http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Montserrat:400,700"
+          rel="stylesheet"
+          type="text/css"
+        />
+
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/main.css" />
-
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/apple-touch-icon.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/favicon-16x16.png"
-        />
-        <link rel="manifest" href="/site.webmanifest" />
-        <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff" />
 
         <script src="js/modernizr-2.7.1.js"></script>
       </Head>
 
       <body>
-        {/* <div className="navbar navbar-inverse navbar-fixed-top">
-          <div className="container-fluid">
+        <div className="navbar navbar-inverse navbar-fixed-top">
+          <div className="container">
             <div className="navbar-header">
               <button
                 type="button"
@@ -61,78 +46,66 @@ export default function Home() {
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
               </button>
-              <a className="logo-popup">
-                <img src="img/FFF_thc03rgb.png" alt="Logo" />
+              <a className="logo" href="index.html">
+                <img src="img/logo.svg" alt="Logo" />
               </a>
             </div>
             <div className="navbar-collapse collapse">
               <ul className="nav navbar-nav navbar-right">
                 <li>
-                  <a href="#pricing" className="scroll"></a>
+                  <a href="#pricing" className="scroll">
+                    Pricing
+                  </a>
                 </li>
                 <li>
-                  <a href="http://localhost:3001/#/login" target="_blank">
-                    Iniciar Sesion
-                  </a>
+                  <a href="#">Sign in</a>
                 </li>
               </ul>
             </div>
           </div>
-        </div> */}
+        </div>
 
         <header>
-          <div className="container-fluid">
-            <div className="row _header-margin ">
-              <div className="col-xs-6 navbar-nav">
-                <div className="logo-main">
-                  <img src="img/FFF_thc02.png" alt="Logo" />
-                </div>
-              </div>
-              <div className="col-xs-6 text-right navbar-nav _no-side-margin">
-                <a
-                  href="http://localhost:3001/#/login"
-                  className="btn btn-thc-secondary"
-                  target="_blank"
-                >
-                  Iniciar sesión
+          <div className="container">
+            <div className="row">
+              <div className="col-xs-6">
+                <a href="index.html">
+                  <img src="img/logo.svg" alt="Logo" />
                 </a>
-                {/* &nbsp; &nbsp;
-                <a
-                  href="http://localhost:3001/#/register"
-                  className="btn btn-secondary"
-                  target="_blank"
-                >
-                  Registrarse
-                </a> */}
+              </div>
+              <div className="col-xs-6 signin text-right navbar-nav">
+                <a href="#pricing" className="scroll">
+                  Pricing
+                </a>
+                &nbsp; &nbsp;<a href="#">Sign in</a>
               </div>
             </div>
             <div className="row header-info">
               <div className="col-sm-10 col-sm-offset-1 text-center">
-                <h1 className="wow fadeIn _pink-thc">
-                  Encuentra la mejor financión para tu vivienda
-                </h1>
+                <h1 className="wow fadeIn">A free landing page theme</h1>
                 <br />
-                <p className="lead wow fadeIn black" data-wow-delay="0.5s">
-                  Rápido, sencillo, sin costo.
+                <p className="lead wow fadeIn" data-wow-delay="0.5s">
+                  Lorem ipsum dolor sit amet, consectetur adipis.
                   <br />
-                  Hacemos realidad tu sueño de tener casa propia.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit sit
+                  dol mi arlna.
                 </p>
                 <br />
                 <div className="row">
                   <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                     <div className="row">
                       <div
-                        className="text-center wow fadeInUp"
+                        className="col-xs-6 text-right wow fadeInUp"
                         data-wow-delay="1s"
                       >
                         <a
                           href="#be-the-first"
-                          className="btn btn-thc-secondary btn-lg"
+                          className="btn btn-secondary btn-lg scroll"
                         >
-                          Simulador
+                          Learn More
                         </a>
                       </div>
-                      {/* <div
+                      <div
                         className="col-xs-6 text-left wow fadeInUp"
                         data-wow-delay="1.4s"
                       >
@@ -140,9 +113,9 @@ export default function Home() {
                           href="#invite"
                           className="btn btn-primary btn-lg scroll"
                         >
-                          Empezar Proceso
+                          Request Invite
                         </a>
-                      </div> */}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -169,9 +142,9 @@ export default function Home() {
               </div>
             </div>
 
-            {/* <div className="iphone wow fadeInUp" data-wow-delay="1s">
+            <div className="iphone wow fadeInUp" data-wow-delay="1s">
               <img src="img/iphone.png" />
-            </div> */}
+            </div>
           </div>
         </section>
 
