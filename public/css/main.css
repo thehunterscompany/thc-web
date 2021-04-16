@@ -785,7 +785,7 @@ footer {
 }
 
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 669px) and (max-width: 991px) {
+@media (min-width: 669px) and (max-width: 759px) {
   .logo-main img {
     width: 12rem;
   }
@@ -843,10 +843,121 @@ footer {
   }
 }
 
-/* Desktops and laptops ----------- */
-@media (min-width: 992px) and (max-width: 1199px) {
-}
+@media (min-width: 700px) and (max-width: 1000px) {
+  .logo-main img {
+    width: 12rem;
+  }
 
+  .navbar-nav {
+    margin: 0;
+  }
+
+  .navbar-nav a {
+    font-size: 12px;
+  }
+
+  .btn-lg {
+    font-size: 12px;
+    line-height: 1.33;
+    padding: 16px 13px;
+    letter-spacing: 1px;
+  }
+
+  h1 {
+    font-size: 27px;
+    line-height: 27px;
+    letter-spacing: -1px;
+    color: #ffffff;
+    font-weight: 700;
+    width: 83%;
+    margin: auto;
+  }
+
+  .lead {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 400;
+    width: 70%;
+    margin: auto;
+  }
+
+  .header-info {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 10%;
+    margin-left: 0px;
+    margin-bottom: calc(100vh - 69vh);
+  }
+
+  #be-the-first {
+    background-attachment: scroll;
+  }
+
+  ._header-margin {
+    margin: 0px;
+  }
+}
 /* Large screens ----------- */
 @media (min-width: 1200px) and (max-width: 3000px) {
+}
+
+@media (min-width: 760px) and (max-width: 991px) and (min-height: 799) and (max-height: 1300px) {
+  .logo-main img {
+    width: 20rem;
+  }
+
+  .navbar-nav {
+    margin: 0;
+  }
+
+  .navbar-nav a {
+    font-size: 12px;
+  }
+
+  .btn-lg {
+    font-size: 12px;
+    line-height: 1.33;
+    padding: 16px 13px;
+    letter-spacing: 1px;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    color: #ffffff;
+    font-weight: 700;
+    width: 83%;
+    margin: auto;
+  }
+
+  .lead {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 400;
+    width: 70%;
+    margin: auto;
+  }
+
+  .header-info {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 10%;
+    margin-left: 0px;
+    margin-bottom: calc(100vh - 60vh);
+  }
+
+  #be-the-first {
+    background-attachment: scroll;
+  }
+
+  ._header-margin {
+    margin: 0px;
+  }
 }
