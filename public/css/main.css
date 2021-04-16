@@ -3,12 +3,12 @@
    ========================================================================== */
 @font-face {
   font-family: "Abadi";
-  src: local("Abadi"), url(../fonts/AbadiMTStdCondensed.ttf) format("truetype");
+  src: local("Abadi"), url(../fonts/AbadiMTStd.otf) format("opentype");
 }
 
-/* * {
+* {
   font-family: "Abadi";
-} */
+}
 
 h1,
 h2,
@@ -23,12 +23,12 @@ p,
 .list-inline,
 small,
 #pricing {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Abadi", sans-serif;
 }
 
 p,
 .lead {
-  font-family: "Raleway", sans-serif;
+  font-family: "Abadi", sans-serif;
 }
 
 h1 {
@@ -37,7 +37,7 @@ h1 {
   letter-spacing: -1px;
   color: #ffffff;
   font-weight: 700;
-  width: 83%;
+  width: 77%;
   margin: auto;
 }
 
