@@ -61,12 +61,7 @@ export default function Home() {
                         className="text-center wow fadeInUp"
                         data-wow-delay="1.4s"
                       >
-                        <a
-                          href="#invite"
-                          className="btn btn-primary btn-lg scroll"
-                        >
-                          Request Invite
-                        </a>
+                        <a className="btn btn-primary btn-lg">Request Invite</a>
                       </div>
                     </div>
                   </div>
