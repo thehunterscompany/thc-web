@@ -40,10 +40,7 @@ export default function Home() {
                 <img className="logo" src="img/FFF_thc03rgb.png" alt="Logo" />
               </div>
               <div className="col-xs-6 signin text-right navbar-nav">
-                <a href="#pricing" className="scroll">
-                  Pricing
-                </a>
-                &nbsp; &nbsp;<a href="#">Sign in</a>
+                <a href="#">Sign in</a>
               </div>
             </div>
             <div className="row header-info">
