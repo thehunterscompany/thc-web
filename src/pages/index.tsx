@@ -48,7 +48,7 @@ export default function Home() {
       </Head>
 
       <body>
-        <div className="navbar navbar-inverse navbar-fixed-top">
+        {/* <div className="navbar navbar-inverse navbar-fixed-top">
           <div className="container-fluid">
             <div className="navbar-header">
               <button
@@ -78,7 +78,7 @@ export default function Home() {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <header>
           <div className="container-fluid">
