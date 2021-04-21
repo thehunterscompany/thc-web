@@ -1,16 +1,6 @@
 /* ==========================================================================
    Global styles
    ========================================================================== */
-
-@font-face {
-  font-family: "Abadi";
-  src: local("Abadi"), url(../fonts/AbadiMTStd.otf) format("opentype");
-}
-
-* {
-  font-family: "Abadi";
-}
-
 h1,
 h2,
 h3,
@@ -24,12 +14,12 @@ p,
 .list-inline,
 small,
 #pricing {
-  font-family: "Abadi";
+  font-family: "Montserrat", sans-serif;
 }
 
 p,
 .lead {
-  font-family: "Abadi";
+  font-family: "Raleway", sans-serif;
 }
 
 h1 {
@@ -43,7 +33,7 @@ h1 {
 h2 {
   font-size: 40px;
   line-height: 40px;
-  letter-spacing: -0.5px;
+  etter-spacing: -0.5px;
   color: #ffffff;
   font-weight: 700;
 }
@@ -287,16 +277,15 @@ a:focus {
   border-color: transparent;
 }
 
-.logo {
+.logo img {
   margin-top: 6px;
-  width: 50%;
 }
 
 /* ==========================================================================
      Main styles
      ========================================================================== */
 header {
-  background: url(../img/shutterstock_1751229722.jpg) no-repeat center center;
+  background: url(../img/header-bg.jpg) no-repeat center center;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;

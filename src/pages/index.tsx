@@ -33,14 +33,51 @@ export default function Home() {
       </Head>
 
       <body>
+        <div className="navbar navbar-inverse navbar-fixed-top">
+          <div className="container">
+            <div className="navbar-header">
+              <button
+                type="button"
+                className="navbar-toggle"
+                data-toggle="collapse"
+                data-target=".navbar-collapse"
+              >
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+              </button>
+              <a className="logo" href="index.html">
+                <img src="img/logo.svg" alt="Logo" />
+              </a>
+            </div>
+            <div className="navbar-collapse collapse">
+              <ul className="nav navbar-nav navbar-right">
+                <li>
+                  <a href="#pricing" className="scroll">
+                    Pricing
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Sign in</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
         <header>
           <div className="container">
             <div className="row">
               <div className="col-xs-6">
-                <img className="logo" src="img/FFF_thc03rgb.png" alt="Logo" />
+                <a href="index.html">
+                  <img src="img/logo.svg" alt="Logo" />
+                </a>
               </div>
               <div className="col-xs-6 signin text-right navbar-nav">
-                <a href="#">Sign in</a>
+                <a href="#pricing" className="scroll">
+                  Pricing
+                </a>
+                &nbsp; &nbsp;<a href="#">Sign in</a>
               </div>
             </div>
             <div className="row header-info">
@@ -58,10 +95,26 @@ export default function Home() {
                   <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                     <div className="row">
                       <div
-                        className="text-center wow fadeInUp"
+                        className="col-xs-6 text-right wow fadeInUp"
+                        data-wow-delay="1s"
+                      >
+                        <a
+                          href="#be-the-first"
+                          className="btn btn-secondary btn-lg scroll"
+                        >
+                          Learn More
+                        </a>
+                      </div>
+                      <div
+                        className="col-xs-6 text-left wow fadeInUp"
                         data-wow-delay="1.4s"
                       >
-                        <a className="btn btn-primary btn-lg">Request Invite</a>
+                        <a
+                          href="#invite"
+                          className="btn btn-primary btn-lg scroll"
+                        >
+                          Request Invite
+                        </a>
                       </div>
                     </div>
                   </div>
