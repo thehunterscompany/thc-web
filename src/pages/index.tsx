@@ -37,12 +37,12 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="col-xs-6">
-                <a href="index.html">
-                  <img src="img/FFF_thc03rgb.png" alt="Logo" />
+                <a>
+                  <img src="img/ThcLogo.png" alt="Logo" />
                 </a>
               </div>
               <div className="col-xs-6 signin text-right navbar-nav">
-                <a href="#">Ingresa</a>
+                <a className="btn btn-secondary btn-sm">Ingresa</a>
               </div>
             </div>
             <div className="row header-info">
