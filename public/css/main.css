@@ -148,7 +148,7 @@ a:focus {
 
 .btn-secondary {
   background-color: #ffffff;
-  color: #231f20;
+  color: #231f20 !important;
 }
 
 .btn-secondary:hover,
@@ -156,7 +156,7 @@ a:focus {
 .btn-secondary:active,
 .btn-secondary.active {
   background-color: #ededed;
-  color: #231f20;
+  color: #231f20 !important;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
