@@ -50,12 +50,9 @@ export default function Home() {
                 <h1 className="wow fadeIn">
                   Encuentra la mejor financiación para tu vivienda
                 </h1>
-                <br />
-                <p className="lead wow fadeIn" data-wow-delay="0.5s">
+                <h2 className="wow fadeIn" data-wow-delay="0.5s">
                   Rápido, sencillo, sin costo.
-                  <br />
-                  Hacemos realidad tu sueño de tener casa propia.
-                </p>
+                </h2>
                 <br />
                 <div className="row">
                   <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
