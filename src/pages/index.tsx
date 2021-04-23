@@ -33,87 +33,39 @@ export default function Home() {
       </Head>
 
       <body>
-        <div className="navbar navbar-inverse navbar-fixed-top">
-          <div className="container">
-            <div className="navbar-header">
-              <button
-                type="button"
-                className="navbar-toggle"
-                data-toggle="collapse"
-                data-target=".navbar-collapse"
-              >
-                <span className="icon-bar"></span>
-                <span className="icon-bar"></span>
-                <span className="icon-bar"></span>
-              </button>
-              <a className="logo" href="index.html">
-                <img src="img/logo.svg" alt="Logo" />
-              </a>
-            </div>
-            <div className="navbar-collapse collapse">
-              <ul className="nav navbar-nav navbar-right">
-                <li>
-                  <a href="#pricing" className="scroll">
-                    Pricing
-                  </a>
-                </li>
-                <li>
-                  <a href="#">Sign in</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
         <header>
           <div className="container">
             <div className="row">
               <div className="col-xs-6">
                 <a href="index.html">
-                  <img src="img/logo.svg" alt="Logo" />
+                  <img src="img/FFF_thc03rgb.png" alt="Logo" />
                 </a>
               </div>
               <div className="col-xs-6 signin text-right navbar-nav">
-                <a href="#pricing" className="scroll">
-                  Pricing
-                </a>
-                &nbsp; &nbsp;<a href="#">Sign in</a>
+                <a href="#">Ingresa</a>
               </div>
             </div>
             <div className="row header-info">
               <div className="col-sm-10 col-sm-offset-1 text-center">
-                <h1 className="wow fadeIn">A free landing page theme</h1>
+                <h1 className="wow fadeIn">
+                  Encuentra la mejor financiación para tu vivienda
+                </h1>
                 <br />
                 <p className="lead wow fadeIn" data-wow-delay="0.5s">
-                  Lorem ipsum dolor sit amet, consectetur adipis.
+                  Rápido, sencillo, sin costo.
                   <br />
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit sit
-                  dol mi arlna.
+                  Hacemos realidad tu sueño de tener casa propia.
                 </p>
                 <br />
                 <div className="row">
                   <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                     <div className="row">
                       <div
-                        className="col-xs-6 text-right wow fadeInUp"
+                        className="wow fadeInUp text-center"
                         data-wow-delay="1s"
                       >
-                        <a
-                          href="#be-the-first"
-                          className="btn btn-secondary btn-lg scroll"
-                        >
-                          Learn More
-                        </a>
-                      </div>
-                      <div
-                        className="col-xs-6 text-left wow fadeInUp"
-                        data-wow-delay="1.4s"
-                      >
-                        <a
-                          href="#invite"
-                          className="btn btn-primary btn-lg scroll"
-                        >
-                          Request Invite
+                        <a className="btn btn-secondary btn-lg">
+                          Simula Tu Cuota
                         </a>
                       </div>
                     </div>
