@@ -106,29 +106,29 @@ export default function Home() {
             <div className="row">
               <div className="col-sm-4 wow fadeIn" data-wow-delay="0.4s">
                 <hr className="line purple" />
-                <h3>App Feature One Here</h3>
+                <h3>Solicitud Online</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam viverra orci ut est facilisis, eu elementum mi
-                  volutpat. Pellentesque ac tristique nisi.
+                  Completa nuestro formulario Online o pide atención
+                  personalizada a través de un ejecutivo. Te estaremoos
+                  contactando en la mayor brevedad
                 </p>
               </div>
               <div className="col-sm-4 wow fadeIn" data-wow-delay="0.8s">
                 <hr className="line blue" />
-                <h3>App Feature One Here</h3>
+                <h3>Evaluación y aprobación</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam viverra orci ut est facilisis, eu elementum mi
-                  volutpat. Pellentesque ac tristique nisi.
+                  Comparamos todas las ofertas objetivamente y te prestamoos la
+                  mejor opción de forma clara, transparente e imparcial.
+                  Preparamos la documentación y tramitamos la parobación por el
+                  Banco elegido
                 </p>
               </div>
               <div className="col-sm-4 wow fadeIn" data-wow-delay="1.2s">
                 <hr className="line yellow" />
-                <h3>App Feature One Here</h3>
+                <h3>Desembolso</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam viverra orci ut est facilisis, eu elementum mi
-                  volutpat. Pellentesque ac tristique nisi.
+                  Una vez aproobada la operación, te acompañamos en toodo el
+                  proceso de contabilización hasta el desembolso final.
                 </p>
               </div>
             </div>
@@ -139,11 +139,11 @@ export default function Home() {
           <div className="container">
             <div className="row margin-40">
               <div className="col-sm-8 col-sm-offset-2 text-center">
-                <h2 className="white">Pricing</h2>
-                <p className="white">
+                <h2 className="white">Acompañamiento EXPERTO</h2>
+                {/* <p className="white">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam viverra orci ut.
-                </p>
+                </p> */}
               </div>
             </div>
 
@@ -163,14 +163,16 @@ export default function Home() {
                     </div>
                   </li>
                   <li className="info">
-                    2 row section for you package information. You can include
-                    all details or icons
+                    <h4> María Fuesanta Villena</h4>
                   </li>
-                  <li className="features first">Up To 25 Projects</li>
-                  <li className="features">10GB Storage</li>
-                  <li className="features">Other info</li>
-                  <li className="features last btn btn-secondary btn-wide">
-                    <a href="#">Get Started</a>
+                  <li className="features first">
+                    <p>
+                      Profesional con Master in Business Administration (MBA)
+                      del Instituto de Empresa de Madrid. Experiencia de 12 años
+                      en el sector comercial y financiero. Estudia tu
+                      financiación y selecciona la opción más adecuada para que
+                      no pagues intereses de más.
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -189,15 +191,16 @@ export default function Home() {
                     </div>
                   </li>
                   <li className="info">
-                    2 row section for you package information. You can include
-                    all details or icons
+                    <h4>Catalina Prado</h4>
                   </li>
-                  <li className="features first">Up To 25 Projects</li>
-                  <li className="features">10GB Storage</li>
-                  <li className="features">Other info</li>
-                  <li className="features">Other info</li>
-                  <li className="features last btn btn-secondary btn-wide">
-                    <a href="#">Get Started</a>
+                  <li className="features first">
+                    <p>
+                      Administradora de Empresas del CESA. Experiencia de 10
+                      años en el sector financiero. Habilidades en negociación y
+                      manejo de clientes, generandoo relaciones de largo plazoo,
+                      y de fidelización. Orientada al resultado consigue tu
+                      aprobación de la manera más agil y eficiente.
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -217,14 +220,17 @@ export default function Home() {
                     </div>
                   </li>
                   <li className="info">
-                    2 row section for you package information. You can include
-                    all details or icons
+                    <h4>Ana María Merizalde</h4>
                   </li>
-                  <li className="features first">Up To 25 Projects</li>
-                  <li className="features">10GB Storage</li>
-                  <li className="features">Other info</li>
-                  <li className="features last btn btn-secondary btn-wide">
-                    <a href="#">Get Started</a>
+                  <li className="features first">
+                    <p>
+                      Administradora de Empresas del CESA. Experiencia de más de
+                      15 años en el sector financiero colombiano con una amplia
+                      trayectoria y coonocimiento de las diferentes áreas de los
+                      Bancos más importantes del país y entidades
+                      internacionales. Se preocupa de encontrar la financiación
+                      más eficiente, rápida y fácil para ti.
+                    </p>
                   </li>
                 </ul>
               </div>
