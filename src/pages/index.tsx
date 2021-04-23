@@ -87,9 +87,10 @@ export default function Home() {
                 className="col-sm-8 col-sm-offset-2 text-center margin-30 wow fadeIn"
                 data-wow-delay="0.6s"
               >
-                <h2>Be the first</h2>
+                <h2>Los principales Bancos de un solo lugar</h2>
                 <p className="lead">
-                  Lorem ipsum dolor sit amet, consectetur adipis.
+                  Buscamos, comparamos y negociamos para conseguirte la mejor
+                  financiación.
                 </p>
               </div>
             </div>
