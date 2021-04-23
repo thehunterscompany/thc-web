@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <html>
       <Head>
-        <title>Snow Landing Page Theme </title>
+        <title>Te conseguimos la mejor financiación para tu vivienda </title>
         <meta name="keywords" content="" />
         <meta name="description" content="" />
         <meta

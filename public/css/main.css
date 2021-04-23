@@ -147,7 +147,7 @@ a:focus {
 }
 
 .btn-secondary {
-  background-color: #ffffff;
+  background-color: #e72c67;
   color: #231f20 !important;
 }
 
@@ -155,7 +155,7 @@ a:focus {
 .btn-secondary:focus,
 .btn-secondary:active,
 .btn-secondary.active {
-  background-color: #ededed;
+  background-color: #bd385d;
   color: #231f20 !important;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
@@ -229,6 +229,10 @@ a:focus {
 
 .purple-bg {
   background: #6d3f96;
+}
+
+._pink-thc {
+  background: #e72c67;
 }
 
 /* ==========================================================================
