@@ -150,17 +150,12 @@ export default function Home() {
                 data-wow-delay="1s"
               >
                 <br />
-                <ul className="list-unstyled pricing-table text-center">
+                <ul className="list-unstyled pricing-table active text-center">
                   <li className="headline">
-                    <h5 className="white">Personal</h5>
-                  </li>
-                  <li className="price">
-                    <div className="amount">
-                      $5<small>/m</small>
-                    </div>
+                    <img className="_Santi" src="img/Santi.png" />
                   </li>
                   <li className="info">
-                    <h4> María Fuesanta Villena</h4>
+                    <h4>María Fuensanta Villena</h4>
                   </li>
                   <li className="features first">
                     <p>
@@ -178,25 +173,21 @@ export default function Home() {
                 className="col-sm-4 pricing-container wow fadeInUp"
                 data-wow-delay="0.4s"
               >
+                <br />
                 <ul className="list-unstyled pricing-table active text-center">
                   <li className="headline">
-                    <h5 className="white">Professional</h5>
-                  </li>
-                  <li className="price">
-                    <div className="amount">
-                      $12<small>/m</small>
-                    </div>
+                    <img className="_Cati" src="img/Cati.png" />
                   </li>
                   <li className="info">
                     <h4>Catalina Prado</h4>
                   </li>
                   <li className="features first">
                     <p>
-                      Administradora de Empresas del CESA. Experiencia de 10
-                      años en el sector financiero. Habilidades en negociación y
-                      manejo de clientes, generandoo relaciones de largo plazoo,
-                      y de fidelización. Orientada al resultado consigue tu
-                      aprobación de la manera más agil y eficiente.
+                      Profesional con Master in Business Administration (MBA)
+                      del Instituto de Empresa de Madrid. Experiencia de 12 años
+                      en el sector comercial y financiero. Estudia tu
+                      financiación y selecciona la opción más adecuada para que
+                      no pagues intereses de más.
                     </p>
                   </li>
                 </ul>
@@ -209,24 +200,18 @@ export default function Home() {
                 <br />
                 <ul className="list-unstyled pricing-table text-center">
                   <li className="headline">
-                    <h5 className="white">Business</h5>
-                  </li>
-                  <li className="price">
-                    <div className="amount">
-                      $24<small>/m</small>
-                    </div>
+                    <img className="_Ana" src="img/Ana.png" />
                   </li>
                   <li className="info">
                     <h4>Ana María Merizalde</h4>
                   </li>
                   <li className="features first">
                     <p>
-                      Administradora de Empresas del CESA. Experiencia de más de
-                      15 años en el sector financiero colombiano con una amplia
-                      trayectoria y coonocimiento de las diferentes áreas de los
-                      Bancos más importantes del país y entidades
-                      internacionales. Se preocupa de encontrar la financiación
-                      más eficiente, rápida y fácil para ti.
+                      Profesional con Master in Business Administration (MBA)
+                      del Instituto de Empresa de Madrid. Experiencia de 12 años
+                      en el sector comercial y financiero. Estudia tu
+                      financiación y selecciona la opción más adecuada para que
+                      no pagues intereses de más.
                     </p>
                   </li>
                 </ul>

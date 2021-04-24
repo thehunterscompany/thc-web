@@ -511,15 +511,19 @@ footer {
 }
 
 .headline {
-  background: #231f20;
+  background: #ffffff;
   color: #ffffff;
   padding: 10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
+.headline img {
+  max-width: 100%;
+}
+
 .price {
-  background: none repeat scroll 0 0 #231f20;
+  background: none repeat scroll 0 0 #ffffff;
   color: #ffffff;
   font-size: 32px;
   font-weight: bold;
@@ -651,6 +655,9 @@ footer {
   #be-the-first {
     background-attachment: scroll;
   }
+  /* ._Santi {
+    max-width: 55%;
+  } */
 }
 
 /* Desktops and laptops ----------- */
