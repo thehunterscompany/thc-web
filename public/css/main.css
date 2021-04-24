@@ -404,18 +404,31 @@ hr.line {
   color: #fdc05d;
 }
 
-.iphone {
+._image-container {
   position: relative;
   height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-.iphone img {
+._image-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+._banks {
+  position: relative;
+  height: 400px;
+}
+
+._banks img {
   margin: 0 auto;
   position: absolute;
   left: 0;
   right: 0;
   width: 100%;
-  max-width: 440px;
 }
 
 #invite {
@@ -642,8 +655,24 @@ footer {
 
 /* Desktops and laptops ----------- */
 @media (min-width: 992px) and (max-width: 1199px) {
+  ._banks img {
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 85%;
+  }
 }
 
 /* Large screens ----------- */
 @media (min-width: 1200px) and (max-width: 3000px) {
+  ._banks img {
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 85%;
+  }
 }

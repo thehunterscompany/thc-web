@@ -92,8 +92,8 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="iphone wow fadeInUp" data-wow-delay="1s">
-              <img src="img/iphone.png" />
+            <div className="_banks wow fadeInUp" data-wow-delay="1s">
+              <img src="img/BancosLogos.png" />
             </div>
           </div>
         </section>
