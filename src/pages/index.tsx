@@ -145,14 +145,87 @@ export default function Home() {
             </div>
 
             <div className="row margin-50">
-              <div
+              <div className="_consultant-grid">
+                <div
+                  className="pricing-container wow fadeInUp"
+                  data-wow-delay="1s"
+                >
+                  <br />
+                  <ul className="list-unstyled pricing-table active text-center">
+                    <li className="headline">
+                      <img src="img/Santi.png" />
+                    </li>
+                    <li className="info">
+                      <h4>María Fuensanta Villena</h4>
+                    </li>
+                    <li className="features first">
+                      <p>
+                        Profesional con Master in Business Administration (MBA)
+                        del Instituto de Empresa de Madrid. Experiencia de 12
+                        años en el sector comercial y financiero. Estudia tu
+                        financiación y selecciona la opción más adecuada para
+                        que no pagues intereses de más.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+
+                <div
+                  className="pricing-container wow fadeInUp"
+                  data-wow-delay="0.4s"
+                >
+                  <br />
+                  <ul className="list-unstyled pricing-table active text-center">
+                    <li className="headline">
+                      <img src="img/Cati.png" />
+                    </li>
+                    <li className="info">
+                      <h4>Catalina Prado</h4>
+                    </li>
+                    <li className="features first">
+                      <p>
+                        Profesional con Master in Business Administration (MBA)
+                        del Instituto de Empresa de Madrid. Experiencia de 12
+                        años en el sector comercial y financiero. Estudia tu
+                        financiación y selecciona la opción más adecuada para
+                        que no pagues intereses de más.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+
+                <div
+                  className="pricing-container wow fadeInUp"
+                  data-wow-delay="1.3s"
+                >
+                  <br />
+                  <ul className="list-unstyled pricing-table active text-center">
+                    <li className="headline">
+                      <img src="img/Ana.png" />
+                    </li>
+                    <li className="info">
+                      <h4>Ana María Merizalde</h4>
+                    </li>
+                    <li className="features first">
+                      <p>
+                        Profesional con Master in Business Administration (MBA)
+                        del Instituto de Empresa de Madrid. Experiencia de 12
+                        años en el sector comercial y financiero. Estudia tu
+                        financiación y selecciona la opción más adecuada para
+                        que no pagues intereses de más.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              {/* <div
                 className="col-sm-4 pricing-container wow fadeInUp"
                 data-wow-delay="1s"
               >
                 <br />
                 <ul className="list-unstyled pricing-table active text-center">
                   <li className="headline">
-                    <img className="_Santi" src="img/Santi.png" />
+                    <img src="img/Santi.png" />
                   </li>
                   <li className="info">
                     <h4>María Fuensanta Villena</h4>
@@ -176,7 +249,7 @@ export default function Home() {
                 <br />
                 <ul className="list-unstyled pricing-table active text-center">
                   <li className="headline">
-                    <img className="_Cati" src="img/Cati.png" />
+                    <img src="img/Cati.png" />
                   </li>
                   <li className="info">
                     <h4>Catalina Prado</h4>
@@ -200,7 +273,7 @@ export default function Home() {
                 <br />
                 <ul className="list-unstyled pricing-table text-center">
                   <li className="headline">
-                    <img className="_Ana" src="img/Ana.png" />
+                    <img src="img/Ana.png" />
                   </li>
                   <li className="info">
                     <h4>Ana María Merizalde</h4>
@@ -215,7 +288,7 @@ export default function Home() {
                     </p>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
