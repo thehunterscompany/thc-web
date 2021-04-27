@@ -201,6 +201,10 @@ a:focus {
   margin-bottom: 100px !important;
 }
 
+._margin-top-5 {
+  margin-top: 0px !important;
+}
+
 /*-----------------Colors------------------*/
 
 .black {
