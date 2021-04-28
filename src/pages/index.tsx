@@ -180,7 +180,7 @@ export default function Home() {
                   <br />
                   <ul className="list-unstyled pricing-table active text-center">
                     <li className="headline">
-                      <img src="img/Cati.png" />
+                      <img src="img/Ana.png" />
                     </li>
                     <li className="info">
                       <h4>Catalina Prado</h4>
@@ -231,61 +231,20 @@ export default function Home() {
 
         <section id="invite" className="pad-lg light-gray-bg">
           <div className="container">
-            <div className="row">
-              <div className="col-sm-8 col-sm-offset-2 text-center">
-                <i className="fa fa-envelope-o margin-40"></i>
-                <h2 className="black">Get the invite</h2>
-                <br />
-                <p className="black">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam viverra orci ut.
-                </p>
-                <br />
-
-                <div className="row">
-                  <div className="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-                    <form role="form">
-                      <div className="form-group">
-                        <input
-                          type="email"
-                          className="form-control"
-                          id="exampleInputEmail1"
-                          placeholder="Enter Email"
-                        />
-                      </div>
-                      <button type="submit" className="btn btn-primary btn-lg">
-                        Request Invite
-                      </button>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="press" className="pad-sm">
-          <div className="container">
             <div className="row margin-30 news-container">
               <div
                 className="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft"
                 data-wow-delay="0.8s"
               >
-                <a href="#" target="_blank">
-                  <img
-                    className="news-img pull-left"
-                    src="img/press-01.jpg"
-                    alt="Tech Crunch"
-                  />
-                  <p className="black">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aliquam viverra orci ut.
-                    <br />
-                    <small>
-                      <em>Tech Crunch - January 15, 2015</em>
-                    </small>
-                  </p>
-                </a>
+                <p className="black">
+                  "Me encanta. Yo simplemente te digo que con THC me desentendí
+                  de muchos problemas, me concentré en mi trabajo y todo fluyó
+                  de manera extraordinaria."
+                  <br />
+                  <small>
+                    <em>Luis Felipe Lozano</em>
+                  </small>
+                </p>
               </div>
             </div>
 
@@ -294,20 +253,50 @@ export default function Home() {
                 className="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft"
                 data-wow-delay="1.2s"
               >
-                <a href="#" target="_blank">
-                  <img
-                    className="news-img pull-left"
-                    src="img/press-02.jpg"
-                    alt="Forbes"
-                  />
-                  <p className="black">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aliquam viverra orci ut. <br />
-                    <small>
-                      <em>Forbes - Feb 25, 2015</em>
-                    </small>
-                  </p>
-                </a>
+                <p className="black">
+                  "He recomendado a THC muchas veces a mis amigos. Si no fuera
+                  por su excelente gestión, rapidez y además, por hacer mas allá
+                  de lo que ofrecen para hacer tu sueño de comprar una casa una
+                  realidad, no hubiera logrado tener la mia."
+                  <br />
+                  <small>
+                    <em>Ana Lucia Rodríguez </em>
+                  </small>
+                </p>
+              </div>
+            </div>
+
+            <div className="row margin-30 news-container">
+              <div
+                className="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft"
+                data-wow-delay="1.6s"
+              >
+                <p className="black">
+                  "Recomiendo a THC porque el servicio es personalizado, sus
+                  asesores se preocupan por ofrecerme el mejor producto de
+                  acuerdo con mis necesidades actuales, haciendo un
+                  acompañamiento cercano, con esto garantizan que cualquier
+                  proceso sea llevado a feliz término.“
+                  <br />
+                  <small>
+                    <em>Diego García</em>
+                  </small>
+                </p>
+              </div>
+            </div>
+            <div className="row margin-30 news-container">
+              <div
+                className="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft"
+                data-wow-delay="2.0s"
+              >
+                <p className="black">
+                  "Excelente servicio. Si quieres contar con la mejor asesoría,
+                  no lo dudes. Ellos hacen los sueños realidad .“
+                  <br />
+                  <small>
+                    <em>Karolina Mejía</em>
+                  </small>
+                </p>
               </div>
             </div>
           </div>
