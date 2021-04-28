@@ -192,8 +192,8 @@ export default function Home() {
                         una de nuestras brokers más solicitadas. Sus habilidades
                         de negociación y manejo de clientes la llevan a generar
                         fidelización y relaciones a largo plazo. Orientada a
-                        resultados consigue tu aprobación de la manera más ágil
-                        y eficiente.
+                        resultados logra tu aprobación de la manera más ágil y
+                        eficiente.
                       </p>
                     </li>
                   </ul>
