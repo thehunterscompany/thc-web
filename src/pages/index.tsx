@@ -162,10 +162,12 @@ export default function Home() {
                     <li className="features first">
                       <p>
                         Profesional con Master in Business Administration (MBA)
-                        del Instituto de Empresa de Madrid. Experiencia de 12
-                        años en el sector comercial y financiero. Estudia tu
-                        financiación y selecciona la opción más adecuada para
-                        que no pagues intereses de más.
+                        del Instituto de Empresa de Madrid. Tiene experiencia de
+                        más de 12 años en el sector comercial y financiero a
+                        nivel nacional e internacional. Se encarga de estudiar
+                        tu financiación, revisar las posibilidades en todo el
+                        sector bancario y seleccionar la opción más adecuada
+                        para que no pagues intereses de más.
                       </p>
                     </li>
                   </ul>
@@ -185,11 +187,13 @@ export default function Home() {
                     </li>
                     <li className="features first">
                       <p>
-                        Profesional con Master in Business Administration (MBA)
-                        del Instituto de Empresa de Madrid. Experiencia de 12
-                        años en el sector comercial y financiero. Estudia tu
-                        financiación y selecciona la opción más adecuada para
-                        que no pagues intereses de más.
+                        Administradora de Empresas del CESA. Con su experiencia
+                        de mas de 10 años en el sector financiero colombiano es
+                        una de nuestras brokers más solicitadas. Sus habilidades
+                        de negociación y manejo de clientes la llevan a generar
+                        fidelización y relaciones a largo plazo. Orientada a
+                        resultados consigue tu aprobación de la manera más ágil
+                        y eficiente.
                       </p>
                     </li>
                   </ul>
@@ -209,11 +213,13 @@ export default function Home() {
                     </li>
                     <li className="features first">
                       <p>
-                        Profesional con Master in Business Administration (MBA)
-                        del Instituto de Empresa de Madrid. Experiencia de 12
-                        años en el sector comercial y financiero. Estudia tu
-                        financiación y selecciona la opción más adecuada para
-                        que no pagues intereses de más.
+                        Administradora de Empresas del CESA. Cuenta con una
+                        experiencia de más de 15 años en el sector financiero
+                        colombiano que le aporta una amplia trayectoria
+                        profesional y gran conocimiento de las diferentes áreas
+                        de los Bancos más importantes del país y entidades
+                        internacionales. Siempre preocupada por encontrar la
+                        financiación más eficiente, rápida y fácil para ti.
                       </p>
                     </li>
                   </ul>
