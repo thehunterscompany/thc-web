@@ -41,7 +41,7 @@ export default function Home() {
                   <img src="img/ThcLogo.png" alt="Logo" />
                 </div>
               </div>
-              <div className="col-xs-6 text-right navbar-nav">
+              <div className="col-xs-6 text-right navbar-nav _sign-in-padding">
                 <a className="btn btn-secondary btn-sm">Ingresa</a>
               </div>
             </div>
@@ -51,11 +51,11 @@ export default function Home() {
                 data-wow-delay="0.3s"
               >
                 <h1 className="wow fadeIn">
-                  Encuentra la mejor financiación
-                  <h1 className="_margin-top-5">para tu vivienda</h1>
+                  Encuentra la mejor financiación para
+                  <h1 className="_margin-top-5">tu vivienda</h1>
                 </h1>
                 <h2 className="wow fadeIn" data-wow-delay="0.5s">
-                  Rápido, sencillo, sin costo.
+                  Rápido y sin costo.
                 </h2>
                 <br />
                 <div className="row">
@@ -66,7 +66,7 @@ export default function Home() {
                         data-wow-delay="1s"
                       >
                         <a className="btn btn-secondary btn-lg">
-                          Simula Tu Cuota
+                          Simula Tu Financiación
                         </a>
                       </div>
                     </div>
