@@ -221,11 +221,10 @@ export default function Home() {
                     </li>
                     <li className="features first">
                       <p>
-                        Administradora de Empresas del CESA. Cuenta con una
-                        experiencia de más de 15 años en el sector financiero
-                        colombiano que le aporta una amplia trayectoria
-                        profesional y gran conocimiento de las diferentes áreas
-                        de los Bancos más importantes del país y entidades
+                        Administradora de Empresas del CESA. Cuenta con
+                        experiencias de más de 15 años en el sector financiero
+                        colombiano y un gran conocimiento de las diferentes
+                        áreas de los Bancos más importantes del país y entidades
                         internacionales. Siempre preocupada por encontrar la
                         financiación más eficiente, rápida y fácil para ti.
                       </p>
