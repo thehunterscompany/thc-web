@@ -110,9 +110,9 @@ export default function Home() {
                 <div className="text-center _info-img">
                   <img src="img/Form.png" alt="Form" />
                 </div>
-                <hr className="line purple" />
-                <h3>Solicitud Online</h3>
-                <p>
+                <hr className="line _salmon2-thc" />
+                <h3 className="_pink-color-thc">Solicitud Online</h3>
+                <p className="black">
                   Completa nuestro formulario Online o pide atención
                   personalizada a través de un ejecutivo. Te estaremoos
                   contactando en la mayor brevedad
@@ -122,9 +122,9 @@ export default function Home() {
                 <div className="text-center _info-img">
                   <img src="img/Stamp.png" alt="Stamp" />
                 </div>
-                <hr className="line blue" />
-                <h3>Evaluación y aprobación</h3>
-                <p>
+                <hr className="line _salmon-thc" />
+                <h3 className="_pink-color-thc">Evaluación y aprobación</h3>
+                <p className="black">
                   Comparamos todas las ofertas objetivamente y te prestamoos la
                   mejor opción de forma clara, transparente e imparcial.
                   Preparamos la documentación y tramitamos la parobación por el
@@ -135,9 +135,9 @@ export default function Home() {
                 <div className="text-center _info-img">
                   <img src="img/Keys.png" alt="Keys" />
                 </div>
-                <hr className="line yellow" />
-                <h3>Desembolso</h3>
-                <p>
+                <hr className="line _salmon3-thc" />
+                <h3 className="_pink-color-thc">Desembolso</h3>
+                <p className="black">
                   Una vez aproobada la operación, te acompañamos en toodo el
                   proceso de contabilización hasta el desembolso final.
                 </p>
@@ -150,7 +150,7 @@ export default function Home() {
           <div className="container">
             <div className="row margin-40">
               <div className="col-sm-8 col-sm-offset-2 text-center">
-                <h2 className="white">Acompañamiento EXPERTO</h2>
+                <h1 className="_pink-color-thc">Acompañamiento EXPERTO</h1>
               </div>
             </div>
 
@@ -166,10 +166,10 @@ export default function Home() {
                       <img src="img/Santi.png" />
                     </li>
                     <li className="info">
-                      <h4>María Fuensanta Villena</h4>
+                      <h4 className="black">María Fuensanta Villena</h4>
                     </li>
                     <li className="features first">
-                      <p>
+                      <p className="black">
                         Profesional con Master in Business Administration (MBA)
                         del Instituto de Empresa de Madrid. Tiene experiencia de
                         más de 12 años en el sector comercial y financiero a
@@ -192,10 +192,10 @@ export default function Home() {
                       <img src="img/Ana.png" />
                     </li>
                     <li className="info">
-                      <h4>Catalina Prado</h4>
+                      <h4 className="black">Catalina Prado</h4>
                     </li>
                     <li className="features first">
-                      <p>
+                      <p className="black">
                         Administradora de Empresas del CESA. Con su experiencia
                         de mas de 10 años en el sector financiero colombiano es
                         una de nuestras brokers más solicitadas. Sus habilidades
@@ -218,10 +218,10 @@ export default function Home() {
                       <img src="img/Ana.png" />
                     </li>
                     <li className="info">
-                      <h4>Ana María Merizalde</h4>
+                      <h4 className="black">Ana María Merizalde</h4>
                     </li>
                     <li className="features first">
-                      <p>
+                      <p className="black">
                         Administradora de Empresas del CESA. Cuenta con
                         experiencias de más de 15 años en el sector financiero
                         colombiano y un gran conocimiento de las diferentes
@@ -241,7 +241,9 @@ export default function Home() {
           <div className="container">
             <div className="row margin-40">
               <div className="col-sm-8 col-sm-offset-2 text-center">
-                <h2 className="black">Lo que dicen nuestro clientes</h2>
+                <h2 className="_pink-color-thc">
+                  Lo que dicen nuestro clientes
+                </h2>
               </div>
             </div>
             <div className="row margin-30 news-container">
@@ -315,7 +317,7 @@ export default function Home() {
           </div>
         </section>
 
-        <footer>
+        <footer className="white">
           <div className="container">
             <div className="_display-flex _flex-direction _flex-wrap _justify-content-center">
               <div className="_footer-item _footer-flex">

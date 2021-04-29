@@ -248,6 +248,25 @@ a:focus {
   background: #e23879;
 }
 
+hr._salmon-thc {
+  border-color: #d28c8c !important;
+  color: #d28c8c !important;
+}
+
+hr._salmon2-thc {
+  border-color: #c39ca9 !important;
+  color: #c39ca9 !important;
+}
+
+hr._salmon3-thc {
+  border-color: #7f5f80 !important;
+  color: #7f5f80 !important;
+}
+
+._pink-color-thc {
+  color: #e23879;
+}
+
 /* ==========================================================================
      Nav Styles
      ========================================================================== */
@@ -484,7 +503,7 @@ hr._pink-thc {
 }
 
 footer {
-  background: #ffffff;
+  background: #e23879;
   padding: 40px 0px;
 }
 
@@ -631,9 +650,10 @@ footer {
 }
 
 ._footer-block-title {
-  font-size: 15px;
+  font-size: 17px;
   letter-spacing: 0.32px;
   line-height: 24px;
+  font-weight: 500;
 }
 
 ._footer-block-list {
@@ -659,9 +679,8 @@ footer {
 }
 
 ._footer-item-location p {
-  color: #231f20;
+  color: #f3f2ef;
   font-size: 14px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* ==========================================================================
