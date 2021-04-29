@@ -394,6 +394,11 @@ hr.line {
   border: 2px solid;
 }
 
+._info-img img {
+  max-width: 70%;
+  width: 100%;
+}
+
 .purple {
   border-color: #6d3f96;
   color: #6d3f96;

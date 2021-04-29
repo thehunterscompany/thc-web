@@ -106,6 +106,9 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="col-sm-4 wow fadeIn" data-wow-delay="0.4s">
+                <div className="text-center _info-img">
+                  <img src="img/Form.png" alt="Form" />
+                </div>
                 <hr className="line purple" />
                 <h3>Solicitud Online</h3>
                 <p>
@@ -115,6 +118,9 @@ export default function Home() {
                 </p>
               </div>
               <div className="col-sm-4 wow fadeIn" data-wow-delay="0.8s">
+                <div className="text-center _info-img">
+                  <img src="img/Stamp.png" alt="Stamp" />
+                </div>
                 <hr className="line blue" />
                 <h3>Evaluación y aprobación</h3>
                 <p>
@@ -125,6 +131,9 @@ export default function Home() {
                 </p>
               </div>
               <div className="col-sm-4 wow fadeIn" data-wow-delay="1.2s">
+                <div className="text-center _info-img">
+                  <img src="img/Keys.png" alt="Keys" />
+                </div>
                 <hr className="line yellow" />
                 <h3>Desembolso</h3>
                 <p>
