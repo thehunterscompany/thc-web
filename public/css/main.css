@@ -1,6 +1,15 @@
 /* ==========================================================================
    Global styles
    ========================================================================== */
+@font-face {
+  font-family: "Abadi";
+  src: local("Abadi"), url(../fonts/AbadiMTStd.otf) format("opentype");
+}
+
+* {
+  font-family: "Abadi";
+}
+
 h1,
 h2,
 h3,
@@ -14,12 +23,12 @@ p,
 .list-inline,
 small,
 #pricing {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Abadi", sans-serif;
 }
 
 p,
 .lead {
-  font-family: "Raleway", sans-serif;
+  font-family: "Abadi", sans-serif;
 }
 
 h1 {
@@ -147,8 +156,8 @@ a:focus {
 }
 
 .btn-secondary {
-  background-color: #e72c67;
-  color: #231f20 !important;
+  background-color: #e23879;
+  color: #f3f2ef !important;
 }
 
 .btn-secondary:hover,
@@ -236,7 +245,7 @@ a:focus {
 }
 
 ._pink-thc {
-  background: #e72c67;
+  background: #e23879;
 }
 
 /* ==========================================================================
