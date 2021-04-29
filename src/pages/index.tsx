@@ -46,9 +46,12 @@ export default function Home() {
               </div>
             </div>
             <div className="row header-info">
-              <div className="col-sm-10 col-sm-offset-1 text-center">
+              <div
+                className="col-sm-10 col-sm-offset-1 text-center"
+                data-wow-delay="0.3s"
+              >
                 <h1 className="wow fadeIn">
-                  Encuentra la mejor financiación{" "}
+                  Encuentra la mejor financiación
                   <h1 className="_margin-top-5">para tu vivienda</h1>
                 </h1>
                 <h2 className="wow fadeIn" data-wow-delay="0.5s">
@@ -138,10 +141,6 @@ export default function Home() {
             <div className="row margin-40">
               <div className="col-sm-8 col-sm-offset-2 text-center">
                 <h2 className="white">Acompañamiento EXPERTO</h2>
-                {/* <p className="white">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam viverra orci ut.
-                </p> */}
               </div>
             </div>
 
@@ -231,15 +230,20 @@ export default function Home() {
 
         <section id="invite" className="pad-lg light-gray-bg">
           <div className="container">
+            <div className="row margin-40">
+              <div className="col-sm-8 col-sm-offset-2 text-center">
+                <h2 className="black">Nuestro Desempeño</h2>
+              </div>
+            </div>
             <div className="row margin-30 news-container">
               <div
                 className="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft"
                 data-wow-delay="0.8s"
               >
                 <p className="black">
-                  "Me encanta. Yo simplemente te digo que con THC me desentendí
-                  de muchos problemas, me concentré en mi trabajo y todo fluyó
-                  de manera extraordinaria."
+                  "<b>Me encanta.</b> Yo simplemente te digo que con THC me
+                  desentendí de muchos problemas, me concentré en mi trabajo y
+                  todo fluyó de manera extraordinaria."
                   <br />
                   <small>
                     <em>Luis Felipe Lozano</em>
@@ -254,10 +258,10 @@ export default function Home() {
                 data-wow-delay="1.2s"
               >
                 <p className="black">
-                  "He recomendado a THC muchas veces a mis amigos. Si no fuera
-                  por su excelente gestión, rapidez y además, por hacer mas allá
-                  de lo que ofrecen para hacer tu sueño de comprar una casa una
-                  realidad, no hubiera logrado tener la mia."
+                  "<b>He recomendado a THC muchas veces a mis amigos.</b> Si no
+                  fuera por su excelente gestión, rapidez y además, por hacer
+                  mas allá de lo que ofrecen para hacer tu sueño de comprar una
+                  casa una realidad, no hubiera logrado tener la mia."
                   <br />
                   <small>
                     <em>Ana Lucia Rodríguez </em>
@@ -272,8 +276,8 @@ export default function Home() {
                 data-wow-delay="1.6s"
               >
                 <p className="black">
-                  "Recomiendo a THC porque el servicio es personalizado, sus
-                  asesores se preocupan por ofrecerme el mejor producto de
+                  "<b>Recomiendo a THC porque el servicio es personalizado</b>,
+                  sus asesores se preocupan por ofrecerme el mejor producto de
                   acuerdo con mis necesidades actuales, haciendo un
                   acompañamiento cercano, con esto garantizan que cualquier
                   proceso sea llevado a feliz término.“
@@ -290,8 +294,8 @@ export default function Home() {
                 data-wow-delay="2.0s"
               >
                 <p className="black">
-                  "Excelente servicio. Si quieres contar con la mejor asesoría,
-                  no lo dudes. Ellos hacen los sueños realidad .“
+                  "<b>Excelente servicio.</b> Si quieres contar con la mejor
+                  asesoría, no lo dudes. Ellos hacen los sueños realidad .“
                   <br />
                   <small>
                     <em>Karolina Mejía</em>
@@ -304,36 +308,55 @@ export default function Home() {
 
         <footer>
           <div className="container">
-            <div className="row">
-              <div className="col-sm-8 margin-20">
-                <ul className="list-inline social">
-                  <li>Connect with us on</li>
-                  <li>
-                    <a href="#">
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fa fa-instagram"></i>
-                    </a>
-                  </li>
-                </ul>
+            <div className="_display-flex _flex-direction _flex-wrap _justify-content-center">
+              <div className="_footer-item _footer-flex">
+                <div className="_footer-block ">
+                  <span className="_footer-block-title">Contáctenos</span>
+                  <ul className="_footer-block-list">
+                    <li className="_footer-block-item">
+                      <img src="img/email.png" alt="Email" />
+                      <a href="mailto:info@thcsas.com.co">info@thcsas.com.co</a>
+                    </li>
+                    <li className="_footer-block-item">
+                      <img src="img/whatsapp.png" alt="Whatsapp" />
+                      <a
+                        href="https://api.whatsapp.com/send?phone=+573104908414"
+                        target="_blank"
+                      >
+                        310 490 8414
+                      </a>
+                    </li>
+                    <li className="_footer-block-item">
+                      <img src="img/phone.png" alt="Phone" />
+                      <a href="tel:+573104908414">311 854 2488</a>
+                    </li>
+                    <li className="_footer-block-item">
+                      <img src="img/location.png" alt="Location" />
+                      <div className="_footer-item-location">
+                        <p>Carrera 14#96-15 piso 1. Bogotá DC</p>
+                      </div>
+                    </li>
+                    <li className="_footer-block-item">
+                      <div className="_footer-item-location">
+                        <p>
+                          Sedes: Bogotá-Medellín-Cali-Barranquilla-Eje Cafetero
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
               </div>
-
-              <div className="col-sm-4 text-right">
-                <p>
-                  <small>
-                    Copyright &copy; 2016. All rights reserved. <br />
-                    Created by{" "}
-                    <a href="http://designscrazed.org/">Designscrazed</a>
-                  </small>
-                </p>
+              <div className="_footer-item _footer-flex">
+                <div className="_footer-block ">
+                  <span className="_footer-block-title">Legal</span>
+                  <ul className="_footer-block-list"></ul>
+                </div>
+              </div>
+              <div className="_footer-item _footer-flex">
+                <div className="_footer-block ">
+                  <span className="_footer-block-title">Sobre Nosotros</span>
+                  <ul className="_footer-block-list"></ul>
+                </div>
               </div>
             </div>
           </div>

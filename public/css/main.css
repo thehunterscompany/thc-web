@@ -591,6 +591,80 @@ footer {
 }
 
 /* ==========================================================================
+     Footer Styles
+     ========================================================================   */
+
+._footer-item {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+._footer-block {
+  text-align: left;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+._footer-block-title {
+  font-size: 15px;
+  letter-spacing: 0.32px;
+  line-height: 24px;
+}
+
+._footer-block-list {
+  list-style-type: none;
+  padding: 10px 0 0 0 !important;
+  margin: 0;
+  text-align: left;
+}
+
+._footer-block-item {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  padding: 0.25rem 0 !important;
+  margin-bottom: 6px;
+}
+
+._footer-block-item img {
+  width: 18px;
+  margin-right: 10px;
+}
+
+._footer-item-location p {
+  color: #231f20;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* ==========================================================================
+     Flex styles
+     ========================================================================== */
+
+._display-flex {
+  display: flex;
+}
+
+._flex-direction {
+  flex-direction: row;
+}
+
+._flex-wrap {
+  flex-wrap: wrap;
+}
+
+._justify-content-center {
+  justify-content: center;
+}
+
+/* ==========================================================================
      Form styles
      ========================================================================== */
 .form-control {
@@ -650,6 +724,12 @@ footer {
   #be-the-first {
     background-attachment: scroll;
   }
+
+  ._footer-flex {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
 }
 
 /* Landscape phone to portrait tablet */
@@ -657,12 +737,23 @@ footer {
   #be-the-first {
     background-attachment: scroll;
   }
+
+  ._footer-flex {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
 }
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 991px) {
   #be-the-first {
     background-attachment: scroll;
+  }
+
+  ._footer-flex {
+    flex: 0 0 33%;
+    max-width: 25%;
   }
 }
 
@@ -676,6 +767,11 @@ footer {
     width: 100%;
     max-width: 85%;
   }
+
+  ._footer-flex {
+    flex: 0 0 33%;
+    max-width: 25%;
+  }
 }
 
 /* Large screens ----------- */
@@ -687,6 +783,11 @@ footer {
     right: 0;
     width: 100%;
     max-width: 85%;
+  }
+
+  ._footer-flex {
+    flex: 0 0 33%;
+    max-width: 25%;
   }
 }
 
