@@ -241,7 +241,7 @@ export default function Home() {
           <div className="container">
             <div className="row margin-40">
               <div className="col-sm-8 col-sm-offset-2 text-center">
-                <h2 className="black">Nuestro Desempeño</h2>
+                <h2 className="black">Lo que dicen nuestro clientes</h2>
               </div>
             </div>
             <div className="row margin-30 news-container">
