@@ -349,13 +349,33 @@ export default function Home() {
               <div className="_footer-item _footer-flex">
                 <div className="_footer-block ">
                   <span className="_footer-block-title">Legal</span>
-                  <ul className="_footer-block-list"></ul>
+                  <ul className="_footer-block-list">
+                    <li className="_footer-block-item">
+                      <a href="">Términos y Condiciones</a>
+                    </li>
+                    <li className="_footer-block-item">
+                      <a href="">Política de Privacidad</a>
+                    </li>
+                  </ul>
                 </div>
               </div>
               <div className="_footer-item _footer-flex">
                 <div className="_footer-block ">
                   <span className="_footer-block-title">Sobre Nosotros</span>
-                  <ul className="_footer-block-list"></ul>
+                  <ul className="_footer-block-list">
+                    <li className="_footer-block-item">
+                      <div className="_footer-item-location">
+                        <p>
+                          THC es una empresa broker de servicios de financiación
+                          de vivienda y comercial para personas naturales.
+                          Brindamos una asesoría completa a nuestros clientes
+                          desde la solicitud de financiación hasta el desembolso
+                          de la misma buscando agilidad y las mejores
+                          condiciones para cada uno de ellos.
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
