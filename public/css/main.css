@@ -322,7 +322,7 @@ header {
   left: 0;
   right: 0;
   margin-left: 0px;
-  margin-bottom: 12%;
+  margin-bottom: 15%;
 }
 
 .signin {
@@ -768,6 +768,16 @@ footer {
   ._footer-flex {
     flex: 0 0 33%;
     max-width: 25%;
+  }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media screen and (max-width: 768px) {
+  .logo img {
+    height: auto;
+    max-width: 200px;
+    width: 100%;
+    margin-top: 7px;
   }
 }
 
