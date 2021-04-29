@@ -352,6 +352,26 @@ export default function Home() {
                         </p>
                       </div>
                     </li>
+                    <li className="_footer-block-item">
+                      <ul className="list-inline social">
+                        <li>
+                          <a
+                            href="https://www.instagram.com/the_hunters_company/"
+                            target="_blank"
+                          >
+                            <i className="fa fa-instagram"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://www.linkedin.com/company/the-hunters-company-sas/"
+                            target="_blank"
+                          >
+                            <i className="fa fa-linkedin"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
                   </ul>
                 </div>
               </div>
