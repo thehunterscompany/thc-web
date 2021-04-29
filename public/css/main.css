@@ -48,8 +48,8 @@ h2 {
 }
 
 h3 {
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 25px;
+  line-height: 25px;
   letter-spacing: 0px;
   color: #231f20;
   font-weight: 700;
@@ -401,6 +401,11 @@ header {
 hr.line {
   width: 100%;
   border: 2px solid;
+}
+
+hr._pink-thc {
+  border-color: #e23879;
+  color: #e23879;
 }
 
 ._info-img img {

@@ -66,7 +66,7 @@ export default function Home() {
                         data-wow-delay="1s"
                       >
                         <a className="btn btn-secondary btn-lg">
-                          Simula Tu Financiación
+                          Calcula tu Cuota
                         </a>
                       </div>
                     </div>
@@ -85,14 +85,14 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div
-                className="col-sm-8 col-sm-offset-2 text-center margin-30 wow fadeIn"
+                className="col-sm-10 col-sm-offset-1 text-center margin-30 wow fadeIn"
                 data-wow-delay="0.6s"
               >
-                <h2>Los principales Bancos de un solo lugar</h2>
-                <p className="lead">
+                <h1>Los principales Bancos de un solo lugar</h1>
+                <h3>
                   Buscamos, comparamos y negociamos para conseguirte la mejor
                   financiación.
-                </p>
+                </h3>
               </div>
             </div>
 
@@ -101,6 +101,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <hr className="line _pink-thc" />
 
         <section id="main-info" className="pad-xl">
           <div className="container">
