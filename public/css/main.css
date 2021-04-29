@@ -115,7 +115,7 @@ a:focus {
 }
 
 .btn-lg {
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.33;
   padding: 22px 30px;
   font-weight: 400;
@@ -156,7 +156,7 @@ a:focus {
 }
 
 .btn-secondary {
-  background-color: #e23879;
+  background-color: #e72c67;
   color: #f3f2ef !important;
 }
 
@@ -164,8 +164,8 @@ a:focus {
 .btn-secondary:focus,
 .btn-secondary:active,
 .btn-secondary.active {
-  background-color: #bd385d;
-  color: #231f20 !important;
+  background-color: #f396b3;
+  color: #f3f2ef !important;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
@@ -225,7 +225,7 @@ a:focus {
 }
 
 .white {
-  color: #ffffff;
+  color: #f3f2ef;
 }
 
 .black-bg {
@@ -270,7 +270,7 @@ a:focus {
 .navbar-inverse .navbar-nav > li > a,
 .navbar-nav a {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1px;
 }
 
