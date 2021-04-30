@@ -81,7 +81,7 @@ export default function Home() {
           <div className="scroll"></div>
         </div>
 
-        <section id="be-the-first" className="pad-xl">
+        <section id="be-the-first">
           <div className="container">
             <div className="row">
               <div
@@ -106,7 +106,17 @@ export default function Home() {
         <section id="main-info" className="pad-xl">
           <div className="container">
             <div className="row">
-              <div className="col-sm-4 wow fadeIn" data-wow-delay="0.4s">
+              <div
+                className="col-sm-10 col-sm-offset-1 text-center margin-30 wow fadeIn"
+                data-wow-delay="0.3s"
+              >
+                <h1>Cómo funciona</h1>
+                <h3>
+                  Sigue estos simples pasos y encuentra la financiación que
+                  siempre soñaste
+                </h3>
+              </div>
+              <div className="col-sm-4 wow fadeIn" data-wow-delay="0.6s">
                 <div className="text-center _info-img">
                   <img src="img/Form.png" alt="Form" />
                 </div>
@@ -118,7 +128,7 @@ export default function Home() {
                   contactando en la mayor brevedad
                 </p>
               </div>
-              <div className="col-sm-4 wow fadeIn" data-wow-delay="0.8s">
+              <div className="col-sm-4 wow fadeIn" data-wow-delay="0.9s">
                 <div className="text-center _info-img">
                   <img src="img/Stamp.png" alt="Stamp" />
                 </div>
@@ -145,6 +155,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <hr className="line _pink-thc" />
 
         <section id="pricing" className="pad-lg">
           <div className="container">
@@ -236,6 +247,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <hr className="line _pink-thc" />
 
         <section id="invite" className="pad-lg light-gray-bg">
           <div className="container">

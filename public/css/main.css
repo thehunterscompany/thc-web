@@ -26,6 +26,10 @@ small,
   font-family: "Abadi", sans-serif;
 }
 
+hr {
+  margin: 0 !important;
+}
+
 p,
 .lead {
   font-family: "Abadi", sans-serif;
@@ -244,8 +248,12 @@ a:focus {
   background: #6d3f96;
 }
 
-._pink-thc {
+._pink-thc-bg {
   background: #e23879;
+}
+
+._grey-bg {
+  background-color: #dddad8;
 }
 
 hr._salmon-thc {
@@ -408,9 +416,9 @@ header {
 }
 
 #be-the-first {
-  background: url(../img/be-the-first-bg.jpg) #231f20 no-repeat center center
-    fixed;
+  background-color: #dddad8;
   min-height: 300px;
+  padding: 100px 0px 300px 0px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -472,10 +480,11 @@ hr._pink-thc {
   left: 0;
   right: 0;
   width: 100%;
+  max-width: fit-content;
 }
 
 #invite {
-  background: #f2f2f2;
+  background: #dddad8;
 }
 
 .fa-envelope-o {
@@ -511,10 +520,16 @@ footer {
   opacity: 0.5;
 }
 
+/*---------------Main Info-----------------------*/
+#main-info {
+  min-height: 300px;
+  background-color: #dddad8;
+}
+
 /*---------------Pricing Tables-------------------*/
 
 #pricing {
-  background: #70cbce;
+  background: #dddad8;
 }
 
 ._consultant-grid {
@@ -762,6 +777,7 @@ footer {
 
   #be-the-first {
     background-attachment: scroll;
+    padding: 100px 0px 0px 0px;
   }
 
   ._footer-flex {
