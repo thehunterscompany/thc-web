@@ -253,13 +253,80 @@ export default function Home() {
         <section id="invite" className="pad-lg light-gray-bg">
           <div className="container">
             <div className="row margin-40">
-              <div className="col-sm-8 col-sm-offset-2 text-center">
-                <h2 className="_pink-color-thc">
+              <div className="col-sm-10 col-sm-offset-1 text-center margin-30 wow fadeIn">
+                <h1 className="_pink-color-thc">
                   Lo que dicen nuestros clientes
-                </h2>
+                </h1>
               </div>
             </div>
-            <div className="row margin-30 news-container">
+            <div className="row margin-50">
+              <div className="_consultant-grid">
+                <div className="_recommendation-space">
+                  <br />
+                  <div className="_recommendation-item">
+                    <h4>Luis Felipe Lozano</h4>
+                    <img src="img/stars.png" className="_stars" />
+                    <div className="text-left">
+                      <h3>Me encanta!!</h3>
+                      <p>
+                        Yo simplemente te digo que con THC me desentendí de
+                        muchos problemas, me concentré en mi trabajo y todo
+                        fluyó de manera extraordinaria.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="_recommendation-space">
+                  <br />
+                  <div className="_recommendation-item">
+                    <h4>Ana Lucia Rodríguez</h4>
+                    <img src="img/stars.png" className="_stars" />
+                    <div className="text-left">
+                      <h3>He recomendado a THC muchas veces a mis amigos!!</h3>
+                      <p>
+                        Si no fuera por su excelente gestión, rapidez y además,
+                        por hacer mas allá de lo que ofrecen para hacer tu sueño
+                        de comprar una casa una realidad, no hubiera logrado
+                        tener la mia.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="_recommendation-space">
+                  <br />
+                  <div className="_recommendation-item">
+                    <h4>Diego García</h4>
+                    <img src="img/stars.png" className="_stars" />
+                    <div className="text-left">
+                      <h3>
+                        Recomiendo a THC porque el servicio es personalizado!!
+                      </h3>
+                      <p>
+                        Sus asesores se preocupan por ofrecerme el mejor
+                        producto de acuerdo con mis necesidades actuales,
+                        haciendo un acompañamiento cercano, con esto garantizan
+                        que cualquier proceso sea llevado a feliz término.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="_recommendation-space">
+                  <br />
+                  <div className="_recommendation-item">
+                    <h4>Karolina Mejía</h4>
+                    <img src="img/stars.png" className="_stars" />
+                    <div className="text-left">
+                      <h3>Excelente servicio!!</h3>
+                      <p>
+                        Si quieres contar con la mejor asesoría, no lo dudes.
+                        Ellos hacen los sueños realidad.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* <div className="row margin-30 news-container">
               <div
                 className="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft new-styles"
                 data-wow-delay="0.8s"
@@ -326,7 +393,7 @@ export default function Home() {
                   </small>
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
 

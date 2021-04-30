@@ -537,6 +537,32 @@ footer {
   background-color: #dddad8;
 }
 
+/*---------------Recommendation-----------------------*/
+
+._recommendation-space {
+  /* width: 625px; */
+  min-height: 1px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex: 25%;
+}
+
+._recommendation-item {
+  min-height: 342px;
+  width: 100%;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 0 35px 0 rgba(94, 94, 94, 0.5);
+  position: relative;
+  padding: 35px 40px;
+}
+
+._stars {
+  width: 100%;
+  max-width: 200px;
+}
+
 /*---------------Pricing Tables-------------------*/
 
 #pricing {
@@ -935,6 +961,15 @@ footer {
 
 @media screen and (max-width: 992px) {
   .pricing-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 50%;
+  }
+
+  ._recommendation-space {
+    /* width: 625px; */
+    min-height: 1px;
+    text-align: center;
     padding-left: 20px;
     padding-right: 20px;
     flex: 50%;
