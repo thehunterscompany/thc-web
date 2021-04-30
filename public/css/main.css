@@ -653,6 +653,11 @@ footer {
   background: #ffffff;
 }
 
+li.info h4 {
+  font-size: 25px;
+  font-weight: 300;
+}
+
 .features {
   color: #231f20;
   font-weight: bold;

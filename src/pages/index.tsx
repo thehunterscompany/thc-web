@@ -172,7 +172,9 @@ export default function Home() {
                       <img src="img/Santi.png" />
                     </li>
                     <li className="info">
-                      <h4 className="black">María Fuensanta Villena</h4>
+                      <h4 className="_pink-color-thc">
+                        María Fuensanta Villena
+                      </h4>
                     </li>
                     <li className="features first">
                       <p className="black">
@@ -198,7 +200,7 @@ export default function Home() {
                       <img src="img/Cata.png" />
                     </li>
                     <li className="info">
-                      <h4 className="black">Catalina Prado</h4>
+                      <h4 className="_pink-color-thc">Catalina Prado</h4>
                     </li>
                     <li className="features first">
                       <p className="black">
