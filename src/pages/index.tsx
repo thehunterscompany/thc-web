@@ -88,7 +88,7 @@ export default function Home() {
                 className="col-sm-10 col-sm-offset-1 text-center margin-30 wow fadeIn"
                 data-wow-delay="0.6s"
               >
-                <h1>Los principales Bancos de un solo lugar</h1>
+                <h1>Los principales Bancos en un solo lugar</h1>
                 <h3>
                   Buscamos, comparamos y negociamos para conseguirte la mejor
                   financiación.
@@ -135,9 +135,9 @@ export default function Home() {
                 <hr className="line _salmon-thc" />
                 <h3 className="_pink-color-thc">Evaluación y aprobación</h3>
                 <p className="black">
-                  Comparamos todas las ofertas objetivamente y te prestamoos la
+                  Comparamos todas las ofertas objetivamente y te presentamos la
                   mejor opción de forma clara, transparente e imparcial.
-                  Preparamos la documentación y tramitamos la parobación por el
+                  Preparamos la documentación y tramitamos la aprobación por el
                   Banco elegido
                 </p>
               </div>
@@ -148,7 +148,7 @@ export default function Home() {
                 <hr className="line _salmon3-thc" />
                 <h3 className="_pink-color-thc">Desembolso</h3>
                 <p className="black">
-                  Una vez aproobada la operación, te acompañamos en toodo el
+                  Una vez aprobada la operación, te acompañamos en toodo el
                   proceso de contabilización hasta el desembolso final.
                 </p>
               </div>
@@ -255,13 +255,13 @@ export default function Home() {
             <div className="row margin-40">
               <div className="col-sm-8 col-sm-offset-2 text-center">
                 <h2 className="_pink-color-thc">
-                  Lo que dicen nuestro clientes
+                  Lo que dicen nuestros clientes
                 </h2>
               </div>
             </div>
             <div className="row margin-30 news-container">
               <div
-                className="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft"
+                className="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft new-styles"
                 data-wow-delay="0.8s"
               >
                 <p className="black">
@@ -278,7 +278,7 @@ export default function Home() {
 
             <div className="row margin-30 news-container">
               <div
-                className="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft"
+                className="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft new-styles"
                 data-wow-delay="1.2s"
               >
                 <p className="black">
@@ -296,7 +296,7 @@ export default function Home() {
 
             <div className="row margin-30 news-container">
               <div
-                className="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft"
+                className="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft new-styles"
                 data-wow-delay="1.6s"
               >
                 <p className="black">
@@ -314,7 +314,7 @@ export default function Home() {
             </div>
             <div className="row margin-30 news-container">
               <div
-                className="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft"
+                className="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft new-styles"
                 data-wow-delay="2.0s"
               >
                 <p className="black">
@@ -411,10 +411,10 @@ export default function Home() {
                       <div className="_footer-item-location">
                         <p>
                           THC es una empresa broker de servicios de financiación
-                          de vivienda y comercial para personas naturales.
-                          Brindamos una asesoría completa a nuestros clientes
-                          desde la solicitud de financiación hasta el desembolso
-                          de la misma buscando agilidad y las mejores
+                          de vivienda e inmuebles comercial para personas
+                          naturales. Brindamos una asesoría completa a nuestros
+                          clientes desde la solicitud de financiación hasta el
+                          desembolso de la misma buscando agilidad y las mejores
                           condiciones para cada uno de ellos.
                         </p>
                       </div>
