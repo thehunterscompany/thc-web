@@ -37,34 +37,29 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="col-xs-6">
-                <div className="logo">
+                <div className="logo wow fadeInLeft" data-wow-delay="0.1s">
                   <img src="img/ThcLogo.png" alt="Logo" />
                 </div>
               </div>
-              <div className="col-xs-6 text-right navbar-nav _sign-in-padding">
+              <div
+                className="col-xs-6 text-right navbar-nav _sign-in-padding wow fadeInRight"
+                data-wow-delay="0.1s"
+              >
                 <a className="btn btn-secondary btn-sm">Ingresa</a>
               </div>
             </div>
-            <div className="row header-info">
-              <div
-                className="col-sm-10 col-sm-offset-1 text-center"
-                data-wow-delay="0.3s"
-              >
-                <h1 className="wow fadeIn">
+            <div className="row header-info wow fadeIn" data-wow-delay="0.1s">
+              <div className="col-sm-10 col-sm-offset-1 text-center">
+                <h1>
                   Encuentra la mejor financiación para
                   <h1 className="_margin-top-5">tu vivienda</h1>
                 </h1>
-                <h2 className="wow fadeIn" data-wow-delay="0.5s">
-                  Rápido y sin costo.
-                </h2>
+                <h2>Rápido y sin costo.</h2>
                 <br />
                 <div className="row">
                   <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                     <div className="row">
-                      <div
-                        className="wow fadeInUp text-center"
-                        data-wow-delay="1s"
-                      >
+                      <div className="text-center">
                         <a className="btn btn-secondary btn-lg">
                           Calcula tu Cuota
                         </a>
@@ -229,7 +224,7 @@ export default function Home() {
                       <img src="img/Ana.png" />
                     </li>
                     <li className="info">
-                      <h4 className="black">Ana María Merizalde</h4>
+                      <h4 className="_pink-color-thc">Ana María Merizalde</h4>
                     </li>
                     <li className="features first">
                       <p className="black">
@@ -261,14 +256,17 @@ export default function Home() {
             </div>
             <div className="row margin-50">
               <div className="_consultant-grid">
-                <div className="_recommendation-space">
+                <div
+                  className="_recommendation-space wow fadeInLeft"
+                  data-wow-delay="0.3s"
+                >
                   <br />
                   <div className="_recommendation-item">
                     <h4>Luis Felipe Lozano</h4>
                     <img src="img/stars.png" className="_stars" />
                     <div className="text-left">
-                      <h3>Me encanta!!</h3>
-                      <p>
+                      <h3 className="_pink-color-thc">Me encanta!!</h3>
+                      <p className="black">
                         Yo simplemente te digo que con THC me desentendí de
                         muchos problemas, me concentré en mi trabajo y todo
                         fluyó de manera extraordinaria.
@@ -276,14 +274,19 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="_recommendation-space">
+                <div
+                  className="_recommendation-space wow fadeInLeft"
+                  data-wow-delay="0.6s"
+                >
                   <br />
                   <div className="_recommendation-item">
                     <h4>Ana Lucia Rodríguez</h4>
                     <img src="img/stars.png" className="_stars" />
                     <div className="text-left">
-                      <h3>He recomendado a THC muchas veces a mis amigos!!</h3>
-                      <p>
+                      <h3 className="_pink-color-thc">
+                        He recomendado a THC muchas veces a mis amigos!!
+                      </h3>
+                      <p className="black">
                         Si no fuera por su excelente gestión, rapidez y además,
                         por hacer mas allá de lo que ofrecen para hacer tu sueño
                         de comprar una casa una realidad, no hubiera logrado
@@ -292,16 +295,19 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="_recommendation-space">
+                <div
+                  className="_recommendation-space wow fadeInLeft"
+                  data-wow-delay="0.9s"
+                >
                   <br />
                   <div className="_recommendation-item">
                     <h4>Diego García</h4>
                     <img src="img/stars.png" className="_stars" />
                     <div className="text-left">
-                      <h3>
+                      <h3 className="_pink-color-thc">
                         Recomiendo a THC porque el servicio es personalizado!!
                       </h3>
-                      <p>
+                      <p className="black">
                         Sus asesores se preocupan por ofrecerme el mejor
                         producto de acuerdo con mis necesidades actuales,
                         haciendo un acompañamiento cercano, con esto garantizan
@@ -310,14 +316,19 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="_recommendation-space">
+                <div
+                  className="_recommendation-space wow fadeInLeft"
+                  data-wow-delay="1.2s"
+                >
                   <br />
                   <div className="_recommendation-item">
-                    <h4>Karolina Mejía</h4>
+                    <h4 className="black">Karolina Mejía</h4>
                     <img src="img/stars.png" className="_stars" />
                     <div className="text-left">
-                      <h3>Excelente servicio!!</h3>
-                      <p>
+                      <h3 className="_pink-color-thc">
+                        <b>Excelente servicio!!</b>
+                      </h3>
+                      <p className="black">
                         Si quieres contar con la mejor asesoría, no lo dudes.
                         Ellos hacen los sueños realidad.
                       </p>
