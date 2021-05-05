@@ -282,7 +282,7 @@ export default function Home() {
                 >
                   <br />
                   <div className="_recommendation-item">
-                    <h4>Ana Lucia Rodríguez</h4>
+                    <h4>Ana Lucia Rodríguez - brick abogados</h4>
                     <img src="img/stars.png" className="_stars" />
                     <div className="text-left">
                       <h3 className="_pink-color-thc">
