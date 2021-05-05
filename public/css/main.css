@@ -79,6 +79,7 @@ a {
   font-weight: inherit;
   font-size: inherit;
   text-decoration: none;
+  outline: none !important;
 }
 
 a:hover,
