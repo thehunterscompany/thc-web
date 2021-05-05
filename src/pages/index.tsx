@@ -155,7 +155,10 @@ export default function Home() {
         <section id="pricing" className="pad-lg">
           <div className="container">
             <div className="row margin-40">
-              <div className="col-sm-8 col-sm-offset-2 text-center">
+              <div
+                className="col-sm-8 col-sm-offset-2 text-center wow fadeIn"
+                data-wow-delay="0.3s"
+              >
                 <h1 className="_pink-color-thc">Acompañamiento EXPERTO</h1>
               </div>
             </div>
