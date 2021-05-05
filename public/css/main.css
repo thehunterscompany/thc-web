@@ -349,7 +349,7 @@ header {
   left: 0;
   right: 0;
   margin-left: 0px;
-  margin-bottom: 33vh;
+  margin-bottom: 35vh;
 }
 
 .signin {
@@ -985,5 +985,11 @@ li.info h4 {
 @media screen and (max-width: 600px) {
   ._consultant-grid {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-height: 609px) and (orientation: landscape) {
+  .hidden-xs {
+    display: none !important;
   }
 }
