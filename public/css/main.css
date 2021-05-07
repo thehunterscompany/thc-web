@@ -419,7 +419,7 @@ header {
 #be-the-first {
   background-color: #dddad8;
   min-height: 300px;
-  padding: 100px 0px 300px 0px;
+  padding: 100px 0px 200px 0px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -471,17 +471,20 @@ hr._pink-thc {
 }
 
 ._banks {
-  position: relative;
-  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
-._banks img {
-  margin: 0 auto;
-  position: absolute;
-  left: 0;
-  right: 0;
+._banks-item {
+  flex: 1 0 29%;
+  margin: 10px;
+}
+
+._banks-item img {
   width: 100%;
-  max-width: fit-content;
+  max-width: 250px;
 }
 
 #invite {
@@ -802,6 +805,29 @@ li.info h4 {
      Mobile styles
      ========================================================================== */
 /* Landscape phones and down */
+
+@media (max-width: 490px) {
+  ._banks {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  ._last-item img {
+    width: 47.7%;
+  }
+}
+
+/* @media (min-width: 768px)  and (max-width: 991px){
+  ._banks {
+    height: 87rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+  } */
+
 @media screen and (orientation: portrait) and (max-width: 480px) {
   .btn-lg {
     font-size: 16px;
@@ -933,14 +959,14 @@ li.info h4 {
 
 /* Desktops and laptops ----------- */
 @media (min-width: 992px) and (max-width: 1199px) {
-  ._banks img {
+  /* ._banks img {
     margin: 0 auto;
     position: absolute;
     left: 0;
     right: 0;
     width: 100%;
     max-width: 85%;
-  }
+  } */
 
   ._footer-flex {
     flex: 0 0 33%;
@@ -950,14 +976,14 @@ li.info h4 {
 
 /* Large screens ----------- */
 @media (min-width: 1200px) and (max-width: 3000px) {
-  ._banks img {
+  /* ._banks img {
     margin: 0 auto;
     position: absolute;
     left: 0;
     right: 0;
     width: 100%;
     max-width: 85%;
-  }
+  } */
 
   ._footer-flex {
     flex: 0 0 33%;

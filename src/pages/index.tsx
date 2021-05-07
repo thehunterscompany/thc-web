@@ -92,7 +92,33 @@ export default function Home() {
             </div>
 
             <div className="_banks wow fadeInUp" data-wow-delay="1s">
-              <img src="img/BancosLogos.png" />
+              <div className="_banks-item">
+                <img src="img/CasaPropia.png" />
+              </div>
+              <div className="_banks-item">
+                <img src="img/CasaPropia.png" />
+              </div>
+              <div className="_banks-item">
+                <img src="img/CasaPropia.png" />
+              </div>
+              <div className="_banks-item">
+                <img src="img/CasaPropia.png" />
+              </div>
+              <div className="_banks-item">
+                <img src="img/CasaPropia.png" />
+              </div>
+              <div className="_banks-item">
+                <img src="img/CasaPropia.png" />
+              </div>
+              <div className="_banks-item">
+                <img src="img/CasaPropia.png" />
+              </div>
+              <div className="_banks-item">
+                <img src="img/CasaPropia.png" />
+              </div>
+              <div className="_banks-item _last-item">
+                <img src="img/CasaPropia.png" />
+              </div>
             </div>
           </div>
         </section>
