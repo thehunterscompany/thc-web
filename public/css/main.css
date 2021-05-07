@@ -350,7 +350,7 @@ header {
   left: 0;
   right: 0;
   margin-left: 0px;
-  margin-bottom: 35vh;
+  margin-bottom: 36vh;
 }
 
 .signin {
@@ -1029,5 +1029,19 @@ li.info h4 {
     padding: 22px 30px;
     font-weight: 400;
     letter-spacing: 1px;
+  }
+
+  header {
+    height: 110vh;
+  }
+
+  .header-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-left: 0px;
+    margin-bottom: -6vh;
   }
 }
