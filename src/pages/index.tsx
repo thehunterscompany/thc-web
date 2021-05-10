@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <html>
+    <html lang="en">
       <Head>
         <title>Te conseguimos la mejor financiación para tu vivienda </title>
         <meta name="keywords" content="" />
@@ -15,7 +15,6 @@ export default function Home() {
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
-
         <meta property="og:title" content="" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="" />
@@ -117,7 +116,7 @@ export default function Home() {
               </div>
               <div className="col-sm-4 wow fadeIn" data-wow-delay="0.6s">
                 <div className="text-center _info-img">
-                  <img src="img/Form.png" alt="Form" />
+                  <img src="img/Form.svg" alt="Form" />
                 </div>
                 <hr className="line _salmon2-thc" />
                 <h3 className="_pink-color-thc">Solicitud Online</h3>
@@ -459,7 +458,7 @@ export default function Home() {
           </div>
         </footer>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        {/* <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> */}
         {/* <script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script> */}
         <script src="js/wow.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
