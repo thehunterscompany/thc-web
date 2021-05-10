@@ -22,7 +22,7 @@ export default function Home() {
         <meta property="og:description" content="" />
 
         <link rel="stylesheet" href="css/font-awesome.min.css" />
-        <link rel="stylesheet" href="css/animate.css" />
+        {/* <link rel="stylesheet" href="css/animate.css" /> */}
         <link
           href="http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Montserrat:400,700"
           rel="stylesheet"
@@ -175,7 +175,7 @@ export default function Home() {
                   <br />
                   <ul className="list-unstyled pricing-table active text-center">
                     <li className="headline">
-                      <img src="img/Santi.png" alt="Broker Santi" />
+                      <img src="img/Santi.svg" alt="Broker Santi" />
                     </li>
                     <li className="info">
                       <h4 className="_pink-color-thc">Santi Villena</h4>
@@ -201,7 +201,7 @@ export default function Home() {
                   <br />
                   <ul className="list-unstyled pricing-table active text-center">
                     <li className="headline">
-                      <img src="img/Cata.png" alt="Broker Cata" />
+                      <img src="img/Cata.svg" alt="Broker Cata" />
                     </li>
                     <li className="info">
                       <h4 className="_pink-color-thc">Catalina Prado</h4>
@@ -227,7 +227,7 @@ export default function Home() {
                   <br />
                   <ul className="list-unstyled pricing-table active text-center">
                     <li className="headline">
-                      <img src="img/Ana.png" alt="Broker Ana" />
+                      <img src="img/Ana.svg" alt="Broker Ana" />
                     </li>
                     <li className="info">
                       <h4 className="_pink-color-thc">Ana María Merizalde</h4>

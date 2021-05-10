@@ -14,6 +14,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 .fa {
   display: inline-block;
   font-family: FontAwesome !important;
@@ -23,6 +24,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/*
 .fa-lg {
   font-size: 1.3333333333333333em;
   line-height: 0.75em;
@@ -592,9 +594,11 @@
 .fa-sign-out:before {
   content: "\f08b";
 }
+*/
 .fa-linkedin-square:before {
   content: "\f08c";
 }
+/*
 .fa-thumb-tack:before {
   content: "\f08d";
 }
@@ -801,9 +805,12 @@
 .fa-envelope:before {
   content: "\f0e0";
 }
+*/
+
 .fa-linkedin:before {
   content: "\f0e1";
 }
+/*
 .fa-rotate-left:before,
 .fa-undo:before {
   content: "\f0e2";
@@ -1217,9 +1224,11 @@
 .fa-stack-overflow:before {
   content: "\f16c";
 }
+*/
 .fa-instagram:before {
   content: "\f16d";
 }
+/*
 .fa-flickr:before {
   content: "\f16e";
 }
@@ -1336,3 +1345,4 @@
 .fa-plus-square-o:before {
   content: "\f196";
 }
+*/

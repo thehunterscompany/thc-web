@@ -332,7 +332,8 @@ hr._salmon3-thc {
      Main styles
      ========================================================================== */
 header {
-  background: url(../img/shutterstock_1751229722.jpg) no-repeat center center;
+  /* background: url(../img/shutterstock_1751229722.jpg) no-repeat center center; */
+  background-color: white;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;
@@ -622,6 +623,7 @@ footer {
 .headline img {
   width: 100%;
   max-width: 353px;
+  height: 100%;
 }
 
 .price {
