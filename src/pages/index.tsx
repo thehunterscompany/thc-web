@@ -92,7 +92,7 @@ export default function Home() {
             </div>
 
             <div className="_banks wow fadeInUp" data-wow-delay="1s">
-              <img src="img/BancosLogos.png" />
+              <img src="img/BancosLogos.png" alt="Logos de Bancos" />
             </div>
           </div>
         </section>
@@ -172,12 +172,10 @@ export default function Home() {
                   <br />
                   <ul className="list-unstyled pricing-table active text-center">
                     <li className="headline">
-                      <img src="img/Santi.png" />
+                      <img src="img/Santi.png" alt="Broker Santi" />
                     </li>
                     <li className="info">
-                      <h4 className="_pink-color-thc">
-                        María Fuensanta Villena
-                      </h4>
+                      <h4 className="_pink-color-thc">Santi Villena</h4>
                     </li>
                     <li className="features first">
                       <p className="black">
@@ -200,7 +198,7 @@ export default function Home() {
                   <br />
                   <ul className="list-unstyled pricing-table active text-center">
                     <li className="headline">
-                      <img src="img/Cata.png" />
+                      <img src="img/Cata.png" alt="Broker Cata" />
                     </li>
                     <li className="info">
                       <h4 className="_pink-color-thc">Catalina Prado</h4>
@@ -226,7 +224,7 @@ export default function Home() {
                   <br />
                   <ul className="list-unstyled pricing-table active text-center">
                     <li className="headline">
-                      <img src="img/Ana.png" />
+                      <img src="img/Ana.png" alt="Broker Ana" />
                     </li>
                     <li className="info">
                       <h4 className="_pink-color-thc">Ana María Merizalde</h4>
@@ -268,7 +266,11 @@ export default function Home() {
                   <br />
                   <div className="_recommendation-item">
                     <h4>Luis Felipe Lozano</h4>
-                    <img src="img/stars.png" className="_stars" />
+                    <img
+                      src="img/stars.png"
+                      className="_stars"
+                      alt="Estrellas"
+                    />
                     <div className="text-left">
                       <h3 className="_pink-color-thc">Me encanta!!</h3>
                       <p className="black">
@@ -286,7 +288,11 @@ export default function Home() {
                   <br />
                   <div className="_recommendation-item">
                     <h4>Ana Lucia Rodríguez - brick abogados</h4>
-                    <img src="img/stars.png" className="_stars" />
+                    <img
+                      src="img/stars.png"
+                      className="_stars"
+                      alt="Estrellas"
+                    />
                     <div className="text-left">
                       <h3 className="_pink-color-thc">
                         He recomendado a THC muchas veces a mis amigos!!
@@ -307,7 +313,11 @@ export default function Home() {
                   <br />
                   <div className="_recommendation-item">
                     <h4>Diego García</h4>
-                    <img src="img/stars.png" className="_stars" />
+                    <img
+                      src="img/stars.png"
+                      className="_stars"
+                      alt="Estrellas"
+                    />
                     <div className="text-left">
                       <h3 className="_pink-color-thc">
                         Recomiendo a THC porque el servicio es personalizado!!
@@ -328,7 +338,11 @@ export default function Home() {
                   <br />
                   <div className="_recommendation-item">
                     <h4 className="black">Karolina Mejía</h4>
-                    <img src="img/stars.png" className="_stars" />
+                    <img
+                      src="img/stars.png"
+                      className="_stars"
+                      alt="Estrellas"
+                    />
                     <div className="text-left">
                       <h3 className="_pink-color-thc">
                         <b>Excelente servicio!!</b>
@@ -342,74 +356,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            {/* <div className="row margin-30 news-container">
-              <div
-                className="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft new-styles"
-                data-wow-delay="0.8s"
-              >
-                <p className="black">
-                  "<b>Me encanta.</b> Yo simplemente te digo que con THC me
-                  desentendí de muchos problemas, me concentré en mi trabajo y
-                  todo fluyó de manera extraordinaria."
-                  <br />
-                  <small>
-                    <em>Luis Felipe Lozano</em>
-                  </small>
-                </p>
-              </div>
-            </div>
-
-            <div className="row margin-30 news-container">
-              <div
-                className="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft new-styles"
-                data-wow-delay="1.2s"
-              >
-                <p className="black">
-                  "<b>He recomendado a THC muchas veces a mis amigos.</b> Si no
-                  fuera por su excelente gestión, rapidez y además, por hacer
-                  mas allá de lo que ofrecen para hacer tu sueño de comprar una
-                  casa una realidad, no hubiera logrado tener la mia."
-                  <br />
-                  <small>
-                    <em>Ana Lucia Rodríguez </em>
-                  </small>
-                </p>
-              </div>
-            </div>
-
-            <div className="row margin-30 news-container">
-              <div
-                className="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft new-styles"
-                data-wow-delay="1.6s"
-              >
-                <p className="black">
-                  "<b>Recomiendo a THC porque el servicio es personalizado</b>,
-                  sus asesores se preocupan por ofrecerme el mejor producto de
-                  acuerdo con mis necesidades actuales, haciendo un
-                  acompañamiento cercano, con esto garantizan que cualquier
-                  proceso sea llevado a feliz término.“
-                  <br />
-                  <small>
-                    <em>Diego García</em>
-                  </small>
-                </p>
-              </div>
-            </div>
-            <div className="row margin-30 news-container">
-              <div
-                className="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft new-styles"
-                data-wow-delay="2.0s"
-              >
-                <p className="black">
-                  "<b>Excelente servicio.</b> Si quieres contar con la mejor
-                  asesoría, no lo dudes. Ellos hacen los sueños realidad .“
-                  <br />
-                  <small>
-                    <em>Karolina Mejía</em>
-                  </small>
-                </p>
-              </div>
-            </div> */}
           </div>
         </section>
 
