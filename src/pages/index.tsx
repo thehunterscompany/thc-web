@@ -95,7 +95,7 @@ export default function Home() {
             </div>
 
             <div className="_banks wow fadeInUp" data-wow-delay="1s">
-              <img src="img/BancosLogos.png" alt="Logos de Bancos" />
+              <img src="img/BancosLogos.svg" alt="Logos de Bancos" />
             </div>
           </div>
         </section>
@@ -270,7 +270,7 @@ export default function Home() {
                   <div className="_recommendation-item">
                     <h4>Luis Felipe Lozano</h4>
                     <img
-                      src="img/stars.png"
+                      src="img/stars.svg"
                       className="_stars"
                       alt="Estrellas"
                     />
@@ -292,7 +292,7 @@ export default function Home() {
                   <div className="_recommendation-item">
                     <h4>Ana Lucia Rodríguez - brick abogados</h4>
                     <img
-                      src="img/stars.png"
+                      src="img/stars.svg"
                       className="_stars"
                       alt="Estrellas"
                     />
@@ -317,7 +317,7 @@ export default function Home() {
                   <div className="_recommendation-item">
                     <h4>Diego García</h4>
                     <img
-                      src="img/stars.png"
+                      src="img/stars.svg"
                       className="_stars"
                       alt="Estrellas"
                     />
@@ -342,7 +342,7 @@ export default function Home() {
                   <div className="_recommendation-item">
                     <h4 className="black">Karolina Mejía</h4>
                     <img
-                      src="img/stars.png"
+                      src="img/stars.svg"
                       className="_stars"
                       alt="Estrellas"
                     />
@@ -370,11 +370,11 @@ export default function Home() {
                   <span className="_footer-block-title">Contáctenos</span>
                   <ul className="_footer-block-list">
                     <li className="_footer-block-item">
-                      <img src="img/email.png" alt="Email" />
+                      <img src="img/email.svg" alt="Email" />
                       <a href="mailto:info@thcsas.com.co">info@thcsas.com.co</a>
                     </li>
                     <li className="_footer-block-item">
-                      <img src="img/whatsapp.png" alt="Whatsapp" />
+                      <img src="img/whatsapp.svg" alt="Whatsapp" />
                       <a
                         href="https://api.whatsapp.com/send?phone=+573104908414"
                         target="_blank"
@@ -383,13 +383,18 @@ export default function Home() {
                       </a>
                     </li>
                     <li className="_footer-block-item">
-                      <img src="img/phone.png" alt="Phone" />
+                      <img src="img/phone.svg" alt="Phone" />
                       <a href="tel:+573104908414">311 854 2488</a>
                     </li>
                     <li className="_footer-block-item">
-                      <img src="img/location.png" alt="Location" />
+                      <img src="img/location.svg" alt="Location" />
                       <div className="_footer-item-location">
-                        <p>Carrera 14#96-15 piso 1. Bogotá DC</p>
+                        <a
+                          href="http://maps.google.com/?q=Cra.+14+%2396-15,+Bogotá,+Colombia"
+                          target="_blank"
+                        >
+                          Carrera 14#96-15 piso 1. Bogotá DC
+                        </a>
                       </div>
                     </li>
                     <li className="_footer-block-item">
