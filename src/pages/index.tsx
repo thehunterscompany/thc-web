@@ -128,7 +128,7 @@ export default function Home() {
               </div>
               <div className="col-sm-4 wow fadeIn" data-wow-delay="0.9s">
                 <div className="text-center _info-img">
-                  <img src="img/Stamp.png" alt="Stamp" />
+                  <img src="img/Stamp.svg" alt="Stamp" />
                 </div>
                 <hr className="line _salmon-thc" />
                 <h3 className="_pink-color-thc">Evaluación y aprobación</h3>
@@ -141,7 +141,7 @@ export default function Home() {
               </div>
               <div className="col-sm-4 wow fadeIn" data-wow-delay="1.2s">
                 <div className="text-center _info-img">
-                  <img src="img/Keys.png" alt="Keys" />
+                  <img src="img/Keys.svg" alt="Keys" />
                 </div>
                 <hr className="line _salmon3-thc" />
                 <h3 className="_pink-color-thc">Desembolso</h3>
