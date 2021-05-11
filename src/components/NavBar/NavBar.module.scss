@@ -1,0 +1,206 @@
+.our-story-header-wrapper {
+  background-color: transparent;
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 10rem;
+  z-index: 10;
+}
+@media only screen and (min-width: 950px) and (max-width: 1449px) {
+  .our-story-header-wrapper {
+    height: 4rem;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 949px),
+  only screen and (min-width: 400px) and (max-width: 549px),
+  only screen and (min-width: 350px) and (max-width: 399px),
+  only screen and (max-width: 349px) {
+  .our-story-header-wrapper {
+    height: 45px;
+  }
+}
+.our-story-header {
+  position: relative;
+  margin: 0 3.5rem;
+  height: 100%;
+}
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+  .our-story-header {
+    margin: 0 45px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 549px),
+  only screen and (min-width: 350px) and (max-width: 399px),
+  only screen and (max-width: 349px) {
+  .our-story-header {
+    margin: 0 5%;
+  }
+}
+.our-story-header .our-story-cta-container {
+  float: right;
+}
+.nfLogo {
+  line-height: normal;
+}
+.nfLogo .svg-icon-netflix-logo {
+  padding-top: 0.5rem;
+  height: 45px;
+  width: 167px;
+}
+@media only screen and (min-width: 950px) and (max-width: 1449px) {
+  .nfLogo .svg-icon-netflix-logo {
+    height: 36px;
+    width: 134px;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+  .nfLogo .svg-icon-netflix-logo {
+    height: 32px;
+    width: 108px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 549px),
+  only screen and (min-width: 350px) and (max-width: 399px),
+  only screen and (max-width: 349px) {
+  .nfLogo .svg-icon-netflix-logo {
+    height: 24px;
+    width: 30%;
+  }
+}
+.authLinks {
+  color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-top: 0.5rem;
+}
+.authLinks:hover {
+  text-decoration: none;
+}
+.authLinks.redButton {
+  background-color: #e50914;
+  line-height: normal;
+  padding: 7px 17px;
+  font-weight: 400;
+  font-size: 1rem;
+  float: right;
+}
+@media only screen and (min-width: 400px) and (max-width: 549px),
+  only screen and (min-width: 350px) and (max-width: 399px),
+  only screen and (max-width: 349px) {
+  .authLinks.redButton {
+    font-size: 0.9rem;
+    margin-top: 0.35rem;
+    padding: 0.25rem 0.5rem;
+  }
+}
+
+.our-story-header .authLinks.redButton,
+.our-story-header .our-story-cta-container {
+  float: none;
+  margin-top: 0;
+  white-space: nowrap;
+}
+
+.footer-divider {
+  display: none;
+}
+.site-footer-wrapper {
+  margin-top: 0;
+}
+.site-footer {
+  padding-top: 0;
+}
+.footer-card {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.footer-card .dark .ui-select-wrapper .ui-select {
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #333;
+  color: #999;
+  font-size: 16px;
+}
+.footer-card .dark .ui-select-wrapper .select-arrow::after {
+  top: 22px;
+  color: #999;
+}
+.footer-card .dark .ui-select-wrapper .select-arrow.prefix::before {
+  top: 17px;
+  color: #999;
+}
+.cookie-disclosure-clicked #cookie-disclosure {
+  display: none;
+}
+.cookie-disclosure-visible #cookie-disclosure {
+  top: 0;
+  bottom: auto;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  text-size-adjust: none;
+}
+.our-story-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row nowrap;
+  -moz-box-orient: horizontal;
+  -moz-box-direction: normal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -moz-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -moz-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  padding-top: 0.5rem;
+  height: auto;
+}
+
+.our-story-header .our-story-logo {
+  margin-right: auto;
+}
+.our-story-header .nfLogo .svg-icon-netflix-logo {
+  width: auto;
+  height: 1.5rem;
+  padding-top: 0;
+}
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+  .our-story-header .nfLogo .svg-icon-netflix-logo {
+    width: 6.75rem;
+    height: 2rem;
+  }
+}
+@media only screen and (min-width: 950px) and (max-width: 1449px) {
+  .our-story-header .nfLogo .svg-icon-netflix-logo {
+    width: 8.375rem;
+    height: 2.25rem;
+  }
+}
+@media only screen and (min-width: 1450px) {
+  .our-story-header .nfLogo .svg-icon-netflix-logo {
+    width: 10.4375rem;
+    height: 2.8125rem;
+  }
+}
