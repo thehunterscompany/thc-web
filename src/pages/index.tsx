@@ -1,4 +1,5 @@
 import Head from "next/head";
+import NavBar from "../components/NavBar/NavBar";
 
 export default function Home() {
   return (
@@ -32,7 +33,7 @@ export default function Home() {
         {/* <link
           href="http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Montserrat:400,700"
           rel="stylesheet"
-          type="text/css"
+          type="text/css"zq
         /> */}
 
         <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -40,8 +41,9 @@ export default function Home() {
 
         <script src="js/modernizr-2.7.1.js"></script>
       </Head>
+      <NavBar />
 
-      <body>
+      {/* <body>
         <header>
           <div className="container">
             <div className="row">
@@ -58,11 +60,8 @@ export default function Home() {
               </div>
             </div>
             <div className="row header-info wow fadeIn" data-wow-delay="0.1s">
-              <div className="col-sm-10 col-sm-offset-1 text-center">
-                <h1>
-                  Encuentra la mejor financiación para
-                  <h1 className="_margin-top-5">tu vivienda</h1>
-                </h1>
+              <div className="text-center">
+                <h1>Encuentra la mejor financiación para tu vivienda</h1>
                 <h2>Rápido y sin costo.</h2>
                 <br />
                 <div className="row">
@@ -83,9 +82,9 @@ export default function Home() {
 
         <div className="mouse-icon hidden-xs">
           <div className="scroll"></div>
-        </div>
+        </div> */}
 
-        <section id="be-the-first">
+      {/* <section id="be-the-first">
           <div className="container">
             <div className="row">
               <div
@@ -105,9 +104,9 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <hr className="line _pink-thc" />
+        <hr className="line _pink-thc" /> */}
 
-        <section id="main-info" className="pad-xl">
+      {/* <section id="main-info" className="pad-xl">
           <div className="container">
             <div className="row">
               <div
@@ -467,14 +466,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </footer>
-
-        {/* <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> */}
-        {/* <script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script> */}
-        {/* <script src="js/wow.min.js"></script> */}
-        {/* <script src="js/bootstrap.min.js"></script> */}
-        {/* <script src="js/main.js"></script> */}
-      </body>
+        </footer> */}
+      {/* </body> */}
     </html>
   );
 }
