@@ -4,6 +4,7 @@
 @font-face {
   font-family: "Abadi";
   src: local("Abadi"), url(../fonts/AbadiMTStd.otf) format("opentype");
+  font-display: swap;
 }
 
 * {
@@ -332,8 +333,7 @@ hr._salmon3-thc {
      Main styles
      ========================================================================== */
 header {
-  /* background: url(../img/shutterstock_1751229722.jpg) no-repeat center center; */
-  background-color: white;
+  background: url(../img/fondo.jpg) no-repeat center center;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;

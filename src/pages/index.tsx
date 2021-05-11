@@ -20,14 +20,20 @@ export default function Home() {
         <meta property="og:url" content="" />
         <meta property="og:site_name" content="" />
         <meta property="og:description" content="" />
+        <link
+          rel="preload"
+          href="fonts/AbadiMTStd.otf"
+          as="font"
+          type="font/otf"
+        />
 
         <link rel="stylesheet" href="css/font-awesome.min.css" />
         {/* <link rel="stylesheet" href="css/animate.css" /> */}
-        <link
+        {/* <link
           href="http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Montserrat:400,700"
           rel="stylesheet"
           type="text/css"
-        />
+        /> */}
 
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/main.css" />
@@ -465,9 +471,9 @@ export default function Home() {
 
         {/* <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> */}
         {/* <script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script> */}
-        <script src="js/wow.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/main.js"></script>
+        {/* <script src="js/wow.min.js"></script> */}
+        {/* <script src="js/bootstrap.min.js"></script> */}
+        {/* <script src="js/main.js"></script> */}
       </body>
     </html>
   );
