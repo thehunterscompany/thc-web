@@ -1,11 +1,14 @@
-import Image from "next/image";
-const Logo = () => (
-  <Image
-    src="/images/logos/THcLogo.png"
+import React, { FC } from "react";
+
+interface imageProps {
+  className: string;
+}
+
+const Logo: FC<imageProps> = ({ className }) => (
+  <img
+    src="/images/logos/THCLogo.svg"
     alt="Logo de THC"
-    layout="responsive"
-    width="809"
-    height="300"
+    className={className}
   />
 );
 
