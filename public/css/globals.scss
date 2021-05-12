@@ -1,0 +1,66 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+*:focus {
+  outline: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+}
+
+* a {
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+._btn {
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: none;
+  background-color: #e72c67;
+  color: #f3f2ef !important;
+}
+
+._btn-lg {
+  font-size: 22px;
+  line-height: 1.33;
+  padding: 22px 30px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+._btn-sm {
+  font-size: 16px;
+  line-height: 1.33;
+  padding: 10px 18px;
+  font-weight: 400;
+}
+
+._btn:hover,
+._btn:focus,
+._btn:active,
+._btn.active {
+  background-color: #f396b3;
+  color: #f3f2ef !important;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline: none;
+}

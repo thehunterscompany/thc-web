@@ -3,14 +3,14 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */ /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-html {
+/* html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 body {
   margin: 0;
-}
+} */
 article,
 aside,
 details,
@@ -1067,7 +1067,7 @@ th {
 .glyphicon-menu-up:before {
   content: "\e260";
 }
-* {
+/* * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -1116,7 +1116,7 @@ figure {
 }
 img {
   vertical-align: middle;
-}
+} */
 .carousel-inner > .item > a > img,
 .carousel-inner > .item > img,
 .img-responsive,
