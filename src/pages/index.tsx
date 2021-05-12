@@ -6,7 +6,15 @@ export default function Home() {
   return (
     <>
       <Head>
-        {/* <title>Te conseguimos la mejor financiación para tu vivienda </title>
+        <title>Te conseguimos la mejor financiación para tu vivienda</title>
+        <meta
+          name="viewport"
+          content="initial-scale=1.0, width=device-width maximum-scale=5.0"
+        />
+      </Head>
+      <NavBar />
+
+      {/* <title>Te conseguimos la mejor financiación para tu vivienda </title>
         <meta name="keywords" content="" />
         <meta
           name="description"
@@ -29,23 +37,22 @@ export default function Home() {
           type="font/otf"
         /> */}
 
-        {/* <link rel="stylesheet" href="css/font-awesome.min.css" /> */}
-        {/* <link rel="stylesheet" href="css/animate.css" /> */}
-        {/* <link
+      {/* <link rel="stylesheet" href="css/font-awesome.min.css" /> */}
+      {/* <link rel="stylesheet" href="css/animate.css" /> */}
+      {/* <link
           href="http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Montserrat:400,700"
           rel="stylesheet"
           type="text/css"zq
         /> */}
 
-        {/* <link rel="stylesheet" href="css/bootstrap.min.css" />
+      {/* <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/main.css" /> */}
 
-        {/* <script src="js/modernizr-2.7.1.js"></script> */}
-      </Head>
+      {/* <script src="js/modernizr-2.7.1.js"></script> */}
 
       {/* <body>
         <header> */}
-      <NavBar />
+      {/* <NavBar /> */}
       {/* <div className="row header-info wow fadeIn" data-wow-delay="0.1s">
             <div className="text-center">
               <h1>Encuentra la mejor financiación para tu vivienda</h1>
