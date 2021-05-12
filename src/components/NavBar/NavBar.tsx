@@ -1,18 +1,15 @@
 import React from "react";
 import { THC } from "../../../public/images/logos";
+// import { THC } from "@images/logo";
 import styles from "./NavBar.module.scss";
 
 const NavBar = () => (
-  <div className={styles["our-story-header-wrapper"]}>
-    <div className={styles["our-story-header"]}>
-      <span className={`${styles["our-story-logo"]} ${styles["nfLogo"]}`}>
-        <div className={`${styles["svg-icon-netflix-logo"]}`}>
-          <THC />
-        </div>
-      </span>
-      <a href="" className={`${styles["authLinks"]} ${styles["redButton"]}`}>
-        Ingresa
-      </a>
+  <div className={styles._navbarSpace}>
+    <div className={styles._navbar}>
+      <div style={{ marginRight: "auto" }}>
+        <THC className={styles["_thc-logo-navbar"]} />
+      </div>
+      <a className="_btn _btn-sm">Ingresa</a>
     </div>
   </div>
 );
