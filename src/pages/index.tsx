@@ -4,9 +4,9 @@ import NavBar from "../components/NavBar/NavBar";
 
 export default function Home() {
   return (
-    <html lang="en">
+    <>
       <Head>
-        <title>Te conseguimos la mejor financiación para tu vivienda </title>
+        {/* <title>Te conseguimos la mejor financiación para tu vivienda </title>
         <meta name="keywords" content="" />
         <meta
           name="description"
@@ -27,7 +27,7 @@ export default function Home() {
           href="fonts/AbadiMTStd.otf"
           as="font"
           type="font/otf"
-        />
+        /> */}
 
         {/* <link rel="stylesheet" href="css/font-awesome.min.css" /> */}
         {/* <link rel="stylesheet" href="css/animate.css" /> */}
@@ -37,10 +37,10 @@ export default function Home() {
           type="text/css"zq
         /> */}
 
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/main.css" />
+        {/* <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/main.css" /> */}
 
-        <script src="js/modernizr-2.7.1.js"></script>
+        {/* <script src="js/modernizr-2.7.1.js"></script> */}
       </Head>
 
       {/* <body>
@@ -459,6 +459,6 @@ export default function Home() {
           </div>
         </footer> 
       </body> */}
-    </html>
+    </>
   );
 }

@@ -4,6 +4,16 @@ body {
   margin: 0px;
 }
 
+@font-face {
+  font-family: "Abadi";
+  src: local("Abadi"), url(../fonts/AbadiMTStd.otf) format("opentype");
+  font-display: swap;
+}
+
+* {
+  font-family: "Abadi" !important;
+}
+
 *:focus {
   outline: none;
 }
