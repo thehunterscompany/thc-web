@@ -1,6 +1,5 @@
 import Head from "next/head";
-import FirstScreen from "../components/FirstScreen/FirstScreen";
-import NavBar from "../components/NavBar/NavBar";
+import Sections from "../components/Sections/Sections";
 
 export default function Home() {
   return (
@@ -12,7 +11,7 @@ export default function Home() {
           content="initial-scale=1.0, width=device-width maximum-scale=5.0"
         />
       </Head>
-      <NavBar />
+      <Sections />
 
       {/* <title>Te conseguimos la mejor financiación para tu vivienda </title>
         <meta name="keywords" content="" />

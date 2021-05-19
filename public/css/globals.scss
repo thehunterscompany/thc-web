@@ -38,6 +38,12 @@ h6 {
   margin: 0;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
 ._btn {
   text-transform: uppercase;
   border-radius: 4px;
@@ -74,4 +80,20 @@ h6 {
   transition: all 0.35s ease-in-out;
   outline: 0px auto -webkit-focus-ring-color;
   outline: none;
+}
+
+._thc-story-section {
+  position: relative;
+  border-bottom: 8px solid #222;
+  padding: 50px 5%;
+  margin-bottom: 0;
+  background: 0 0;
+  color: #fff;
+}
+@media only screen and (min-width: 550px) and (max-width: 949px),
+  only screen and (min-width: 950px) and (max-width: 1449px),
+  only screen and (min-width: 1450px) {
+  ._thc-story-section {
+    padding: 70px 45px;
+  }
 }
