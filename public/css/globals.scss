@@ -4,14 +4,21 @@ body {
   margin: 0px;
 }
 
+// @font-face {
+//   font-family: "Abadi";
+//   src: local("Abadi"), url(../fonts/AbadiMTStd.otf) format("opentype");
+//   font-display: swap;
+// }
+
 @font-face {
-  font-family: "Abadi";
-  src: local("Abadi"), url(../fonts/AbadiMTStd.otf) format("opentype");
+  font-family: "Playfair";
+  src: local("Playfair"),
+    url(../fonts/PlayfairDisplay-Regular.ttf) format("truetype");
   font-display: swap;
 }
 
 * {
-  font-family: "Abadi" !important;
+  font-family: "Playfair" !important;
 }
 
 *:focus {
@@ -36,6 +43,47 @@ h4,
 h5,
 h6 {
   margin: 0;
+}
+
+h1 {
+  font-size: 27px;
+  margin: 0 0 0.4em;
+}
+h2,
+h3,
+h4,
+h5 {
+  margin: 0.75em 0 0.25em;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 16px;
+}
+h5 {
+  font-size: 14px;
+}
+@media screen and (min-width: 740px) {
+  h1 {
+    font-size: 38px;
+  }
+  h2 {
+    font-size: 27px;
+  }
+  h3 {
+    font-size: 23px;
+  }
+  h4 {
+    font-size: 19px;
+  }
+  h5 {
+    font-size: 16px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  }
 }
 
 img {
@@ -80,20 +128,4 @@ img {
   transition: all 0.35s ease-in-out;
   outline: 0px auto -webkit-focus-ring-color;
   outline: none;
-}
-
-._thc-story-section {
-  position: relative;
-  border-bottom: 8px solid #222;
-  padding: 50px 5%;
-  margin-bottom: 0;
-  background: 0 0;
-  color: #fff;
-}
-@media only screen and (min-width: 550px) and (max-width: 949px),
-  only screen and (min-width: 950px) and (max-width: 1449px),
-  only screen and (min-width: 1450px) {
-  ._thc-story-section {
-    padding: 70px 45px;
-  }
 }
