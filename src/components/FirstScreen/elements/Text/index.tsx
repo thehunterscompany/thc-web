@@ -3,8 +3,10 @@ import styles from "./styles.module.scss";
 
 const Text = () => (
   <div className="_text-space">
-    <h1 className="_text-space-title">Unlimited movies, TV shows, and more.</h1>
-    <h2 className="_text-space-subtitle">Watch anywhere. Cancel anytime.</h2>
+    <h1 className="_text-space-title">
+      Encuentra la mejor financiación para tu vivienda
+    </h1>
+    <h2 className="_text-space-subtitle">Rápido y sin costo.</h2>
     <div>
       <a className="_btn _btn-secondary _btn-lg">Calcula tu Cuota</a>
     </div>
