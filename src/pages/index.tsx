@@ -6,9 +6,11 @@ export default function Home() {
     <>
       <Head>
         <title>Te conseguimos la mejor financiación para tu vivienda</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
-          name="viewport"
-          content="initial-scale=1.0, width=device-width maximum-scale=5.0"
+          name="description"
+          content="Landing Page para la compañia The Hunters company. Es una empresa broker de servicios de financiación
+                  de vivienda e inmuebles comercial para personas naturales."
         />
       </Head>
       <Sections />
