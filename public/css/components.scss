@@ -4,13 +4,18 @@
   padding: 50px 5%;
   margin-bottom: 0;
   background: 0 0;
-  color: #fff;
+  color: #0e3780;
 }
 @media only screen and (min-width: 550px) and (max-width: 949px),
-  only screen and (min-width: 950px) and (max-width: 1449px),
-  only screen and (min-width: 1450px) {
+  only screen and (min-width: 950px) and (max-width: 1449px) {
   ._thc-story-section {
     padding: 70px 45px;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  ._thc-story-section {
+    padding: 0px 45px 140px 45px;
   }
 }
 
@@ -22,7 +27,7 @@
 @media only screen and (min-width: 1450px) {
   ._thc-card h1,
   ._thc-card h2 {
-    max-width: 800px;
+    max-width: 1115px;
   }
 }
 
@@ -39,7 +44,7 @@
 @media only screen and (min-width: 950px) and (max-width: 1449px),
   only screen and (min-width: 1450px) {
   ._background-space {
-    top: -180px;
+    top: -20rem;
   }
 }
 
@@ -66,51 +71,20 @@
 ._thc-card ._background-img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  -webkit-transform: scale(1.25) translateY(-10%);
-  -moz-transform: scale(1.25) translateY(-10%);
-  -ms-transform: scale(1.25) translateY(-10%);
-  -o-transform: scale(1.25) translateY(-10%);
-  transform: scale(1.25) translateY(-10%);
-}
-@media only screen and (min-width: 400px) and (max-width: 549px),
-  only screen and (min-width: 350px) and (max-width: 399px),
-  only screen and (max-width: 349px) {
-  ._thc-card ._background-img {
-    height: auto;
-    -webkit-transform: none;
-    -moz-transform: none;
-    -ms-transform: none;
-    -o-transform: none;
-    transform: none;
-  }
-}
-
-._thc-card ._background-img {
+  background: url("../images/background/test19.jpeg") center center/cover
+    no-repeat;
   -webkit-transform: none;
   -moz-transform: none;
   -ms-transform: none;
   -o-transform: none;
   transform: none;
 }
-@media only screen and (min-width: 550px) and (max-width: 949px) and (orientation: portrait),
-  only screen and (min-width: 400px) and (max-width: 549px),
-  only screen and (min-width: 350px) and (max-width: 399px),
-  only screen and (max-width: 349px) {
-  ._thc-card ._background-img {
-    height: 100%;
-    width: auto;
-    -o-object-fit: cover;
-    object-fit: cover;
-  }
-}
 
 ._thc-card ._text-space {
   position: relative;
   width: 100%;
-  padding: 75px 0;
-  max-width: 950px;
+  padding-bottom: 75px;
+  max-width: 1115px;
   margin: 0 auto;
   text-align: center;
   z-index: 1;
@@ -134,7 +108,8 @@
 ._text-space-subtitle,
 ._text-space {
   font-size: 1.625rem;
-  font-weight: 400;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
 ._text-space-title {
@@ -143,7 +118,7 @@
   margin-bottom: 0.5rem;
 }
 @media only screen and (min-width: 550px) and (max-width: 949px) {
-  .o_text-space-title {
+  ._text-space-title {
     font-size: 2.5rem;
   }
 }
@@ -155,10 +130,6 @@
   }
 }
 
-._text-space div {
-  margin-top: 44px;
-}
-
 ._thc-card ._text-space-title {
   font-size: 1.75rem;
 }
@@ -167,10 +138,16 @@
     font-size: 3.125rem;
   }
 }
-@media only screen and (min-width: 950px) and (max-width: 1449px),
-  only screen and (min-width: 1450px) {
+
+@media only screen and (min-width: 950px) and (max-width: 1449px) {
   ._thc-card ._text-space-title {
-    font-size: 4rem;
+    font-size: 3.125rem;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  ._thc-card ._text-space-title {
+    font-size: 5rem;
   }
 }
 

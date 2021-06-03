@@ -11,18 +11,18 @@ body {
 // }
 
 @font-face {
-  font-family: "Playfair";
-  src: local("Playfair"),
-    url(../fonts/PlayfairDisplay-Regular.ttf) format("truetype");
+  font-family: "Baloo";
+  src: local("Baloo"), url(../fonts/Baloo2-Bold.ttf) format("truetype");
   font-display: swap;
 }
 
 * {
-  font-family: "Playfair" !important;
+  font-family: "Baloo";
 }
 
 *:focus {
   outline: none;
+  text-decoration: none;
 }
 
 a {
@@ -87,8 +87,8 @@ h5 {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  // max-width: 100%;
+  // height: auto;
   border: 0;
 }
 
@@ -96,8 +96,8 @@ img {
   text-transform: uppercase;
   border-radius: 4px;
   border: none;
-  background-color: #e72c67;
-  color: #f3f2ef !important;
+  background-color: #c6695d;
+  color: #0b1a35;
   letter-spacing: 1px;
 }
 
@@ -120,12 +120,12 @@ img {
 ._btn:focus,
 ._btn:active,
 ._btn.active {
-  background-color: #f396b3;
-  color: #f3f2ef !important;
+  background-color: #d1877d;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
   outline: 0px auto -webkit-focus-ring-color;
   outline: none;
+  cursor: pointer;
 }

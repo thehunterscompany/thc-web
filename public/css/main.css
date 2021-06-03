@@ -2,13 +2,13 @@
    Global styles
    ========================================================================== */
 @font-face {
-  font-family: "Abadi";
-  src: local("Abadi"), url(../fonts/AbadiMTStd.otf) format("opentype");
+  font-family: "Baloo";
+  src: local("Baloo"), url(../fonts/Baloo2-Regular.ttf) format("truetype");
   font-display: swap;
 }
 
 * {
-  font-family: "Abadi" !important;
+  font-family: "Baloo" !important;
 }
 
 h1,
