@@ -35,7 +35,7 @@
 @media only screen and (min-width: 1450px) {
   ._thc-card h1,
   ._thc-card h2 {
-    max-width: 1115px;
+    max-width: 1300px;
   }
 }
 
@@ -52,7 +52,7 @@
 @media only screen and (min-width: 950px) and (max-width: 1449px),
   only screen and (min-width: 1450px) {
   ._background-space {
-    top: -20rem;
+    top: -12rem;
   }
 }
 
@@ -91,8 +91,8 @@
 ._thc-card ._text-space {
   position: relative;
   width: 100%;
-  padding-bottom: 75px;
-  max-width: 1115px;
+  padding-bottom: 236px;
+  max-width: 1300px;
   margin: 0 auto;
   text-align: center;
   z-index: 1;
@@ -171,6 +171,6 @@
 @media only screen and (min-width: 950px) and (max-width: 1449px),
   only screen and (min-width: 1450px) {
   ._thc-card ._text-space-subtitle {
-    font-size: 1.625rem;
+    font-size: 2.625rem;
   }
 }
