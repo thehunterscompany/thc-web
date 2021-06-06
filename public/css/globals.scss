@@ -96,7 +96,7 @@ img {
   text-transform: uppercase;
   border-radius: 4px;
   border: none;
-  background-color: #c6695d;
+  background-color: hsla(34, 100%, 47%, 0.966);
   color: #0b1a35;
   letter-spacing: 1px;
 }
@@ -120,7 +120,7 @@ img {
 ._btn:focus,
 ._btn:active,
 ._btn.active {
-  background-color: #d1877d;
+  background-color: #d67a00;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
