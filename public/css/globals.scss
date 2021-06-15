@@ -11,13 +11,14 @@ body {
 // }
 
 @font-face {
-  font-family: "Baloo";
-  src: local("Baloo"), url(../fonts/Baloo2-Bold.ttf) format("truetype");
+  font-family: "Hurme";
+  src: local("Hurme"),
+    url(../fonts/HurmeGeometricSans1SemiBold.otf) format("opentype");
   font-display: swap;
 }
 
 * {
-  font-family: "Baloo";
+  font-family: "Hurme";
 }
 
 *:focus {
