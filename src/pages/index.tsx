@@ -1,10 +1,21 @@
 import Head from "next/head";
+import Sections from "../components/Sections/Sections";
 
 export default function Home() {
   return (
-    <html lang="en">
+    <>
       <Head>
-        <title>Te conseguimos la mejor financiación para tu vivienda </title>
+        <title>Te conseguimos la mejor financiación para tu vivienda</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Landing Page para la compañia The Hunters company. Es una empresa broker de servicios de financiación
+                  de vivienda e inmuebles comercial para personas naturales."
+        />
+      </Head>
+      <Sections />
+
+      {/* <title>Te conseguimos la mejor financiación para tu vivienda </title>
         <meta name="keywords" content="" />
         <meta
           name="description"
@@ -25,54 +36,36 @@ export default function Home() {
           href="fonts/AbadiMTStd.otf"
           as="font"
           type="font/otf"
-        />
-
-        <link rel="stylesheet" href="css/font-awesome.min.css" />
-        {/* <link rel="stylesheet" href="css/animate.css" /> */}
-        {/* <link
-          href="http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Montserrat:400,700"
-          rel="stylesheet"
-          type="text/css"
         /> */}
 
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/main.css" />
+      {/* <link rel="stylesheet" href="css/font-awesome.min.css" /> */}
+      {/* <link rel="stylesheet" href="css/animate.css" /> */}
+      {/* <link
+          href="http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Montserrat:400,700"
+          rel="stylesheet"
+          type="text/css"zq
+        /> */}
 
-        <script src="js/modernizr-2.7.1.js"></script>
-      </Head>
+      {/* <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/main.css" /> */}
 
-      <body>
-        <header>
-          <div className="container">
-            <div className="row">
-              <div className="col-xs-6">
-                <div className="logo wow fadeInLeft" data-wow-delay="0.1s">
-                  <img src="img/ThcLogo.png" alt="Logo" />
-                </div>
-              </div>
-              <div
-                className="col-xs-6 text-right navbar-nav _sign-in-padding wow fadeInRight"
-                data-wow-delay="0.1s"
-              >
-                <a className="btn btn-secondary btn-sm">Ingresa</a>
-              </div>
-            </div>
-            <div className="row header-info wow fadeIn" data-wow-delay="0.1s">
-              <div className="col-sm-10 col-sm-offset-1 text-center">
-                <h1>
-                  Encuentra la mejor financiación para
-                  <h1 className="_margin-top-5">tu vivienda</h1>
-                </h1>
-                <h2>Rápido y sin costo.</h2>
-                <br />
-                <div className="row">
-                  <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                    <div className="row">
-                      <div className="text-center">
-                        <a className="btn btn-secondary btn-lg">
-                          Calcula tu Cuota
-                        </a>
-                      </div>
+      {/* <script src="js/modernizr-2.7.1.js"></script> */}
+
+      {/* <body>
+        <header> */}
+      {/* <NavBar /> */}
+      {/* <div className="row header-info wow fadeIn" data-wow-delay="0.1s">
+            <div className="text-center">
+              <h1>Encuentra la mejor financiación para tu vivienda</h1>
+              <h2>Rápido y sin costo.</h2>
+              <br />
+              <div className="row">
+                <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                  <div className="row">
+                    <div className="text-center">
+                      <a className="btn btn-secondary btn-lg">
+                        Calcula tu Cuota
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -84,30 +77,35 @@ export default function Home() {
         <div className="mouse-icon hidden-xs">
           <div className="scroll"></div>
         </div>
+      </body>
 
-        <section id="be-the-first">
-          <div className="container">
-            <div className="row">
-              <div
-                className="col-sm-10 col-sm-offset-1 text-center margin-30 wow fadeIn"
-                data-wow-delay="0.6s"
-              >
-                <h1>Los principales Bancos en un solo lugar</h1>
-                <h3>
-                  Buscamos, comparamos y negociamos para conseguirte la mejor
-                  financiación.
-                </h3>
-              </div>
+      <section id="be-the-first">
+        <div className="container">
+          <div className="row">
+            <div
+              className="col-sm-10 col-sm-offset-1 text-center margin-30 wow fadeIn"
+              data-wow-delay="0.6s"
+            >
+              <h1>Los principales Bancos en un solo lugar</h1>
+              <h3>
+                Buscamos, comparamos y negociamos para conseguirte la mejor
+                financiación.
+              </h3>
             </div>
+          </div>
+        </div>
+      </section> */}
+
+      {/*
 
             <div className="_banks wow fadeInUp" data-wow-delay="1s">
               <img src="img/BancosLogos.svg" alt="Logos de Bancos" />
             </div>
           </div>
         </section>
-        <hr className="line _pink-thc" />
+        <hr className="line _pink-thc" /> 
 
-        <section id="main-info" className="pad-xl">
+      <section id="main-info" className="pad-xl">
           <div className="container">
             <div className="row">
               <div
@@ -467,14 +465,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </footer>
-
-        {/* <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> */}
-        {/* <script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script> */}
-        {/* <script src="js/wow.min.js"></script> */}
-        {/* <script src="js/bootstrap.min.js"></script> */}
-        {/* <script src="js/main.js"></script> */}
-      </body>
-    </html>
+        </footer> 
+      </body> */}
+    </>
   );
 }
