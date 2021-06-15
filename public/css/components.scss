@@ -161,10 +161,20 @@
   }
 }
 
-._thc-card ._text-space {
+._thc-card ._text-space ._firstScreen {
   position: relative;
   width: 100%;
   padding-bottom: 286px;
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1;
+}
+
+._thc-card ._text-space {
+  position: relative;
+  width: 100%;
+  // padding-bottom: 286px;
   max-width: 1300px;
   margin: 0 auto;
   text-align: center;
