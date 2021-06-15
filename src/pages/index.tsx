@@ -1,69 +1,71 @@
 import Head from "next/head";
+import Sections from "../components/Sections/Sections";
 
 export default function Home() {
   return (
-    <html>
+    <>
       <Head>
-        <title>Te conseguimos la mejor financiación para tu vivienda </title>
+        <title>Te conseguimos la mejor financiación para tu vivienda</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Landing Page para la compañia The Hunters company. Es una empresa broker de servicios de financiación
+                  de vivienda e inmuebles comercial para personas naturales."
+        />
+      </Head>
+      <Sections />
+
+      {/* <title>Te conseguimos la mejor financiación para tu vivienda </title>
         <meta name="keywords" content="" />
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="Landing Page para la compañia The Hunters company. Es una empresa broker de servicios de financiación
+          de vivienda e inmuebles comercial para personas naturales."
+        />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
-
         <meta property="og:title" content="" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="" />
         <meta property="og:site_name" content="" />
         <meta property="og:description" content="" />
-
-        <link rel="stylesheet" href="css/font-awesome.min.css" />
-        <link rel="stylesheet" href="css/animate.css" />
         <link
+          rel="preload"
+          href="fonts/AbadiMTStd.otf"
+          as="font"
+          type="font/otf"
+        /> */}
+
+      {/* <link rel="stylesheet" href="css/font-awesome.min.css" /> */}
+      {/* <link rel="stylesheet" href="css/animate.css" /> */}
+      {/* <link
           href="http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Montserrat:400,700"
           rel="stylesheet"
-          type="text/css"
-        />
+          type="text/css"zq
+        /> */}
 
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/main.css" />
+      {/* <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/main.css" /> */}
 
-        <script src="js/modernizr-2.7.1.js"></script>
-      </Head>
+      {/* <script src="js/modernizr-2.7.1.js"></script> */}
 
-      <body>
-        <header>
-          <div className="container">
-            <div className="row">
-              <div className="col-xs-6">
-                <div className="logo wow fadeInLeft" data-wow-delay="0.1s">
-                  <img src="img/ThcLogo.png" alt="Logo" />
-                </div>
-              </div>
-              <div
-                className="col-xs-6 text-right navbar-nav _sign-in-padding wow fadeInRight"
-                data-wow-delay="0.1s"
-              >
-                <a className="btn btn-secondary btn-sm">Ingresa</a>
-              </div>
-            </div>
-            <div className="row header-info wow fadeIn" data-wow-delay="0.1s">
-              <div className="col-sm-10 col-sm-offset-1 text-center">
-                <h1>
-                  Encuentra la mejor financiación para
-                  <h1 className="_margin-top-5">tu vivienda</h1>
-                </h1>
-                <h2>Rápido y sin costo.</h2>
-                <br />
-                <div className="row">
-                  <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                    <div className="row">
-                      <div className="text-center">
-                        <a className="btn btn-secondary btn-lg">
-                          Calcula tu Cuota
-                        </a>
-                      </div>
+      {/* <body>
+        <header> */}
+      {/* <NavBar /> */}
+      {/* <div className="row header-info wow fadeIn" data-wow-delay="0.1s">
+            <div className="text-center">
+              <h1>Encuentra la mejor financiación para tu vivienda</h1>
+              <h2>Rápido y sin costo.</h2>
+              <br />
+              <div className="row">
+                <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                  <div className="row">
+                    <div className="text-center">
+                      <a className="btn btn-secondary btn-lg">
+                        Calcula tu Cuota
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -75,30 +77,35 @@ export default function Home() {
         <div className="mouse-icon hidden-xs">
           <div className="scroll"></div>
         </div>
+      </body>
 
-        <section id="be-the-first">
-          <div className="container">
-            <div className="row">
-              <div
-                className="col-sm-10 col-sm-offset-1 text-center margin-30 wow fadeIn"
-                data-wow-delay="0.6s"
-              >
-                <h1>Los principales Bancos en un solo lugar</h1>
-                <h3>
-                  Buscamos, comparamos y negociamos para conseguirte la mejor
-                  financiación.
-                </h3>
-              </div>
+      <section id="be-the-first">
+        <div className="container">
+          <div className="row">
+            <div
+              className="col-sm-10 col-sm-offset-1 text-center margin-30 wow fadeIn"
+              data-wow-delay="0.6s"
+            >
+              <h1>Los principales Bancos en un solo lugar</h1>
+              <h3>
+                Buscamos, comparamos y negociamos para conseguirte la mejor
+                financiación.
+              </h3>
             </div>
+          </div>
+        </div>
+      </section> */}
+
+      {/*
 
             <div className="_banks wow fadeInUp" data-wow-delay="1s">
-              <img src="img/BancosLogos.png" />
+              <img src="img/BancosLogos.svg" alt="Logos de Bancos" />
             </div>
           </div>
         </section>
-        <hr className="line _pink-thc" />
+        <hr className="line _pink-thc" /> 
 
-        <section id="main-info" className="pad-xl">
+      <section id="main-info" className="pad-xl">
           <div className="container">
             <div className="row">
               <div
@@ -113,7 +120,7 @@ export default function Home() {
               </div>
               <div className="col-sm-4 wow fadeIn" data-wow-delay="0.6s">
                 <div className="text-center _info-img">
-                  <img src="img/Form.png" alt="Form" />
+                  <img src="img/Form.svg" alt="Form" />
                 </div>
                 <hr className="line _salmon2-thc" />
                 <h3 className="_pink-color-thc">Solicitud Online</h3>
@@ -125,7 +132,7 @@ export default function Home() {
               </div>
               <div className="col-sm-4 wow fadeIn" data-wow-delay="0.9s">
                 <div className="text-center _info-img">
-                  <img src="img/Stamp.png" alt="Stamp" />
+                  <img src="img/Stamp.svg" alt="Stamp" />
                 </div>
                 <hr className="line _salmon-thc" />
                 <h3 className="_pink-color-thc">Evaluación y aprobación</h3>
@@ -138,7 +145,7 @@ export default function Home() {
               </div>
               <div className="col-sm-4 wow fadeIn" data-wow-delay="1.2s">
                 <div className="text-center _info-img">
-                  <img src="img/Keys.png" alt="Keys" />
+                  <img src="img/Keys.svg" alt="Keys" />
                 </div>
                 <hr className="line _salmon3-thc" />
                 <h3 className="_pink-color-thc">Desembolso</h3>
@@ -172,12 +179,10 @@ export default function Home() {
                   <br />
                   <ul className="list-unstyled pricing-table active text-center">
                     <li className="headline">
-                      <img src="img/Santi.png" />
+                      <img src="img/Santi.svg" alt="Broker Santi" />
                     </li>
                     <li className="info">
-                      <h4 className="_pink-color-thc">
-                        María Fuensanta Villena
-                      </h4>
+                      <h4 className="_pink-color-thc">Santi Villena</h4>
                     </li>
                     <li className="features first">
                       <p className="black">
@@ -200,7 +205,7 @@ export default function Home() {
                   <br />
                   <ul className="list-unstyled pricing-table active text-center">
                     <li className="headline">
-                      <img src="img/Cata.png" />
+                      <img src="img/Cata.svg" alt="Broker Cata" />
                     </li>
                     <li className="info">
                       <h4 className="_pink-color-thc">Catalina Prado</h4>
@@ -226,7 +231,7 @@ export default function Home() {
                   <br />
                   <ul className="list-unstyled pricing-table active text-center">
                     <li className="headline">
-                      <img src="img/Ana.png" />
+                      <img src="img/Ana.svg" alt="Broker Ana" />
                     </li>
                     <li className="info">
                       <h4 className="_pink-color-thc">Ana María Merizalde</h4>
@@ -268,7 +273,11 @@ export default function Home() {
                   <br />
                   <div className="_recommendation-item">
                     <h4>Luis Felipe Lozano</h4>
-                    <img src="img/stars.png" className="_stars" />
+                    <img
+                      src="img/stars.svg"
+                      className="_stars"
+                      alt="Estrellas"
+                    />
                     <div className="text-left">
                       <h3 className="_pink-color-thc">Me encanta!!</h3>
                       <p className="black">
@@ -286,7 +295,11 @@ export default function Home() {
                   <br />
                   <div className="_recommendation-item">
                     <h4>Ana Lucia Rodríguez - brick abogados</h4>
-                    <img src="img/stars.png" className="_stars" />
+                    <img
+                      src="img/stars.svg"
+                      className="_stars"
+                      alt="Estrellas"
+                    />
                     <div className="text-left">
                       <h3 className="_pink-color-thc">
                         He recomendado a THC muchas veces a mis amigos!!
@@ -307,7 +320,11 @@ export default function Home() {
                   <br />
                   <div className="_recommendation-item">
                     <h4>Diego García</h4>
-                    <img src="img/stars.png" className="_stars" />
+                    <img
+                      src="img/stars.svg"
+                      className="_stars"
+                      alt="Estrellas"
+                    />
                     <div className="text-left">
                       <h3 className="_pink-color-thc">
                         Recomiendo a THC porque el servicio es personalizado!!
@@ -328,7 +345,11 @@ export default function Home() {
                   <br />
                   <div className="_recommendation-item">
                     <h4 className="black">Karolina Mejía</h4>
-                    <img src="img/stars.png" className="_stars" />
+                    <img
+                      src="img/stars.svg"
+                      className="_stars"
+                      alt="Estrellas"
+                    />
                     <div className="text-left">
                       <h3 className="_pink-color-thc">
                         <b>Excelente servicio!!</b>
@@ -342,74 +363,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            {/* <div className="row margin-30 news-container">
-              <div
-                className="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft new-styles"
-                data-wow-delay="0.8s"
-              >
-                <p className="black">
-                  "<b>Me encanta.</b> Yo simplemente te digo que con THC me
-                  desentendí de muchos problemas, me concentré en mi trabajo y
-                  todo fluyó de manera extraordinaria."
-                  <br />
-                  <small>
-                    <em>Luis Felipe Lozano</em>
-                  </small>
-                </p>
-              </div>
-            </div>
-
-            <div className="row margin-30 news-container">
-              <div
-                className="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft new-styles"
-                data-wow-delay="1.2s"
-              >
-                <p className="black">
-                  "<b>He recomendado a THC muchas veces a mis amigos.</b> Si no
-                  fuera por su excelente gestión, rapidez y además, por hacer
-                  mas allá de lo que ofrecen para hacer tu sueño de comprar una
-                  casa una realidad, no hubiera logrado tener la mia."
-                  <br />
-                  <small>
-                    <em>Ana Lucia Rodríguez </em>
-                  </small>
-                </p>
-              </div>
-            </div>
-
-            <div className="row margin-30 news-container">
-              <div
-                className="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft new-styles"
-                data-wow-delay="1.6s"
-              >
-                <p className="black">
-                  "<b>Recomiendo a THC porque el servicio es personalizado</b>,
-                  sus asesores se preocupan por ofrecerme el mejor producto de
-                  acuerdo con mis necesidades actuales, haciendo un
-                  acompañamiento cercano, con esto garantizan que cualquier
-                  proceso sea llevado a feliz término.“
-                  <br />
-                  <small>
-                    <em>Diego García</em>
-                  </small>
-                </p>
-              </div>
-            </div>
-            <div className="row margin-30 news-container">
-              <div
-                className="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft new-styles"
-                data-wow-delay="2.0s"
-              >
-                <p className="black">
-                  "<b>Excelente servicio.</b> Si quieres contar con la mejor
-                  asesoría, no lo dudes. Ellos hacen los sueños realidad .“
-                  <br />
-                  <small>
-                    <em>Karolina Mejía</em>
-                  </small>
-                </p>
-              </div>
-            </div> */}
           </div>
         </section>
 
@@ -421,11 +374,11 @@ export default function Home() {
                   <span className="_footer-block-title">Contáctenos</span>
                   <ul className="_footer-block-list">
                     <li className="_footer-block-item">
-                      <img src="img/email.png" alt="Email" />
+                      <img src="img/email.svg" alt="Email" />
                       <a href="mailto:info@thcsas.com.co">info@thcsas.com.co</a>
                     </li>
                     <li className="_footer-block-item">
-                      <img src="img/whatsapp.png" alt="Whatsapp" />
+                      <img src="img/whatsapp.svg" alt="Whatsapp" />
                       <a
                         href="https://api.whatsapp.com/send?phone=+573104908414"
                         target="_blank"
@@ -434,13 +387,18 @@ export default function Home() {
                       </a>
                     </li>
                     <li className="_footer-block-item">
-                      <img src="img/phone.png" alt="Phone" />
+                      <img src="img/phone.svg" alt="Phone" />
                       <a href="tel:+573104908414">311 854 2488</a>
                     </li>
                     <li className="_footer-block-item">
-                      <img src="img/location.png" alt="Location" />
+                      <img src="img/location.svg" alt="Location" />
                       <div className="_footer-item-location">
-                        <p>Carrera 14#96-15 piso 1. Bogotá DC</p>
+                        <a
+                          href="http://maps.google.com/?q=Cra.+14+%2396-15,+Bogotá,+Colombia"
+                          target="_blank"
+                        >
+                          Carrera 14#96-15 piso 1. Bogotá DC
+                        </a>
                       </div>
                     </li>
                     <li className="_footer-block-item">
@@ -507,14 +465,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </footer>
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        {/* <script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script> */}
-        <script src="js/wow.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/main.js"></script>
-      </body>
-    </html>
+        </footer> 
+      </body> */}
+    </>
   );
 }
