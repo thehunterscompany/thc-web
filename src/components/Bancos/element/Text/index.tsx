@@ -1,7 +1,8 @@
 import React from "react";
+import styles from "./styles.module.scss";
 
 const Text = () => (
-  <div className="_text-space">
+  <div className={`_text-space ${styles["_bancos"]}`}>
     <h1 className="_text-space-title">
       Los principales Bancos en un solo lugar
     </h1>
