@@ -9,7 +9,9 @@ const Sections = () => (
     <NavBar />
     <div className={styles["_thc-story"]}>
       <FirstScreen />
-      <Bancos />
+      <div className={styles._background}>
+        <Bancos />
+      </div>
     </div>
   </React.Fragment>
 );
