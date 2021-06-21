@@ -1,10 +1,12 @@
+@use "custom.values.scss" as cv;
+
 ._thc-story-section {
   position: relative;
-  border-bottom: 8px solid hsla(34, 100%, 47%, 0.966);
+  border-bottom: 8px solid cv.$blue-color;
   padding: 50px 5%;
   margin-bottom: 0;
   background: 0 0;
-  color: #0e3780;
+  color: cv.$blue-color;
 }
 @media only screen and (min-width: 550px) and (max-width: 949px),
   only screen and (min-width: 950px) and (max-width: 1449px),
