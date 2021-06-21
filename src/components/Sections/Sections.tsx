@@ -2,7 +2,8 @@ import React from "react";
 import styles from "./Sections.module.scss";
 import FirstScreen from "../FirstScreen/FirstScreen";
 import NavBar from "../NavBar/NavBar";
-import Bancos from "../Bancos/Bancos";
+import Banks from "../Banks/Banks";
+import Process from "../Process/Process";
 
 const Sections = () => (
   <React.Fragment>
@@ -10,7 +11,8 @@ const Sections = () => (
     <div className={styles["_thc-story"]}>
       <FirstScreen />
       <div className={styles._background}>
-        <Bancos />
+        <Banks />
+        <Process />
       </div>
     </div>
   </React.Fragment>
