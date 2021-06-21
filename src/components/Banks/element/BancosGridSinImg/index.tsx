@@ -10,7 +10,9 @@ const GridSinFotos = () => (
     <ul className={styles._bancos}>
       {bancosLogos.map(({ alt, href }: bancosLogosAttr, index) => (
         <li className={`${styles._banco} _text-space-subtitle `} key={index}>
-          <a href={href}>{alt}</a>
+          <a href={href} target="_blank">
+            {alt}
+          </a>
         </li>
       ))}
     </ul>
