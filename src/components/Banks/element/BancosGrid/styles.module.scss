@@ -1,0 +1,22 @@
+._banks {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+._banks-item {
+  flex: 1 0 29%;
+  margin: 10px;
+}
+
+._banks-item img {
+  width: 100%;
+  max-width: 250px;
+}
+
+@media only screen and (max-width: 512px) {
+  ._last-item img {
+    width: 47.7%;
+  }
+}
