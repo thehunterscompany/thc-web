@@ -7,14 +7,14 @@ import {
 
 const BancosGrid = () => (
   <div className={styles["_banks"]}>
-    {bancosLogos.map(({ alt, href, img }: bancosLogosAttr) => {
-      if (alt === "Banco Popular Colombia") {
+    {bancosLogos.map(({ alt, href, img }: bancosLogosAttr, index: number) => {
+      if (index === bancosLogos.length - 1) {
         return (
           <div
             key={alt}
             className={`${styles["_banks-item"]} ${styles["_last-item"]}`}
           >
-            <a href={href} target="_blank">
+            <a href={href} target="_blank" rel="noreferrer">
               <img alt={alt} src={img} />
             </a>
           </div>
@@ -22,7 +22,7 @@ const BancosGrid = () => (
       } else {
         return (
           <div key={alt} className={styles["_banks-item"]}>
-            <a href={href} target="_blank">
+            <a href={href} target="_blank" rel="noreferrer">
               <img alt={alt} src={img} />
             </a>
           </div>
