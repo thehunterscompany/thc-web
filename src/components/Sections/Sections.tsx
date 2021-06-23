@@ -5,6 +5,7 @@ import NavBar from "../NavBar/NavBar";
 import Banks from "../Banks/Banks";
 import Process from "../Process/Process";
 import Brokers from "../Brokers/Brokers";
+import Recommendations from "../Recommendations/Recommendations";
 
 const Sections = () => (
   <React.Fragment>
@@ -15,6 +16,7 @@ const Sections = () => (
         <Banks />
         <Process />
         <Brokers />
+        <Recommendations />
       </div>
     </div>
   </React.Fragment>
