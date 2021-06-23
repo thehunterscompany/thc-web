@@ -56,14 +56,10 @@ const Brokers = () => (
     <div className={`_text-space ${styles._brokers}`}>
       <h1 className="_text-space-title">Acompañamiento Experto</h1>
     </div>
-    <div className="_text-space">
-      <div className={styles["_consultant-grid"]}>
-        {brokerList.map(
-          ({ name, message, img }: BrokerProps, index: number) => (
-            <Broker key={index} name={name} message={message} img={img} />
-          )
-        )}
-      </div>
+    <div className={`${styles["_consultant-grid"]} _text-space _content-space`}>
+      {brokerList.map(({ name, message, img }: BrokerProps, index: number) => (
+        <Broker key={index} name={name} message={message} img={img} />
+      ))}
     </div>
   </div>
 );

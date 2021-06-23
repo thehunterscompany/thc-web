@@ -1,0 +1,38 @@
+$background: #57c0ff;
+
+._recommendation-space {
+  /* width: 625px; */
+  min-height: 1px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex: 31% 1;
+}
+
+._recommendation-item {
+  min-height: 476px;
+  border-radius: 12px;
+  background-color: $background;
+  box-shadow: 0 0 35px 0 rgba(94, 94, 94, 0.5);
+  position: relative;
+  padding: 35px 40px;
+}
+
+._recommendation-item p {
+  font-size: 1.1rem;
+  font-weight: 100;
+}
+
+._stars {
+  width: 100%;
+  height: 100%;
+  max-width: 200px;
+}
+
+@media screen and (max-width: 992px) {
+  ._recommendation-space {
+    /* width: 625px; */
+    text-align: center;
+    // flex: 50%;
+  }
+}

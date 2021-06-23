@@ -12,7 +12,7 @@ const stepList: Array<StepProps> = [
   {
     title: "Solicitud Online",
     message: `Completa nuestro formulario Online o pide atención personalizada a través de un ejecutivo.
-       Te estaremos contactando en la mayor brevedad.`,
+       Te estaremos contactando a la mayor brevedad.`,
     img: <img src="images/process/Form.svg" alt="Form" />,
   },
   {
@@ -26,7 +26,7 @@ const stepList: Array<StepProps> = [
   {
     title: "Desembolso",
     message: `Una vez aprobada la operación, te acompañamos en toodo el
-    proceso de contabilización hasta el desembolso final.`,
+    proceso de legalización hasta el desembolso final.`,
     img: <img src="images/process/Keys.svg" alt="Form" />,
   },
 ];
@@ -40,7 +40,7 @@ const Process = () => (
         soñaste
       </h2>
     </div>
-    <div className={`_text-space ${styles["_process-list"]}`}>
+    <div className={`_text-space ${styles["_process-list"]} _content-space`}>
       {stepList.map(({ title, message, img }: StepProps, index: number) => (
         <Step key={index} title={title} message={message} img={img} />
       ))}
