@@ -10,7 +10,7 @@ const GridSinFotos = () => (
     <ul className={styles._bancos}>
       {bancosLogos.map(({ alt, href }: bancosLogosAttr, index) => (
         <li className={`${styles._banco} _text-space-subtitle `} key={index}>
-          <a href={href} target="_blank" rel="noreferrer">
+          <a href={href} target="_blank" rel="noopener noreferrer">
             {alt}
           </a>
         </li>

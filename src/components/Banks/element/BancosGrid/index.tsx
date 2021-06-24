@@ -14,7 +14,7 @@ const BancosGrid = () => (
             key={alt}
             className={`${styles["_banks-item"]} ${styles["_last-item"]}`}
           >
-            <a href={href} target="_blank" rel="noreferrer">
+            <a href={href} target="_blank" rel="noopener noreferrer">
               <img alt={alt} src={img} />
             </a>
           </div>
@@ -22,7 +22,7 @@ const BancosGrid = () => (
       } else {
         return (
           <div key={alt} className={styles["_banks-item"]}>
-            <a href={href} target="_blank" rel="noreferrer">
+            <a href={href} target="_blank" rel="noopener noreferrer">
               <img alt={alt} src={img} />
             </a>
           </div>

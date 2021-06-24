@@ -6,14 +6,10 @@ const Block2 = () => (
     <span className={`${styles["_footer-block-title"]}`}>Legal</span>
     <ul className={`${styles["_footer-block-list"]}`}>
       <li className={`${styles["_footer-block-item"]}`}>
-        <a href="" target="_blank">
-          Términos y Condiciones
-        </a>
+        <a href="">Términos y Condiciones</a>
       </li>
       <li className={`${styles["_footer-block-item"]}`}>
-        <a href="" target="_blank">
-          Política de Privacidad
-        </a>
+        <a href="">Política de Privacidad</a>
       </li>
     </ul>
   </div>
