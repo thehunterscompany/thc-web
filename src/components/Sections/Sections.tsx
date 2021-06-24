@@ -4,6 +4,9 @@ import FirstScreen from "../FirstScreen/FirstScreen";
 import NavBar from "../NavBar/NavBar";
 import Banks from "../Banks/Banks";
 import Process from "../Process/Process";
+import Brokers from "../Brokers/Brokers";
+import Recommendations from "../Recommendations/Recommendations";
+import Footer from "../Footer/Footer";
 
 const Sections = () => (
   <React.Fragment>
@@ -13,7 +16,10 @@ const Sections = () => (
       <div className={styles._background}>
         <Banks />
         <Process />
+        <Brokers />
+        <Recommendations />
       </div>
+      <Footer />
     </div>
   </React.Fragment>
 );

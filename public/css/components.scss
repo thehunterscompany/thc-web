@@ -231,3 +231,14 @@
     font-size: 2.825rem;
   }
 }
+
+._content-space {
+  position: relative;
+  width: 100%;
+  padding: 2rem 0rem;
+  max-width: 1300px;
+  margin: 0 auto 2rem auto;
+  max-width: 1300px;
+  text-align: center;
+  z-index: 1;
+}
