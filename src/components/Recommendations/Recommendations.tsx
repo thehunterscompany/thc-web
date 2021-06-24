@@ -41,7 +41,10 @@ const recommendationList: Array<RecommendationProps> = [
 ];
 
 const Recommendations = () => (
-  <div className="_thc-story-section _thc-card">
+  <div
+    className="_thc-story-section _thc-card"
+    style={{ borderBottom: "5px solid hsla(34, 100%, 47%, 0.966)" }}
+  >
     <div className={`_text-space ${styles._recommendations}`}>
       <h1 className="_text-space-title">Lo que dicen nuestros clientes</h1>
     </div>
