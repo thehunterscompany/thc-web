@@ -1,0 +1,32 @@
+@media only screen and (min-width: 950px) and (max-width: 1450px) {
+  ._first-screen-text {
+    padding-bottom: 360px !important;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 549px) {
+  ._first-screen-text {
+    padding-bottom: 228px !important;
+  }
+}
+@media only screen and (min-width: 350px) and (max-width: 399px) {
+  ._first-screen-text {
+    padding-bottom: 236px !important;
+  }
+}
+@media only screen and (max-width: 349px) {
+  ._first-screen-text {
+    padding-bottom: 236px !important;
+  }
+}
+
+._first-screen-text {
+  position: relative;
+  width: 100%;
+  padding-bottom: 286px;
+  padding-top: 0px;
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1;
+}
