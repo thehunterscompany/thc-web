@@ -1,12 +1,27 @@
 ._bancos {
   text-align: center;
   font-size: 3.5rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 ._banco {
+  flex: 24%;
   position: relative;
   display: block;
-  padding: 0.75rem 1.25rem;
+  padding: 0rem 1.25rem;
+}
+
+._banco a {
+  -webkit-transition: color 1s;
+  -moz-transition: color 1s;
+  -o-transition: color 1s;
+  transition: color 1s;
+}
+
+._banco a:hover,
+._banco a:focus {
+  color: #081d42;
 }
 
 ._jumbotron {
@@ -19,5 +34,17 @@
 @media (min-width: 576px) {
   .jumbotron {
     padding: 4rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  ._banco {
+    flex: 26%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  ._banco {
+    flex: 40%;
   }
 }
