@@ -100,6 +100,10 @@ ul {
   background-color: cv.$orange-color;
   color: #0b1a35;
   letter-spacing: 1px;
+  -webkit-transition: background-color 0.35s ease-out;
+  -moz-transition: background-color 0.35s ease-out;
+  -o-transition: background-color 0.35s ease-out;
+  transition: background-color 0.35s ease-out;
 }
 
 ._btn-lg {
@@ -148,11 +152,6 @@ ul {
 ._btn:active,
 ._btn.active {
   background-color: cv.$lighter-orange-color;
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out;
-  outline: 0px auto -webkit-focus-ring-color;
   outline: none;
   cursor: pointer;
 }
