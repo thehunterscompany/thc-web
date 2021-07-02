@@ -13,12 +13,14 @@ const Sections = () => (
     <NavBar />
     <div className={styles["_thc-story"]}>
       <FirstScreen />
-      <div className={styles._background}>
-        <Banks />
-        <Process />
-        <Brokers />
-        <Recommendations />
-      </div>
+      {/* <div className={styles._background}> */}
+      {/* <div className={styles["_linear-gradient"]}> */}
+      <Banks />
+      <Process />
+      {/* </div> */}
+      <Brokers />
+      <Recommendations />
+      {/* </div> */}
       <Footer />
     </div>
   </React.Fragment>

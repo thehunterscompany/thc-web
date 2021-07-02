@@ -30,11 +30,12 @@
 ._recommendation-grid {
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 840px) {
   ._recommendation-grid {
     flex-direction: column;
+    align-content: center;
   }
 }

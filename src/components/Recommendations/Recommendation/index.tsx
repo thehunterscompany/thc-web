@@ -3,24 +3,31 @@ import styles from "./styles.module.scss";
 
 interface RecommendationProps {
   name: string;
+  job: string;
   title: string;
   message: string;
 }
 
-const Recommendation: FC<RecommendationProps> = ({ name, title, message }) => (
+const Recommendation: FC<RecommendationProps> = ({
+  name,
+  job,
+  title,
+  message,
+}) => (
   <div className={styles["_recommendation-space"]}>
-    <br />
     <div className={styles["_recommendation-item"]}>
       <h2>{name}</h2>
+      <h3>{job}</h3>
       <img
         src="images/recommendation/stars.svg"
         className={styles._stars}
         alt="Estrellas"
       />
       <div style={{ textAlign: "left" }}>
-        <h2>{title}</h2>
-        <p>{message}</p>
+        <h3>{title}</h3>
       </div>
+
+      <p>{message}</p>
     </div>
   </div>
 );
