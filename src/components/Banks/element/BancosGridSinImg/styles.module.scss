@@ -17,18 +17,15 @@
   -moz-transition: color 1s;
   -o-transition: color 1s;
   transition: color 1s;
-}
-
-._banco a:hover,
-._banco a:focus {
-  color: #081d42;
+  &:hover,
+  &:focus {
+    color: #081d42;
+  }
 }
 
 ._jumbotron {
-  padding: 1rem 0rem;
-  margin-bottom: 2rem;
-  background-color: #57c0ff;
-  border-radius: 0.3rem;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
 }
 
 @media (min-width: 576px) {
