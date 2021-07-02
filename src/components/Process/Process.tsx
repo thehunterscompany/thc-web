@@ -32,7 +32,10 @@ const stepList: Array<StepProps> = [
 ];
 
 const Process = () => (
-  <div className="_thc-story-section _thc-card">
+  <div
+    className="_thc-story-section _thc-card"
+    style={{ backgroundColor: "white" }}
+  >
     <div className={`_text-space ${styles["_process"]}`}>
       <h1 className="_text-space-title">Cómo funciona</h1>
       <h2 className="_text-space-subtitle">
@@ -40,7 +43,7 @@ const Process = () => (
         soñaste
       </h2>
     </div>
-    <div className={`_text-space ${styles["_process-list"]} _content-space`}>
+    <div className={`${styles["_process-list"]} _content-space`}>
       {stepList.map(({ title, message, img }: StepProps, index: number) => (
         <Step key={index} title={title} message={message} img={img} />
       ))}
