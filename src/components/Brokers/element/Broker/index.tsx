@@ -9,15 +9,12 @@ interface BrokerProps {
 
 const Broker: FC<BrokerProps> = ({ name, message, img }) => (
   <div className={styles["_consultant-container"]}>
-    <br />
     <ul className={`${styles["_consultant-table"]} ${styles.active}`}>
       <li className={`${styles.headline}`}>{img}</li>
       <li className={`${styles.info}`}>
-        <h2>{name}</h2>
+        <h3>{name}</h3>
       </li>
-      <li className={`${styles.features} ${styles.first}`}>
-        <p>{message}</p>
-      </li>
+      <li className={styles.features}>{message}</li>
     </ul>
   </div>
 );

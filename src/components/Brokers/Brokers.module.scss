@@ -1,6 +1,7 @@
 ._brokers h1 {
   max-width: 640px;
   margin: 0 auto;
+  color: #0e3780;
 }
 
 @media only screen and (max-width: 549px) {
@@ -30,11 +31,12 @@
 ._consultant-grid {
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
+  justify-content: center;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 1000px) {
   ._consultant-grid {
     flex-direction: column;
+    align-content: center;
   }
 }
