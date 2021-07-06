@@ -56,12 +56,9 @@ const brokerList: Array<BrokerProps> = [
     name: "Santi Villena",
     message: (
       <p>
-        Profesional con Master in Business Administration (MBA) del Instituto de
-        Empresa de Madrid. Tiene experiencia de más de 12 años en el sector
-        comercial y financiero a nivel nacional e internacional. Se encarga de
-        estudiar tu financiación, revisar las posibilidades en todo el sector
-        bancario y seleccionar la opción más adecuada para que no pagues
-        intereses de más.
+        Master in Business Administration (MBA) del Instituto de Empresa. Más de
+        12 años de experiencia comercial y financiera a nivel nacional e
+        internacional. Nuestra Broker para el mercado internacional.
       </p>
     ),
     img: <img src="images/brokers/Santi.svg" alt="Broker Santi" />,
@@ -70,11 +67,9 @@ const brokerList: Array<BrokerProps> = [
     name: "Catalina Prado",
     message: (
       <p>
-        Administradora de Empresas del CESA. Con su experiencia de mas de 10
-        años en el sector financiero colombiano es una de nuestras brokers más
-        solicitadas. Sus habilidades de negociación y manejo de clientes la
-        llevan a generar fidelización y relaciones a largo plazo. Orientada a
-        resultados logra tu aprobación de la manera más ágil y eficiente.
+        Administradora de Empresas del CESA. Experiencia de más de 10 años en el
+        sector financiero con grandes habilidades de negociación y manejo de
+        clientes que fidelizan y crean relaciones a largo plazo.
       </p>
     ),
     img: <img src="images/brokers/Cata.svg" alt="Broker Catalina" />,
@@ -83,11 +78,9 @@ const brokerList: Array<BrokerProps> = [
     name: "Ana María Merizalde",
     message: (
       <p>
-        Administradora de Empresas del CESA. Cuenta con experiencias de más de
-        15 años en el sector financiero colombiano y un gran conocimiento de las
-        diferentes áreas de los Bancos más importantes del país y entidades
-        internacionales. Siempre preocupada por encontrar la financiación más
-        eficiente, rápida y fácil para ti.
+        Administradora de Empresas del CESA. Más de 15 años de experiencia en el
+        sector financiero y gran conocimiento en diferentes áreas de los Bancos
+        más importantes del país y entidades internacionales.
       </p>
     ),
     img: <img src="images/brokers/Ana.svg" alt="Broker Ana" />,
@@ -96,11 +89,9 @@ const brokerList: Array<BrokerProps> = [
     name: "Maria Fernanda Toro",
     message: (
       <p>
-        Ingeniera Industrial con Master en Business Administration (MBA). Cuenta
-        con más de 20 años de experiencia en el sector comercial a nivel
-        nacional e internacional. Entiende tus necesidades para encontrar las
-        mejores condiciones de financiación que te faciliten alcanzar tus sueños
-        de vivienda o de inmuebles comerciales.
+        Ingeniera Industrial Master en Business Administration (MBA). Cuenta con
+        más de 20 años de experiencia en el sector comercial nacional e
+        internacional. Nuestra Broker exclusiva para el Eje Cafetero.
       </p>
     ),
     img: <img src="images/brokers/Ana.svg" alt="Broker Ana" />,
