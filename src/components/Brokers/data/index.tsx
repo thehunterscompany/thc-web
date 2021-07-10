@@ -11,9 +11,15 @@ const smallerList: Array<BrokerProps> = [
     name: "Santi Villena",
     message: (
       <ul>
-        <li>Administrador de Empresas</li>
-        <li>Master en Business Administration</li>
-        <li>12 años de experiencia en sector comercial y financiero.</li>
+        <li>
+          <p>Administrador de Empresas</p>
+        </li>
+        <li>
+          <p>Master en Business Administration</p>
+        </li>
+        <li>
+          <p>12 años de experiencia en sector comercial y financiero.</p>
+        </li>
       </ul>
     ),
     img: <img src="images/brokers/Santi.svg" alt="Broker Santi" />,
@@ -22,8 +28,12 @@ const smallerList: Array<BrokerProps> = [
     name: "Catalina Prado",
     message: (
       <ul>
-        <li>Administrador de Empresas</li>
-        <li>10 años de experiencia en sector comercial y financiero.</li>
+        <li>
+          <p>Administrador de Empresas</p>
+        </li>
+        <li>
+          <p>10 años de experiencia en sector comercial y financiero.</p>
+        </li>
       </ul>
     ),
     img: <img src="images/brokers/Cata.svg" alt="Broker Catalina" />,
@@ -32,8 +42,12 @@ const smallerList: Array<BrokerProps> = [
     name: "Ana María Merizalde",
     message: (
       <ul>
-        <li>Administrador de Empresas</li>
-        <li>15 años de experiencia en sector comercial y financiero.</li>
+        <li>
+          <p>Administrador de Empresas</p>
+        </li>
+        <li>
+          <p>15 años de experiencia en sector comercial y financiero.</p>
+        </li>
       </ul>
     ),
     img: <img src="images/brokers/Ana.svg" alt="Broker Ana" />,
@@ -42,9 +56,15 @@ const smallerList: Array<BrokerProps> = [
     name: "Maria Fernanda Toro",
     message: (
       <ul>
-        <li>Ingeniera Industrial</li>
-        <li>Master en Business Administration</li>
-        <li>20 años de experiencia en sector comercial y financiero.</li>
+        <li>
+          <p>Ingeniera Industrial</p>
+        </li>
+        <li>
+          <p>Master en Business Administration</p>
+        </li>
+        <li>
+          <p>20 años de experiencia en sector comercial y financiero.</p>
+        </li>
       </ul>
     ),
     img: <img src="images/brokers/Ana.svg" alt="Broker Ana" />,

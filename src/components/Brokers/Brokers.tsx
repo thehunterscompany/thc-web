@@ -19,7 +19,7 @@ const Brokers = () => {
       <div
         className={`${styles["_consultant-grid"]} _text-space _content-space`}
       >
-        {width > 1000
+        {width > 500
           ? brokerList.map(
               ({ name, message, img }: BrokerProps, index: number) => (
                 <Broker key={index} name={name} message={message} img={img} />

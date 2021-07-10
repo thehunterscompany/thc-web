@@ -1,19 +1,19 @@
 $background: rgb(255, 255, 255);
 
 ._consultant-container {
-  padding: 20px;
-  flex: 20% 0 1;
+  padding: 15px;
+  flex: 22% 0 0;
 }
 
 @media only screen and (max-width: 1200px) {
   ._consultant-container {
-    flex: 30% 0 0;
+    flex: 22% 0 0;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1090px) {
   ._consultant-container {
-    flex: 50% 1 1;
+    flex: 31% 1 1;
   }
 }
 
@@ -21,8 +21,7 @@ $background: rgb(255, 255, 255);
   background: $background;
   list-style: none;
   text-align: center;
-  // min-height: 605px;
-  // max-width: 300px;
+  max-width: 500px;
   box-shadow: 0 0 24px 6px rgba(30, 42, 50, 0.12);
 }
 
@@ -46,7 +45,7 @@ $background: rgb(255, 255, 255);
   font-weight: 100;
 }
 
-._consultant-table h2 {
+._consultant-table h3 {
   padding: 0 30px;
 }
 
@@ -58,8 +57,8 @@ $background: rgb(255, 255, 255);
 }
 
 .headline img {
-  width: 130px;
-  height: 130px;
+  width: 150px;
+  height: 150px;
 }
 
 @media only screen and (min-width: 1450px) {
