@@ -21,13 +21,13 @@ const stepList: Array<StepProps> = [
     mejor opción de forma clara, transparente e imparcial.
     Preparamos la documentación y tramitamos la aprobación por el
     Banco elegido.`,
-    img: <img src="images/process/Stamp.svg" alt="Form" />,
+    img: <img src="images/process/Stamp.svg" alt="Stamp" />,
   },
   {
     title: "Desembolso",
     message: `Una vez aprobada la operación, te acompañamos en toodo el
     proceso de legalización hasta el desembolso final.`,
-    img: <img src="images/process/Keys.svg" alt="Form" />,
+    img: <img src="images/process/Keys.svg" alt="Keys" />,
   },
 ];
 

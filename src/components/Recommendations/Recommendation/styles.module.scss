@@ -3,13 +3,13 @@ $background: rgb(255, 255, 255);
 ._recommendation-space {
   min-height: 1px;
   text-align: center;
-  padding: 20px;
-  flex: 31% 1;
+  padding: 15px;
+  flex: 32% 1;
   max-width: 500px;
 }
 
 ._recommendation-item {
-  min-height: 288px;
+  min-height: 234px;
   border-radius: 12px;
   background-color: $background;
   position: relative;
