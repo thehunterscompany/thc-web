@@ -20,7 +20,7 @@ const Recommendation: FC<RecommendationProps> = ({
       <h3>{job}</h3>
       <div
         className={styles._stars}
-        aria-label="Puntaje de comentarios de usuarios"
+        // aria-label="Puntaje de comentarios de usuarios"
       />
 
       <div style={{ textAlign: "left" }}>

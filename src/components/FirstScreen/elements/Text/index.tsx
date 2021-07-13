@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import styles from "./styles.module.scss";
 
@@ -8,7 +9,9 @@ const Text = () => (
     </h1>
     <h2 className="_text-space-subtitle">Sencillo, rápido y sin costo</h2>
     <div style={{ marginTop: "47px" }}>
-      <a className="_btn _btn-secondary _btn-lg">Calcula tu Cuota</a>
+      <Link href="/coming-soon">
+        <a className="_btn _btn-secondary _btn-lg">Calcula tu Cuota</a>
+      </Link>
     </div>
   </div>
 );

@@ -17,9 +17,9 @@ export default function Home() {
         <meta
           content="financiación, acompañamiento expert, solicitud online, evauluación, aprobación, desembolso, simple, rápido, sin costo"
           name="keywords"
-        ></meta>
+        />
       </Head>
-      <ComingSoon />
+      <Sections />
     </Fragment>
   );
 }

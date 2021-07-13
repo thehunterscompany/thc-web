@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import { THC } from "../../../public/images/logos";
 // import { THC } from "@images/logo";
+import Link from "next/link";
 import styles from "./NavBar.module.scss";
 
 interface navbarProps {
@@ -13,7 +14,9 @@ const NavBar = ({ routing }) => (
       <div style={{ marginRight: "auto" }}>
         <THC className={styles["_thc-logo-navbar"]} routing={routing} />
       </div>
-      <a className="_btn _btn-sm">Ingresa</a>
+      <Link href="/coming-soon">
+        <a className="_btn _btn-sm">Ingresa</a>
+      </Link>
     </div>
   </div>
 );
