@@ -5,7 +5,7 @@ const Gears = () => {
   const gearArray: Array<string> = ["one", "two", "three"];
 
   return (
-    <div style={{ margin: "auto" }}>
+    <div style={{ margin: "auto", paddingBottom: "431.25px" }}>
       <div className={styles["gears"]}>
         {gearArray.map((value: string, index: number) => (
           <div key={index} className={`${styles.gear} ${styles[value]}`}>

@@ -3,13 +3,10 @@ import Background from "../FirstScreen/elements/Background";
 import NavBar from "../NavBar/NavBar";
 import Gears from "./elements/Gears/index";
 import Text from "./elements/Text";
+import styles from "./ComingSoon.module.scss";
 
 const ComingSoon = () => (
-  <div
-    style={{ backgroundColor: "#f5f5f5", width: "100%", height: "100vh" }}
-    className={`_thc-story-section _thc-card`}
-  >
-    <NavBar routing={true} />
+  <div className={`_thc-story-section ${styles["_first-screen"]} _thc-card`}>
     <Background />
     <Text />
     <Gears />

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { FC } from "react";
 
 interface imageProps {
@@ -7,13 +8,15 @@ interface imageProps {
 
 const Logo: FC<imageProps> = ({ className, routing }) =>
   routing ? (
-    <a href="http://google.com">
-      <img
-        src="/images/logos/Logo.svg"
-        alt="Logo de THC"
-        className={className}
-      />
-    </a>
+    <Link href="/">
+      <a>
+        <img
+          src="/images/logos/Logo.svg"
+          alt="Logo de THC"
+          className={className}
+        />
+      </a>
+    </Link>
   ) : (
     <img src="/images/logos/Logo.svg" alt="Logo de THC" className={className} />
   );
