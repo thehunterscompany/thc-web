@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./styles.module.scss";
 
-const BancosSinNombre = () => (
-  <div>
-    <div></div>
+const NoHayBancos = () => (
+  <div className={`${styles["_img-space"]}`}>
+    <img src="images/logos/bancos/Mientras.png" alt="Aid" />
   </div>
 );
 
-export default BancosSinNombre;
+export default NoHayBancos;

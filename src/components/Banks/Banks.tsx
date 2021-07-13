@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import Text from "./element/Text";
 import BancosGrid from "./element/BancosGrid";
 import GridSinFotos from "./element/BancosGridSinImg";
+import NoHayBancos from "./element/MientrasNoHayAprobación";
 
 const Banks = () => (
   <div
@@ -10,7 +11,7 @@ const Banks = () => (
   >
     <Text />
     <div className="_content-space">
-      <GridSinFotos />
+      <NoHayBancos />
     </div>
   </div>
 );
