@@ -56,27 +56,27 @@
   height: 44rem;
 }
 
-@media only screen and (max-width: 310px) {
-  ._thc-card ._background-img-wrapper {
-    height: 100%;
-  }
-}
+// @media only screen and (max-width: 310px) {
+//   ._thc-card ._background-img-wrapper {
+//     height: 100%;
+//   }
+// }
 
-@media only screen and (min-width: 480px) and (max-width: 530px) {
-  ._thc-card ._background-img-wrapper {
-    height: 43rem;
-  }
-}
+// @media only screen and (min-width: 480px) and (max-width: 530px) {
+//   ._thc-card ._background-img-wrapper {
+//     height: 43rem;
+//   }
+// }
 
-@media only screen and (min-width: 530px) and (max-width: 549px) {
+@media only screen and (min-width: 310px) and (max-width: 549px) {
   ._thc-card ._background-img-wrapper {
-    height: 43rem;
+    height: 40rem;
   }
 }
 
 @media only screen and (min-width: 550px) and (max-width: 799px) {
   ._thc-card ._background-img-wrapper {
-    height: 54rem;
+    height: 47rem;
   }
 }
 
@@ -88,7 +88,7 @@
 
 @media only screen and (min-width: 950px) and (max-width: 1030px) {
   ._thc-card ._background-img-wrapper {
-    height: 65rem;
+    height: 56rem;
   }
 }
 
@@ -128,8 +128,7 @@
 
 @media only screen and (max-width: 310px) {
   ._thc-card ._background-img {
-    background-color: rgb(196, 225, 250);
-    background-image: none;
+    background-image: url("../images/background/Fondo-S.jpg");
   }
 }
 
