@@ -21,26 +21,32 @@ const stepList: Array<StepProps> = [
     mejor opción de forma clara, transparente e imparcial.
     Preparamos la documentación y tramitamos la aprobación por el
     Banco elegido.`,
-    img: <img src="images/process/Stamp.svg" alt="Form" />,
+    img: <img src="images/process/Stamp.svg" alt="Stamp" />,
   },
   {
     title: "Desembolso",
     message: `Una vez aprobada la operación, te acompañamos en toodo el
     proceso de legalización hasta el desembolso final.`,
-    img: <img src="images/process/Keys.svg" alt="Form" />,
+    img: <img src="images/process/Keys.svg" alt="Keys" />,
   },
 ];
 
 const Process = () => (
-  <div className="_thc-story-section _thc-card">
-    <div className={`_text-space ${styles["_process"]}`}>
+  <div
+    className="_thc-story-section _thc-card"
+    style={{ backgroundColor: "white" }}
+  >
+    <div
+      className={`_text-space ${styles["_process"]}`}
+      style={{ paddingBottom: "0px" }}
+    >
       <h1 className="_text-space-title">Cómo funciona</h1>
-      <h2 className="_text-space-subtitle">
+      <h2 className="_text-space-subtitle" style={{ marginBottom: "0px" }}>
         Sigue estos simples pasos y encuentra la financiación que siempre
         soñaste
       </h2>
     </div>
-    <div className={`_text-space ${styles["_process-list"]} _content-space`}>
+    <div className={`${styles["_process-list"]} _content-space`}>
       {stepList.map(({ title, message, img }: StepProps, index: number) => (
         <Step key={index} title={title} message={message} img={img} />
       ))}

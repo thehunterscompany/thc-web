@@ -71,8 +71,10 @@ const blockList = [
   },
   {
     children: (
-      <div className={`${styles["_footer-item-location"]}`}>
-        <p>Sedes: Bogotá-Medellín-Cali-Barranquilla-Eje Cafetero</p>
+      <div
+        className={`${styles["_footer-item-location"]} ${styles["_text-left"]}`}
+      >
+        <p>Sedes: Bogotá, Medellín, Cali, Barranquilla, Eje Cafetero</p>
       </div>
     ),
   },

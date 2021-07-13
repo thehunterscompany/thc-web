@@ -5,7 +5,7 @@ import Block3 from "./element/Block3";
 import styles from "./Footer.module.scss";
 
 const Footer = () => (
-  <footer>
+  <footer style={{ backgroundColor: "rgb(255,255,255)" }}>
     <div className={`${styles["_footer-space"]}`}>
       <Block1 />
       <Block2 />

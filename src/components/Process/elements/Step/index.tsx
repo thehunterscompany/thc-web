@@ -10,7 +10,7 @@ interface StepProps {
 const Step: FC<StepProps> = ({ title, message, img }) => (
   <div className={styles._step}>
     <div className={styles["_info-img"]}>{img}</div>
-    <hr style={{ color: "hsla(34, 100%, 47%, 0.966)", border: "2px solid" }} />
+    <hr style={{ color: "rgb(14, 55, 128)", border: "2px solid" }} />
     <h3>{title}</h3>
     <p>{message}</p>
   </div>

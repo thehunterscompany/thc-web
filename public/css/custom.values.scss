@@ -2,9 +2,22 @@
 $blue-color: #0e3780;
 
 // Orange
-$orange-color: hsla(34, 100%, 47%, 0.966);
+// $orange-color: rgba(240, 136, 0, 0.966);
 
-$lighter-orange-color: #d67a00;
+$orange-color: rgb(216, 47, 101);
+
+$lighter-orange-color: #e05983;
 
 // Font Semi Bold
-$font-family-sb: "Hurme";
+$font-family-sb: "Hurme Semi Bold";
+
+// Font Regular
+$font-family-r: "Hurme Regular";
+
+// Font Oblique
+$font-family-o: "Hurme Oblique";
+
+// Text
+$letter-spacing: 0.3px;
+
+$line-height: 100%;
