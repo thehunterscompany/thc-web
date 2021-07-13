@@ -36,9 +36,12 @@ const Process = () => (
     className="_thc-story-section _thc-card"
     style={{ backgroundColor: "white" }}
   >
-    <div className={`_text-space ${styles["_process"]}`}>
+    <div
+      className={`_text-space ${styles["_process"]}`}
+      style={{ paddingBottom: "0px" }}
+    >
       <h1 className="_text-space-title">Cómo funciona</h1>
-      <h2 className="_text-space-subtitle">
+      <h2 className="_text-space-subtitle" style={{ marginBottom: "0px" }}>
         Sigue estos simples pasos y encuentra la financiación que siempre
         soñaste
       </h2>
