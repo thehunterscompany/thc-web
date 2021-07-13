@@ -10,17 +10,13 @@ import Footer from "../Footer/Footer";
 
 const Sections = () => (
   <React.Fragment>
-    <NavBar />
+    <NavBar routing={false} />
     <div className={styles["_thc-story"]}>
       <FirstScreen />
-      {/* <div className={styles._background}> */}
-      {/* <div className={styles["_linear-gradient"]}> */}
       <Banks />
       <Process />
-      {/* </div> */}
       <Brokers />
       <Recommendations />
-      {/* </div> */}
       <Footer />
     </div>
   </React.Fragment>

@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import Head from "next/head";
 import Sections from "../components/Sections/Sections";
+import ComingSoon from "../components/ComingSoon/ComingSoon";
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
           name="keywords"
         ></meta>
       </Head>
-      <Sections />
+      <ComingSoon />
     </Fragment>
   );
 }
