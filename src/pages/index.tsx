@@ -13,6 +13,10 @@ export default function Home() {
           content="Landing Page para la compañia The Hunters company. Es una empresa broker de servicios de financiación
                   de vivienda e inmuebles comercial para personas naturales."
         />
+        <meta
+          content="financiación, acompañamiento expert, solicitud online, evauluación, aprobación, desembolso, simple, rápido, sin costo"
+          name="keywords"
+        ></meta>
       </Head>
       <Sections />
     </Fragment>

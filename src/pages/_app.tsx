@@ -26,16 +26,18 @@ function MyApp({ Component, pageProps }) {
         />
         <link rel="manifest" href="images/favicon/site.webmanifest" />
         <link
-          rel="preload"
+          rel="prefetch"
           href="fonts/HurmeGeometricSans1SemiBold.otf"
           as="font"
           type="font/otf"
+          crossOrigin="anonymous"
         />
         <link
-          rel="preload"
+          rel="prefetch"
           href="fonts/HurmeGeometricSans1.otf"
           as="font"
           type="font/otf"
+          crossOrigin="anonymous"
         />
       </Head>
       <Component {...pageProps} />;
