@@ -67,7 +67,7 @@ const smallerList: Array<BrokerProps> = [
         </li>
       </ul>
     ),
-    img: <img src="images/brokers/Ana.svg" alt="Broker Ana" />,
+    img: <img src="images/brokers/Fernanda.svg" alt="Broker Fernanda" />,
   },
 ];
 
@@ -114,7 +114,7 @@ const brokerList: Array<BrokerProps> = [
         internacional. Nuestra Broker exclusiva para el Eje Cafetero.
       </p>
     ),
-    img: <img src="images/brokers/Ana.svg" alt="Broker Ana" />,
+    img: <img src="images/brokers/Fernanda.svg" alt="Broker Ana" />,
   },
 ];
 
