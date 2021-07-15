@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <Fragment>
       <Head>
-        <title>Te conseguimos la mejor financiación para tu vivienda</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"

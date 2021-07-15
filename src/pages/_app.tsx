@@ -7,6 +7,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <title>
+          THC | Te conseguimos la mejor financiación para tu vivienda
+        </title>
         <link
           rel="apple-touch-icon"
           sizes="180x180"

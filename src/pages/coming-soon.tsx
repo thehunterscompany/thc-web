@@ -7,11 +7,10 @@ import NavBar from "../components/NavBar/NavBar";
 const ComingSoonPage = () => (
   <>
     <Head>
-      <title>Nuevo contenido coming soon!</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta
         name="description"
-        content="Contenido en desarrollo para el landing page de The Hunters Company (THC)."
+        content="Contenido en desarrollo para el portal de The Hunters Company (THC)."
       />
     </Head>
     <NavBar routing={true} />
