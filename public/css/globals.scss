@@ -13,6 +13,20 @@ body {
   font-display: swap;
 }
 
+@font-face {
+  font-family: cv.$font-family-r;
+  src: local(cv.$font-family-r),
+    url(../fonts/HurmeGeometricSans1.otf) format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: cv.$font-family-o;
+  src: local(cv.$font-family-o),
+    url(../fonts/HurmeGeometricSans1LightOblique.otf) format("opentype");
+  font-display: swap;
+}
+
 * {
   font-family: cv.$font-family-sb;
 }
@@ -26,13 +40,29 @@ a {
   color: inherit;
   text-decoration: none;
   outline: none;
+  font-family: cv.$font-family-o;
+  cursor: pointer !important;
+}
+
+li {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+  font-family: cv.$font-family-o;
 }
 
 * a {
   box-sizing: border-box;
 }
 
-p,
+p {
+  line-height: 18px;
+  text-align: left;
+  font-family: cv.$font-family-o;
+  margin: 0;
+  letter-spacing: 0cm;
+}
+
 h1,
 h2,
 h3,
@@ -40,23 +70,25 @@ h4,
 h5,
 h6 {
   margin: 0;
+  letter-spacing: cv.$letter-spacing;
 }
 
 h1 {
   font-size: 27px;
-  margin: 0 0 0.4em;
+  margin: 0;
 }
 h2,
 h3,
 h4,
 h5 {
-  margin: 0.75em 0 0.25em;
+  margin: 0;
 }
 h2 {
   font-size: 20px;
 }
 h3 {
   font-size: 18px;
+  font-family: cv.$font-family-r;
 }
 h4 {
   font-size: 16px;
@@ -72,7 +104,7 @@ h5 {
     font-size: 27px;
   }
   h3 {
-    font-size: 23px;
+    font-size: 21px;
   }
   h4 {
     font-size: 19px;
@@ -98,16 +130,24 @@ ul {
   border-radius: 4px;
   border: none;
   background-color: cv.$orange-color;
-  color: #0b1a35;
+  color: rgb(255, 255, 255);
   letter-spacing: 1px;
-}
+  -webkit-transition: background-color 0.35s ease-out;
+  -moz-transition: background-color 0.35s ease-out;
+  -o-transition: background-color 0.35s ease-out;
+  transition: background-color 0.35s ease-out;
+  letter-spacing: cv.$letter-spacing;
 
+  &:hover {
+    background-color: cv.$lighter-orange-color;
+    outline: none;
+    cursor: pointer !important;
+  }
+}
 ._btn-lg {
   font-size: 18px;
   padding: 16px 22px;
-  line-height: 1.33;
   font-weight: 400;
-  letter-spacing: 1px;
 }
 
 @media only screen and (min-width: 1450px) {
@@ -117,18 +157,31 @@ ul {
   }
 }
 
-@media only screen and (min-width: 415px) and (max-width: 1449px) {
+@media only screen and (min-width: 721px) and (max-width: 1449px) {
   ._btn-lg {
     font-size: 22px;
     padding: 18px 30px;
   }
 }
 
+@media only screen and (max-width: 720px) {
+  ._btn-lg {
+    font-size: 18px;
+    padding: 18px 18px;
+    min-width: 200px;
+  }
+}
+
 ._btn-sm {
   font-size: 16px;
-  line-height: 1.33;
-  padding: 10px 18px;
+  padding: 18px 18px;
   font-weight: 400;
+}
+
+._btn-lg,
+._btn-sm {
+  line-height: 1.33px;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 415px) and (max-width: 950px) {
@@ -141,20 +194,6 @@ ul {
   ._btn-sm {
     font-size: 20px;
   }
-}
-
-._btn:hover,
-._btn:focus,
-._btn:active,
-._btn.active {
-  background-color: cv.$lighter-orange-color;
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out;
-  outline: 0px auto -webkit-focus-ring-color;
-  outline: none;
-  cursor: pointer;
 }
 
 footer {

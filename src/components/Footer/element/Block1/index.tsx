@@ -71,32 +71,34 @@ const blockList = [
   },
   {
     children: (
-      <div className={`${styles["_footer-item-location"]}`}>
-        <p>Sedes: Bogotá-Medellín-Cali-Barranquilla-Eje Cafetero</p>
+      <div
+        className={`${styles["_footer-item-location"]} ${styles["_text-left"]}`}
+      >
+        <p>Sedes: Bogotá, Medellín, Cali, Barranquilla, Eje Cafetero</p>
       </div>
     ),
   },
   {
     children: (
       <ul className={`${styles["_list-inline"]}`}>
-        <li>
+        <li style={{ width: "48px", height: "48px" }}>
           <a
             href="https://www.instagram.com/the_hunters_company/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
           >
-            <i className="fa fa-instagram"></i>
+            <i style={{ fontSize: "18px" }} className="fa fa-instagram"></i>
           </a>
         </li>
-        <li>
+        <li style={{ width: "48px", height: "48px" }}>
           <a
             href="https://www.linkedin.com/company/the-hunters-company-sas/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Linkedin"
           >
-            <i className="fa fa-linkedin"></i>
+            <i style={{ fontSize: "18px" }} className="fa fa-linkedin"></i>
           </a>
         </li>
       </ul>

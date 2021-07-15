@@ -1,0 +1,16 @@
+._coming-soon-text {
+  position: relative;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 50px;
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 720px) {
+  ._coming-soon-text {
+    padding-top: 5%;
+  }
+}
