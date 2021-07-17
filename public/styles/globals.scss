@@ -129,7 +129,7 @@ ul {
   text-transform: uppercase;
   border-radius: 4px;
   border: none;
-  background-color: cv.$orange-color;
+  background-color: cv.$thc-pink-color;
   color: rgb(255, 255, 255);
   letter-spacing: 1px;
   -webkit-transition: background-color 0.35s ease-out;
@@ -139,7 +139,7 @@ ul {
   letter-spacing: cv.$letter-spacing;
 
   &:hover {
-    background-color: cv.$lighter-orange-color;
+    background-color: cv.$thc-light-pink-color;
     outline: none;
     cursor: pointer !important;
   }

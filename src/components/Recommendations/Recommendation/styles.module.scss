@@ -1,7 +1,6 @@
 $background: rgb(255, 255, 255);
 
 ._recommendation-space {
-  min-height: 1px;
   text-align: center;
   padding: 15px;
   flex: 32% 1;
@@ -9,7 +8,6 @@ $background: rgb(255, 255, 255);
 }
 
 ._recommendation-item {
-  min-height: 234px;
   border-radius: 12px;
   background-color: $background;
   position: relative;
@@ -50,9 +48,6 @@ $background: rgb(255, 255, 255);
 @media screen and (max-width: 850px) {
   ._recommendation-space {
     flex: 50% 1;
-  }
-  ._recommendation-item {
-    min-height: 244px;
   }
 }
 
