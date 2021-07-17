@@ -4,40 +4,21 @@ import Broker from "./element/Broker";
 import { brokerList, smallerList, BrokerProps } from "./data";
 import useWindowSize from "../../utils";
 
-const Brokers = () => {
-  const { width, height } = useWindowSize();
-
-  return (
-    <div
-      className="_thc-story-section _thc-card"
-      style={{ backgroundColor: "#f5f5f5" }}
-    >
-      <div className={`_text-space ${styles._brokers}`}>
-        <h1 className="_text-space-title">Acompañamiento Experto</h1>
-        <h2 className="_text-space-subtitle">Conoce a nuestros ascesores</h2>
-      </div>
-      <div
-        className={`${styles["_consultant-grid"]} _text-space _content-space`}
-      >
-        {/* {width > 500
-          ? brokerList.map(
-              ({ name, message, img }: BrokerProps, index: number) => (
-                <Broker key={index} name={name} message={message} img={img} />
-              )
-            )
-          : smallerList.map(
-              ({ name, message, img }: BrokerProps, index: number) => (
-                <Broker key={index} name={name} message={message} img={img} />
-              )
-            )} */}
-        {brokerList.map(
-          ({ name, message, img }: BrokerProps, index: number) => (
-            <Broker key={index} name={name} message={message} img={img} />
-          )
-        )}
-      </div>
+const Brokers = () => (
+  <div
+    className="_thc-story-section _thc-card"
+    style={{ backgroundColor: "#f5f5f5" }}
+  >
+    <div className={`_text-space ${styles._brokers}`}>
+      <h1 className="_text-space-title">Acompañamiento Experto</h1>
+      <h2 className="_text-space-subtitle">Conoce a nuestros ascesores</h2>
     </div>
-  );
-};
+    <div className={`${styles["_consultant-grid"]} _text-space _content-space`}>
+      {brokerList.map(({ name, message, img }: BrokerProps, index: number) => (
+        <Broker key={index} name={name} message={message} img={img} />
+      ))}
+    </div>
+  </div>
+);
 
 export default Brokers;

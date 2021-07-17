@@ -6,11 +6,9 @@
         {
           "root": ["."],
           "alias": {
-            "@store": "./src/store",
             "@components": "./src/components",
-            "@graphql": "./src/graphql",
             "@utils": "./src/utils",
-            "@styles": "./public/css",
+            "@styles": "./public/styles",
             "@images": "./public/images"
           }
         }

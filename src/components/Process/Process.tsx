@@ -25,7 +25,7 @@ const stepList: Array<StepProps> = [
   },
   {
     title: "Desembolso",
-    message: `Una vez aprobada la operación, te acompañamos en toodo el
+    message: `Una vez aprobada la operación, te acompañamos en todo el
     proceso de legalización hasta el desembolso final.`,
     img: <img src="images/process/Keys.svg" alt="Keys" />,
   },
