@@ -52,10 +52,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         
-      - name: Test
-        run: echo $PRUEBA
-        env:
-          PRUEBA: ${{needs.build.outputs.build-status}}
+      - name: Deploy to Docker Compose
+        uses: wshihadeh/docker-deployment-action@v1
+        with:
+          remote_docker_host: dockerUser@thcsas.com.co
+          ssh_private_key: ${{ secrets.SSH_KEY_PRIVATE }}
+          ssh_public_key: ${{ secrets.SSH_KEY_PUBLIC }}
+          deployment_mode: docker-compose
+          copy_stack_file: true
+          deploy_path: /usr/local/app/thc-web/thc-web
+          stack_file_name: docker-compose.yaml
+          keep_files: 5
           
          
   
