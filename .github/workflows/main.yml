@@ -32,7 +32,7 @@ jobs:
       - name: Test
         run: echo $BRANCH
         env: 
-          BRANCH: github.base_ref
+          BRANCH: ${{github.base_ref}}
 
       # Install node js 
 #       - name: Install node.js
