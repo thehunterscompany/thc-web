@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  thc-web:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: thc-web
+    restart: unless-stopped
+    networks:
+      thc-network:
+        ipv4_address: 105.0.0.5
+
+networks:
+  thc-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 105.0.0.1/24
