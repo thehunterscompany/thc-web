@@ -51,11 +51,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      
-      - name: Test
-        run: echo $SSH_PUBLIC
-        env:
-          SSH_PUBLIC: ${{ secrets.SSH_PUBLIC_KEY }}
         
       - name: Deploy to Docker Compose
         uses: wshihadeh/docker-deployment-action@v1
@@ -68,7 +63,7 @@ jobs:
           deploy_path: /usr/local/app/thc-web/thc-web
           stack_file_name: docker-compose.yaml
           keep_files: 5
-          args: my_applicaion
+          args: up
           
          
   
