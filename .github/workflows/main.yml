@@ -63,7 +63,7 @@ jobs:
           deploy_path: /usr/local/app/thc-web/thc-web
           stack_file_name: docker-compose.yaml
           keep_files: 5
-          args: up
+          args: up -d --build
           
          
   
