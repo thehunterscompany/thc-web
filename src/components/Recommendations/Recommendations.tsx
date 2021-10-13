@@ -24,13 +24,13 @@ const recommendationList: Array<RecommendationProps> = [
     job: "Brick Abogados",
     title: "He recomendado a THC muchas veces a mis amigos!!",
     message: `Si no fuera por su excelente gestión, rapidez y además, 
-    por hacer mas allá de lo que ofrecen para hacer tu sueño
+    por ir mas allá de lo que ofrecen para hacer tu sueño
     de comprar una casa una realidad, no hubiera logrado
     tener la mia.`,
   },
   {
     name: "Diego García",
-    job: "Quala S.A",
+    job: "Quala",
     title: "Recomiendo a THC porque el servicio es personalizado!!",
     message: `Sus asesores se preocupan por ofrecerme el mejor 
     producto de acuerdo con mis necesidades actuales,
@@ -39,7 +39,7 @@ const recommendationList: Array<RecommendationProps> = [
   },
   {
     name: "Karolina Mejía",
-    job: "Instituto Colombian de Bienestar Familiar",
+    job: "Instituto Colombiano de Bienestar Familiar",
     title: "Excelente servicio!!",
     message: `Si quieres contar con la mejor asesoría, no lo dudes.
     Ellos hacen los sueños realidad.`,
