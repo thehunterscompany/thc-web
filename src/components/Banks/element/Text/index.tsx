@@ -4,10 +4,10 @@ import styles from "./styles.module.scss";
 const Text = () => (
   <div className={`_text-space ${styles["_bancos"]}`}>
     <h1 className="_text-space-title">
-      Ya no tendrás que ir de banco en banco
+      Ya no tendras que ir de banco de banco
     </h1>
     <h2 className="_text-space-subtitle">
-      Te acompañamos en todo el proceso para conseguirte la mejor financiación.
+      Comparamos entre 8 entidades financieras la mejor alternativa
     </h2>
   </div>
 );
