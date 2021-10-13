@@ -24,7 +24,7 @@ const blockList = [
       <Fragment>
         <img src="images/footer/email.svg" alt="Email" />
         <a href="mailto:info@thcsas.com.co" rel="noopener noreferrer">
-          info@thcsas.com.co
+          catalina.prado@thcsas.com.co
         </a>
       </Fragment>
     ),
