@@ -24,7 +24,7 @@ const blockList = [
       <Fragment>
         <img src="images/footer/email.svg" alt="Email" />
         <a href="mailto:info@thcsas.com.co" rel="noopener noreferrer">
-          info@thcsas.com.co
+          catalina.prado@thcsas.com.co
         </a>
       </Fragment>
     ),
@@ -55,26 +55,10 @@ const blockList = [
   },
   {
     children: (
-      <Fragment>
-        <img src="images/footer/location.svg" alt="Location" />
-        <div className={`${styles["_footer-item-location"]}`}>
-          <a
-            href="http://maps.google.com/?q=Cra.+14+%2396-15,+Bogotá,+Colombia"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Carrera 14#96-15 piso 1. Bogotá DC
-          </a>
-        </div>
-      </Fragment>
-    ),
-  },
-  {
-    children: (
       <div
         className={`${styles["_footer-item-location"]} ${styles["_text-left"]}`}
       >
-        <p>Sedes: Bogotá, Medellín, Cali, Barranquilla, Eje Cafetero</p>
+        <p>Presencia: Bogotá, Medellín, Cali, Barranquilla, Eje Cafetero</p>
       </div>
     ),
   },

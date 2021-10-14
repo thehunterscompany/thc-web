@@ -109,7 +109,7 @@ const brokerList: Array<BrokerProps> = [
     name: "Maria Fernanda Toro",
     message: (
       <p>
-        Ingeniera Industrial Master en Business Administration (MBA). Cuenta con
+        Ingeniera Industrial Master in Business Administration (MBA). Cuenta con
         más de 20 años de experiencia en el sector comercial nacional e
         internacional. Nuestra Broker exclusiva para el Eje Cafetero.
       </p>

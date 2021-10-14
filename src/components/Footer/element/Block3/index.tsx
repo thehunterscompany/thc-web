@@ -9,10 +9,10 @@ const Block3 = () => (
         <div className={`${styles["_footer-item-location"]}`}>
           <p>
             THC es una empresa broker de servicios de financiación de vivienda e
-            inmuebles comercial para personas naturales. Brindamos una asesoría
-            completa a nuestros clientes desde la solicitud de financiación
-            hasta el desembolso de la misma buscando agilidad y las mejores
-            condiciones para cada uno de ellos.
+            inmuebles comerciales para personas naturales. Brindamos una
+            asesoría completa a nuestros clientes desde la solicitud de
+            financiación hasta el desembolso de la misma buscando agilidad y las
+            mejores condiciones para cada uno de ellos.
           </p>
         </div>
       </li>
