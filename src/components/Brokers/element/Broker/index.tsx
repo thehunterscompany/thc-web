@@ -10,7 +10,7 @@ interface BrokerProps {
 }
 
 const Broker: FC<BrokerProps> = ({ name, message, img }) => {
-  const [minHeight, setMinHeight] = useState<number>(416);
+  const [minHeight, setMinHeight] = useState<number>(417);
 
   const { width, height } = useWindowSize();
 
