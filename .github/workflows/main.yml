@@ -49,8 +49,8 @@ jobs:
     needs: [build]
     if: ${{success() && github.ref == 'refs/heads/master'}}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+#       - name: Checkout
+#         uses: actions/checkout@v2
         
       - name: Deploy to Docker Compose
         uses: wshihadeh/docker-deployment-action@v1
