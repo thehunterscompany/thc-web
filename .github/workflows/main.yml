@@ -62,7 +62,6 @@ jobs:
 #           args: up -d
 #           docker_prune: true
 #           pull_images_first: true
-#           copy_stack_file: true
 #           deploy_path: /usr/local/app/thc-web
 #           stack_file_name: docker-compose.yaml
 #           keep_files: 5
@@ -73,6 +72,8 @@ jobs:
             args: up -d
             docker_prune: false
             pull_images_first: true
+            copy_stack_file: true
+
           
          
   
