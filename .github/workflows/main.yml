@@ -53,14 +53,16 @@ jobs:
 #         uses: actions/checkout@v2
         
       - uses: actions/checkout@v2
-      - uses: chaplyk/docker-compose-remote-action@v1.1
+      - uses: wshihadeh/docker-deployment-action@v1
         with:
-          ssh_host: thcsas.com.co
-          ssh_user: dockerUser
-          ssh_key: ${{ secrets.SSH_PRIVATE_KEY }}
-          compose_file: docker-compose.yaml
-          pull: false
-          build: true
+          remote_docker_host: dockerUser@thcsas.com.co
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          ssh_public_key: ${{ secrets.SSH_PUBLIC_KEY }}
+          deployment_mode: docker-compose
+          copy_stack_file: false
+          stack_file_name: docker-compose.yaml
+          keep_files: 0
+          args: up -d --build
           
          
   
