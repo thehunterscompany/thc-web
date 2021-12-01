@@ -55,17 +55,24 @@ jobs:
       - uses: actions/checkout@v2
       - uses: wshihadeh/docker-deployment-action@v1
         with:
-          remote_docker_host: dockerUser@thcsas.com.co
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-          ssh_public_key: ${{ secrets.SSH_PUBLIC_KEY }}
-          deployment_mode: docker-compose
-          args: up -d
-          docker_prune: true
-          pull_images_first: true
-          copy_stack_file: true
-          deploy_path: /usr/local/app/thc-web
-          stack_file_name: docker-compose.yaml
-          keep_files: 5
+#           remote_docker_host: dockerUser@thcsas.com.co
+#           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+#           ssh_public_key: ${{ secrets.SSH_PUBLIC_KEY }}
+#           deployment_mode: docker-compose
+#           args: up -d
+#           docker_prune: true
+#           pull_images_first: true
+#           copy_stack_file: true
+#           deploy_path: /usr/local/app/thc-web
+#           stack_file_name: docker-compose.yaml
+#           keep_files: 5
+            remote_docker_host: dockerUser@thcsas.com.co
+            ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+            ssh_public_key: ${{ secrets.SSH_PUBLIC_KEY }}
+            deployment_mode: docker-compose
+            args: up -d
+            docker_prune: true
+            pull_images_first: true
           
          
   
