@@ -59,10 +59,10 @@ jobs:
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
           ssh_public_key: ${{ secrets.SSH_PUBLIC_KEY }}
           deployment_mode: docker-compose
-          copy_stack_file: true
+          copy_stack_file: false
           deploy_path: /usr/local/app/thc-web/thc-web
           stack_file_name: docker-compose.yaml
-          keep_files: 5
+          keep_files: 0
           args: up -d --build
           
          
