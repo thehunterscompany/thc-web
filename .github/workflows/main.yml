@@ -64,12 +64,7 @@ jobs:
             rm -rf thc-web/
             git clone -b master https://github.com/thehunterscompany/thc-web.git
             cd thc-web/
-            ls
-
-
-            
-          # docker-compose up -d --build
-          
+            docker compose up --detach --build          
          
   
 
