@@ -60,11 +60,8 @@ jobs:
            key: ${{ secrets.SSH_PRIVATE_KEY }}
            port: 22
            script: |
-            cd /usr/local/app
-            rm -rf thc-web
-            git clone -b master https://github.com/thehunterscompany/thc-web.git
-            chmod -R 777 /usr/local/app/thc-web
-            cd thc-web/
+            cd /usr/local/app/thc-web
+            git pull
             ls
 
 
