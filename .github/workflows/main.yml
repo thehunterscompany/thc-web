@@ -49,9 +49,6 @@ jobs:
     needs: [build]
     if: ${{success() && github.ref == 'refs/heads/master'}}
     steps:
-#       - name: Checkout
-#         uses: actions/checkout@v2
-        
       - name: Checkout
         uses: actions/checkout@v2
 
@@ -67,36 +64,7 @@ jobs:
             rm -R thc-web/{*,.*}
             cd thc-web/
             git clone -b master https://github.com/thehunterscompany/thc-web.git .
-            ls -a
-#           remote_docker_host: dockerUser@thcsas.com.co
-#           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-#           ssh_public_key: ${{ secrets.SSH_PUBLIC_KEY }}
-#           deployment_mode: docker-compose
-#           args: up -d
-#           docker_prune: true
-#           pull_images_first: true
-#           deploy_path: /usr/local/app/thc-web
-#           stack_file_name: docker-compose.yaml
-#           keep_files: 5
-#             remote_docker_host: dockerUser@thcsas.com.co
-#             ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-#             ssh_public_key: ${{ secrets.SSH_PUBLIC_KEY }}
-#             deployment_mode: docker-compose
-#             args: up -d
-#             docker_prune: false
-#             pull_images_first: true
-#             copy_stack_file: true
-#             remote_docker_host: dockerUser@thcsas.com.co
-#             ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-#             ssh_public_key: ${{ secrets.SSH_PUBLIC_KEY}}
-#             deployment_mode: docker-compose
-#             copy_stack_file: 'false'
-#             deploy_path: /usr/local/app/thc-web
-#             stack_file_name: docker-compose.yaml
-#             keep_files: 0
-#             args: up -d
-#             docker_prune: 'false'
-#             pull_images_first: 'true'
+            docker-compose up -d --build
           
          
   
