@@ -63,9 +63,8 @@ jobs:
            key: ${{ secrets.SSH_PRIVATE_KEY }}
            port: 22
            script: |
-            whoami
-            ls -al
-            pwd
+            cd /usr/local/app
+            ls -a
 #           remote_docker_host: dockerUser@thcsas.com.co
 #           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
 #           ssh_public_key: ${{ secrets.SSH_PUBLIC_KEY }}
