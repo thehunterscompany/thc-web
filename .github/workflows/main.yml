@@ -63,7 +63,8 @@ jobs:
            key: ${{ secrets.SSH_PRIVATE_KEY }}
            port: 22
            script: |
-            cd /usr/local/app
+            cd /usr/local/app/thc-web
+            git clone -b master git@github.com:thehunterscompany/thc-web.git .
             ls -a
 #           remote_docker_host: dockerUser@thcsas.com.co
 #           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
