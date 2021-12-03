@@ -61,9 +61,14 @@ jobs:
            port: 22
            script: |
             cd /usr/local/app
-            rm -R thc-web/{*,.*}
+            rm -rf thc-web
+            git clone -b master https://github.com/thehunterscompany/thc-web.git
+            chmod -R 777 /usr/local/app/thc-web
             cd thc-web/
-            git clone -b master https://github.com/thehunterscompany/thc-web.git .
+            ls
+
+
+            
           # docker-compose up -d --build
           
          
