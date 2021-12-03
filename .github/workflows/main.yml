@@ -52,9 +52,20 @@ jobs:
 #       - name: Checkout
 #         uses: actions/checkout@v2
         
-      - uses: actions/checkout@v2
-      - uses: wshihadeh/docker-deployment-action@v1
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: executing remote ssh commands using ssh key
+        uses: appleboy/ssh-action@master
         with:
+           host: thcsas.com.co
+           username: dockerUser
+           key: ${{ secrets.SSH_PRIVATE_KEY }}
+           port: 22
+           script: |
+            whoami
+            ls -al
+            pwd
 #           remote_docker_host: dockerUser@thcsas.com.co
 #           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
 #           ssh_public_key: ${{ secrets.SSH_PUBLIC_KEY }}
@@ -73,17 +84,17 @@ jobs:
 #             docker_prune: false
 #             pull_images_first: true
 #             copy_stack_file: true
-            remote_docker_host: dockerUser@thcsas.com.co
-            ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-            ssh_public_key: ${{ secrets.SSH_PUBLIC_KEY}}
-            deployment_mode: docker-compose
-            copy_stack_file: 'false'
-            deploy_path: /usr/local/app/thc-web
-            stack_file_name: docker-compose.yaml
-            keep_files: 0
-            args: up -d
-            docker_prune: 'false'
-            pull_images_first: 'true'
+#             remote_docker_host: dockerUser@thcsas.com.co
+#             ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+#             ssh_public_key: ${{ secrets.SSH_PUBLIC_KEY}}
+#             deployment_mode: docker-compose
+#             copy_stack_file: 'false'
+#             deploy_path: /usr/local/app/thc-web
+#             stack_file_name: docker-compose.yaml
+#             keep_files: 0
+#             args: up -d
+#             docker_prune: 'false'
+#             pull_images_first: 'true'
           
          
   
