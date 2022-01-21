@@ -39,20 +39,6 @@ const smallerList: Array<BrokerProps> = [
     img: <img src="images/brokers/Cata.svg" alt="Broker Catalina" />,
   },
   {
-    name: "Ana María Merizalde",
-    message: (
-      <ul>
-        <li>
-          <p>Administrador de Empresas</p>
-        </li>
-        <li>
-          <p>15 años de experiencia en sector comercial y financiero.</p>
-        </li>
-      </ul>
-    ),
-    img: <img src="images/brokers/Ana.svg" alt="Broker Ana" />,
-  },
-  {
     name: "Maria Fernanda Toro",
     message: (
       <ul>
@@ -94,17 +80,7 @@ const brokerList: Array<BrokerProps> = [
     ),
     img: <img src="images/brokers/Cata.svg" alt="Broker Catalina" />,
   },
-  {
-    name: "Ana María Merizalde",
-    message: (
-      <p>
-        Administradora de Empresas del CESA. Más de 15 años de experiencia en el
-        sector financiero y gran conocimiento en diferentes áreas de los Bancos
-        más importantes del país y entidades internacionales.
-      </p>
-    ),
-    img: <img src="images/brokers/Ana.svg" alt="Broker Ana" />,
-  },
+
   {
     name: "Maria Fernanda Toro",
     message: (

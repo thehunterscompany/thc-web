@@ -48,7 +48,7 @@ const blockList = [
       <Fragment>
         <img src="images/footer/phone.svg" alt="Phone" />
         <a href="tel:+573104908414" rel="noopener noreferrer">
-          311 854 2488
+          310 490 8414
         </a>
       </Fragment>
     ),
