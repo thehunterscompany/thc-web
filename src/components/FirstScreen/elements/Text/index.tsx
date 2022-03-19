@@ -9,7 +9,7 @@ const Text = () => (
     </h1>
     <h2 className="_text-space-subtitle">Sencillo, rápido y sin costo</h2>
     <div style={{ marginTop: "47px" }}>
-      <Link href="simulador.thcsas.com.co">
+      <Link href="https://simulador.thcsas.com.co">
         <a className="_btn _btn-secondary _btn-lg">Calcula tu Cuota</a>
       </Link>
     </div>
