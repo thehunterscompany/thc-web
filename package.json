@@ -1,11 +1,12 @@
 {
   "name": "thc-web",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev -H 0.0.0.0 -p 3000",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "postversion": "git push --tags && git push && echo \"Successfully released version $npm_package_version!\""
   },
   "dependencies": {
     "babel-plugin-module-resolver": "^4.1.0",
