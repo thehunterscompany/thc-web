@@ -2,9 +2,9 @@ import React from "react";
 import Background from "../Background/Background";
 import Gears from "./elements/Gears/index";
 import Text from "./elements/Text";
-import styles from "./ComingSoon.module.scss";
+import styles from "./EnConstruccion.module.scss";
 
-const ComingSoon = () => (
+const EnConstruccion = () => (
   <div className={`_thc-story-section ${styles["_first-screen"]} _thc-card`}>
     <Background classNamePath={styles["_background-img-wrapper"]} />
     <Text />
@@ -12,4 +12,4 @@ const ComingSoon = () => (
   </div>
 );
 
-export default ComingSoon;
+export default EnConstruccion;
