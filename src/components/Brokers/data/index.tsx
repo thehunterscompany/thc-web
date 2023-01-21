@@ -38,23 +38,6 @@ const smallerList: Array<BrokerProps> = [
     ),
     img: <img src="images/brokers/Cata.svg" alt="Broker Catalina" />,
   },
-  {
-    name: "Maria Fernanda Toro",
-    message: (
-      <ul>
-        <li>
-          <p>Ingeniera Industrial</p>
-        </li>
-        <li>
-          <p>Master en Business Administration</p>
-        </li>
-        <li>
-          <p>20 años de experiencia en sector comercial y financiero.</p>
-        </li>
-      </ul>
-    ),
-    img: <img src="images/brokers/Fernanda.svg" alt="Broker Fernanda" />,
-  },
 ];
 
 const brokerList: Array<BrokerProps> = [
@@ -79,18 +62,6 @@ const brokerList: Array<BrokerProps> = [
       </p>
     ),
     img: <img src="images/brokers/Cata.svg" alt="Broker Catalina" />,
-  },
-
-  {
-    name: "Maria Fernanda Toro",
-    message: (
-      <p>
-        Ingeniera Industrial Master in Business Administration (MBA). Cuenta con
-        más de 20 años de experiencia en el sector comercial nacional e
-        internacional. Nuestra Broker exclusiva para el Eje Cafetero.
-      </p>
-    ),
-    img: <img src="images/brokers/Fernanda.svg" alt="Broker Ana" />,
   },
 ];
 
