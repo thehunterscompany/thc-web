@@ -10,9 +10,9 @@ const Block3 = () => (
           <p>
             THC es una empresa broker de servicios de financiación de vivienda e
             inmuebles comerciales para personas naturales. Brindamos una
-            asesoría completa a nuestros clientes desde la solicitud de
-            financiación hasta el desembolso de la misma buscando agilidad y las
-            mejores condiciones para cada uno de ellos.
+            asesoría completa a nuestros clientes desde la solicitud de la 
+            financiación hasta el desembolso, buscando agilidad y las
+            mejores condiciones.
           </p>
         </div>
       </li>
