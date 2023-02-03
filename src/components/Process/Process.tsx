@@ -10,7 +10,7 @@ type StepProps = {
 
 const stepList: Array<StepProps> = [
   {
-    title: "Solicitud Online",
+    title: "Solicitud online",
     message: `Completa nuestro formulario Online o pide atención personalizada a través de un ejecutivo.
        Te estaremos contactando a la mayor brevedad.`,
     img: <img src="images/process/Form.svg" alt="Form" />,
@@ -20,7 +20,7 @@ const stepList: Array<StepProps> = [
     message: `Comparamos todas las ofertas objetivamente y te presentamos la
     mejor opción de forma clara, transparente e imparcial.
     Preparamos la documentación y tramitamos la aprobación por el
-    Banco elegido.`,
+    banco elegido.`,
     img: <img src="images/process/Stamp.svg" alt="Stamp" />,
   },
   {
