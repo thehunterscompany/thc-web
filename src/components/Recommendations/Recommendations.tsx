@@ -13,14 +13,14 @@ type RecommendationProps = {
 const recommendationList: Array<RecommendationProps> = [
   {
     name: "Luis Felipe Lozano",
-    job: "Hilanderia Fontibon",
+    job: "Hilandería Fontibón",
     title: "Me encanta!!",
     message: `Yo simplemente te digo que con THC me desentendí de 
     muchos problemas, me concentré en mi trabajo y todo 
     fluyó de manera extraordinaria.`,
   },
   {
-    name: "Ana Lucia Rodríguez",
+    name: "Ana Lucía Rodríguez",
     job: "Brick Abogados",
     title: "He recomendado a THC muchas veces a mis amigos!!",
     message: `Si no fuera por su excelente gestión, rapidez y además, 

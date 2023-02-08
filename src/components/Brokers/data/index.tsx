@@ -8,6 +8,20 @@ type BrokerProps = {
 
 const smallerList: Array<BrokerProps> = [
   {
+    name: "Catalina Prado",
+    message: (
+      <ul>
+        <li>
+          <p>Administrador de Empresas</p>
+        </li>
+        <li>
+          <p>10 años de experiencia en sector comercial y financiero.</p>
+        </li>
+      </ul>
+    ),
+    img: <img src="images/brokers/Cata.svg" alt="Broker Catalina" />,
+  },
+  {
     name: "Santi Villena",
     message: (
       <ul>
@@ -23,52 +37,10 @@ const smallerList: Array<BrokerProps> = [
       </ul>
     ),
     img: <img src="images/brokers/Santi.svg" alt="Broker Santi" />,
-  },
-  {
-    name: "Catalina Prado",
-    message: (
-      <ul>
-        <li>
-          <p>Administrador de Empresas</p>
-        </li>
-        <li>
-          <p>10 años de experiencia en sector comercial y financiero.</p>
-        </li>
-      </ul>
-    ),
-    img: <img src="images/brokers/Cata.svg" alt="Broker Catalina" />,
-  },
-  {
-    name: "Maria Fernanda Toro",
-    message: (
-      <ul>
-        <li>
-          <p>Ingeniera Industrial</p>
-        </li>
-        <li>
-          <p>Master en Business Administration</p>
-        </li>
-        <li>
-          <p>20 años de experiencia en sector comercial y financiero.</p>
-        </li>
-      </ul>
-    ),
-    img: <img src="images/brokers/Fernanda.svg" alt="Broker Fernanda" />,
-  },
+  }
 ];
 
 const brokerList: Array<BrokerProps> = [
-  {
-    name: "Santi Villena",
-    message: (
-      <p>
-        Master in Business Administration (MBA) del Instituto de Empresa. Más de
-        12 años de experiencia comercial y financiera a nivel nacional e
-        internacional. Nuestra Broker para el mercado internacional.
-      </p>
-    ),
-    img: <img src="images/brokers/Santi.svg" alt="Broker Santi" />,
-  },
   {
     name: "Catalina Prado",
     message: (
@@ -80,18 +52,17 @@ const brokerList: Array<BrokerProps> = [
     ),
     img: <img src="images/brokers/Cata.svg" alt="Broker Catalina" />,
   },
-
-  {
-    name: "Maria Fernanda Toro",
+    {
+    name: "Santi Villena",
     message: (
       <p>
-        Ingeniera Industrial Master in Business Administration (MBA). Cuenta con
-        más de 20 años de experiencia en el sector comercial nacional e
-        internacional. Nuestra Broker exclusiva para el Eje Cafetero.
+        Master in Business Administration (MBA) del Instituto de Empresa. Más de
+        12 años de experiencia comercial y financiera a nivel nacional e
+        internacional. Nuestra broker para el mercado internacional.
       </p>
     ),
-    img: <img src="images/brokers/Fernanda.svg" alt="Broker Ana" />,
-  },
+    img: <img src="images/brokers/Santi.svg" alt="Broker Santi" />,
+  }
 ];
 
 export { brokerList, smallerList };

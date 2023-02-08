@@ -10,8 +10,8 @@ const Brokers = () => (
     style={{ backgroundColor: "#f5f5f5" }}
   >
     <div className={`_text-space ${styles._brokers}`}>
-      <h1 className="_text-space-title">Acompañamiento Experto</h1>
-      <h2 className="_text-space-subtitle">Conoce a nuestros ascesores</h2>
+      <h1 className="_text-space-title">Acompañamiento experto</h1>
+      <h2 className="_text-space-subtitle">Conoce a nuestros asesores</h2>
     </div>
     <div className={`${styles["_consultant-grid"]} _text-space _content-space`}>
       {brokerList.map(({ name, message, img }: BrokerProps, index: number) => (
