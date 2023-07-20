@@ -11,6 +11,9 @@ const Block1 = () => (
         </li>
       ))}
     </ul>
+    <div className={`${styles["_copyright-box"]}`}>
+      <p>&copy; {`${new Date().getFullYear()}`} The Hunters Company SAS</p>
+    </div>
   </div>
 );
 

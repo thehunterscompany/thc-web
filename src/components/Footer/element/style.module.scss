@@ -82,3 +82,15 @@
     margin-bottom: 20px;
   }
 }
+
+._copyright-box {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  p {
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: start;
+  }
+}

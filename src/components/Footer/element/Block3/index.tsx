@@ -10,13 +10,16 @@ const Block3 = () => (
           <p>
             THC es una empresa broker de servicios de financiación de vivienda e
             inmuebles comerciales para personas naturales. Brindamos una
-            asesoría completa a nuestros clientes desde la solicitud de la 
-            financiación hasta el desembolso, buscando agilidad y las
-            mejores condiciones.
+            asesoría completa a nuestros clientes desde la solicitud de la
+            financiación hasta el desembolso, buscando agilidad y las mejores
+            condiciones.
           </p>
         </div>
       </li>
     </ul>
+    <div className={`${styles["_copyright-box"]}`}>
+      <p>&copy; {`${new Date().getFullYear()}`} The Hunters Company SAS</p>
+    </div>
   </div>
 );
 
