@@ -30,16 +30,16 @@ function MyApp({ Component, pageProps }) {
         <link rel="manifest" href="images/favicon/site.webmanifest" />
         <link
           rel="prefetch"
-          href="fonts/HurmeGeometricSans1SemiBold.otf"
+          href="fonts/Poppins-SemiBold.ttf"
           as="font"
-          type="font/otf"
+          type="font/ttf"
           crossOrigin="anonymous"
         />
         <link
           rel="prefetch"
-          href="fonts/HurmeGeometricSans1.otf"
+          href="fonts/Poppins-Regular.ttf"
           as="font"
-          type="font/otf"
+          type="font/ttf"
           crossOrigin="anonymous"
         />
       </Head>

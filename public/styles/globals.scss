@@ -9,21 +9,21 @@ body {
 @font-face {
   font-family: cv.$font-family-sb;
   src: local(cv.$font-family-sb),
-    url(../fonts/HurmeGeometricSans1SemiBold.otf) format("opentype");
+    url(../fonts/Poppins-SemiBold.ttf) format("truetype");
   font-display: swap;
 }
 
 @font-face {
   font-family: cv.$font-family-r;
   src: local(cv.$font-family-r),
-    url(../fonts/HurmeGeometricSans1.otf) format("opentype");
+    url(../fonts/Poppins-Regular.ttf) format("truetype");
   font-display: swap;
 }
 
 @font-face {
   font-family: cv.$font-family-o;
   src: local(cv.$font-family-o),
-    url(../fonts/HurmeGeometricSans1LightOblique.otf) format("opentype");
+    url(../fonts/Poppins-LightItalic.ttf) format("truetype");
   font-display: swap;
 }
 
